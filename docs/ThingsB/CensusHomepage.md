@@ -55,7 +55,7 @@ Share to everyone and approve public data collection for the remaining 2 feature
 
 
 
-### Step 2 Creating the Web map
+### Step 2 Creating the Web Map
 
 This step is collecting layers needed for the censusing and then compiling them into a web map.
 
