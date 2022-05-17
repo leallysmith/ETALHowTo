@@ -33,7 +33,7 @@ The right hand side of the screen will display a menu where survey questions can
 
 Once the two questions have been added, click the question to edit. At minimum have one question, **"Feature Type**" with an answer choice for inactive and another choice for active dam and the other question **"Certainty"** with choices for low, medium, or high. To delete or add additional answer choices, use the **+** and **-** buttons beside answers.
 
-<img src="{{ site.baseurl }}/DamCensusImages/editquestions.PNG" alt="editquestions" style="zoom: 67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/editquestions.PNG" alt="editquestions" style="width: 67%;" />
 
 At this point click publish in the bottom right corner of the **"Edit"** menu.
 
@@ -43,11 +43,11 @@ Now that the survey and feature layer have been created, permissions need to be 
 
 First click on the feature layer, this will pull up a page that has additional details for your feature layer. The right hand side will have a series of buttons, click **"Share"** and then select **"Everyone"** and confirm your choice.
 
-<img src="{{ site.baseurl }}/DamCensusImages/sharinglayers.PNG" alt="sharinglayers" style="zoom:25%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/sharinglayers.PNG" alt="sharinglayers" style="width:25%;" />
 
 From here navigate to the settings tab on the ribbon and tick the box for public data collection then save.
 
-<img src="{{ site.baseurl }}/DamCensusImages/publicdatacollection.png" alt="publicdatacollection" style="zoom:25%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/publicdatacollection.png" alt="publicdatacollection" style="width:25%;" />
 
 
 
@@ -67,9 +67,9 @@ The first layer is a perennial network layer, this layer can be created in two w
 
 The NHD dataset needs to be downloaded from the [USGS National Map Downloader](https://viewer.nationalmap.gov/basic/#productGroupSearch). In the “Datasets” tab, check “Hydrography (NHDPlus HR, NHD, WBD)” to start filtering for the product you need.
 
-<img src="{{ site.baseurl }}/DamCensusImages/TNE1.png" alt="TNE1" style="zoom: 25%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/TNE1.png" alt="TNE1" style="width: 25%;" />
 
-<img src="{{ site.baseurl }}/DamCensusImages/TNE2.png" alt="TNE2" style="zoom: 25%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/TNE2.png" alt="TNE2" style="width: 25%;" />
 
 From there searching can be done by HUC 8 id by clicking on advanced search, or by selecting an extent on the map. Then click **"Find Products"** and download the NHD dataset for your area.
 
@@ -87,21 +87,21 @@ Once you have a BRAT project downloaded from the Riverscapes Warehouse, use the 
 
 Add the perennial network layer to your QGIS project. This layer can be found under the intermediates folder in the Riverscapes Toolbar.
 
-<img src="{{ site.baseurl }}/DamCensusImages/addingperennial.png" alt="addingperennial" style="zoom:33%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/addingperennial.png" alt="addingperennial" style="width:33%;" />
 
 
 
 After the layer has been added to the map, it needs to be exported as a shapefile so that it can be edited.
 
-<img src="{{ site.baseurl }}/DamCensusImages/exportperen.png" alt="exportperen" style="zoom: 25%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/exportperen.png" alt="exportperen" style="width: 25%;" />
 
 Once this shapefile has been exported, open the attribute table by right clicking and selecting attribute table. The filter the data by clicking the funnel icon and selecting features that aren't perennial. This criteria is selecting IsPeren = 0.
 
-<img src="{{ site.baseurl }}/DamCensusImages/filterperen.png" alt="filterperen" style="zoom:25%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/filterperen.png" alt="filterperen" style="width:25%;" />
 
 Once these features are selected, click the perennial layer in the layers pane then toggle editing. Delete the selected features and then save your edits and exit the editing session.
 
-<img src="{{ site.baseurl }}/DamCensusImages/deleteselectionperen.png" alt="deleteselectionperen" style="zoom:25%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/deleteselectionperen.png" alt="deleteselectionperen" style="width:25%;" />
 
 ***
 
@@ -109,7 +109,7 @@ Whether you retrieved your perennial layer by using RCAT and TNM or RAVE and QGI
 
 To upload your file to ArcGIS online go to the content tab of ArcGIS online and then click **"Add Item"** then **"From your computer"** then **"Choose File"** and select your new zipped perennial network file. Confirm that the item type is shapefile and then tick the bubble to add your zip and create a hosted feature layer. Name your file something relevant and clear, then save. As with the feature layers for your survey this layer also needs to be shared to everyone. As a reminder this can be done by clicking on the feature layer and selecting share then everyone.
 
-<img src="{{ site.baseurl }}/DamCensusImages/sharinglayers.PNG" alt="sharinglayers" style="zoom:25%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/sharinglayers.PNG" alt="sharinglayers" style="width:25%;" />
 
 
 
@@ -119,13 +119,13 @@ Once you've shared the perennial network with everyone click on the **"Open in M
 
 In the search bar, type *“World Imagery (Clarity)”* and click on **“World Imagery (Clarity)”** which is made by ESRI. At the bottom of the new extended window, click **“Use as Basemap.”** 
 
-<img src="{{ site.baseurl }}/DamCensusImages/claritybasemap.png" alt="claritybasemap" style="zoom:24%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/claritybasemap.png" alt="claritybasemap" style="width:24%;" />
 
 Now we can add the survey feature layer to the map. Click back on the **“ArcGIS Online”** dropdown and choose **“My Content.”** In the search bar type in the name of the survey that was created earlier. Add the feature layer that is only the name, not [Your Survey Name]\_fieldworker or [Your Survey Name]\_stakeholder. You can add the layer by clicking the **+** sign.
 
 Click on the **"Details"** tab in the top left of the page, the survey should be the top layer in the map so the points show up on top of the perennial network. If it is not the top layer hover over it until 3 dots appear to the left of the layer name, click and drag to move the layer above the perennial network layer.
 
-<img src="{{ site.baseurl }}/DamCensusImages/surveylayerontop.png" alt="surveylayerontop" style="zoom:25%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/surveylayerontop.png" alt="surveylayerontop" style="width:25%;" />
 
 
 
@@ -137,19 +137,19 @@ Move the map so that your census area is in the center of the map, when the map 
 
 First you will need to share your web map as a web app. Click the share button.
 
-<img src="{{ site.baseurl }}/DamCensusImages/sharewebmap.png" alt="sharewebmap" style="zoom:24%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/sharewebmap.png" alt="sharewebmap" style="width:24%;" />
 
 In the window that pops up check the **"Everyone (public)"** box. Then click **"Create a Web App"**. If a window pops up saying **"Update Sharing"** click on the blue button that says **"Update Sharing"**.
 
 In the menu that pops up to create a new web app click the **"Show All"** tab and then click the basic viewer app. After clicking on **"Basic Viewer"** a menu should pop up on the side, from there click **"Create Web App"**. Give your web app a name and click **"Done"**.
 
-<img src="{{ site.baseurl }}/DamCensusImages/basicviewer.png" alt="basicviewer" style="zoom:20%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/basicviewer.png" alt="basicviewer" style="width:20%;" />
 
 
 
 When configuring the web app, we want it to be as concise as possible. In the **"Options"** tab we will turn off most options. The only options we are leaving on will be **"Share Tools"**, **"Display layer list"**, and **"Display Editor"**.
 
-<img src="{{ site.baseurl }}/DamCensusImages/webappoptions.png" alt="webappoptions" style="width:14%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/webappoptions.png" alt="webappoptions" style="width:25%;" />
 
 Click **"Save"** at the bottom of the screen and then you're done! The web app should appear in the content tab of your ArcGIS Online account.
 
