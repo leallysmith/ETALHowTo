@@ -33,7 +33,7 @@ The right hand side of the screen will display a menu where survey questions can
 
 Once the two questions have been added, click the question to edit. At minimum have one question, **"Feature Type**" with an answer choice for inactive and another choice for active dam and the other question **"Certainty"** with choices for low, medium, or high. To delete or add additional answer choices, use the **+** and **-** buttons beside answers.
 
-<img src="{{ site.baseurl }}/docs/DamCensusImages/editquestions.PNG" alt="editquestions" style="zoom: 67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/editquestions.PNG" alt="editquestions" style="zoom: 67%;" />
 
 At this point click publish in the bottom right corner of the **"Edit"** menu.
 
@@ -155,9 +155,9 @@ Click **"Save"** at the bottom of the screen and then you're done! The web app s
 
 
 
-### Web Apps
+## Web Apps
 
-<h2 align="center">California</h2>
+<h3 align="center">California</h3>
 
 | **[Battle Creek](https://arcg.is/r5r01)**                    | **[Lower Klamath](https://arcg.is/110uLW)**                  | **[Scott](https://arcg.is/yavTq)**                           | **[Truckee](https://arcg.is/1KiSHC)**                | **[Upper Merced](https://arcg.is/05zKPe)**    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------- | --------------------------------------------- |
@@ -173,7 +173,7 @@ Click **"Save"** at the bottom of the screen and then you're done! The web app s
 
 
 
-<h2 align="center">Greater Yellowstone Ecosystem</h2>
+<h3 align="center">Greater Yellowstone Ecosystem</h3>
 
 | **[Beaverhead](https://arcg.is/0HDyP4)**              | **[Gros Ventre](https://arcg.is/1Lq1zO0)**       | **[Popo Agie](https://arcg.is/1XPG5v)**        | **[Upper Green](https://arcg.is/1vjS4T)**         | **[Upper Missouri](https://arcg.is/1Li9Cu)**        |
 | ----------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- | --------------------------------------------------- |
@@ -186,7 +186,7 @@ Click **"Save"** at the bottom of the screen and then you're done! The web app s
 
 
 
-<h2 align="center">Idaho</h2>
+<h3 align="center">Idaho</h3>
 
 | **[American Falls](https://arcg.is/0zPWiW)**                 | **[Brownlee Reservoir](https://arcg.is/0uTv49)**           | **[East Little Owyhee](https://arcg.is/10OGb1)**    | **[Little Bear Logan](https://arcg.is/11mHGX)**        | **[Lower Clark Fork](https://arcg.is/0S1e9L)**            |
 | ------------------------------------------------------------ | ---------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------- |
