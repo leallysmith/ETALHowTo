@@ -69,7 +69,7 @@ The NHD dataset needs to be downloaded from the [USGS National Map Downloader](h
 
 <img src="{{ site.baseurl }}/DamCensusImages/TNE1.png" alt="TNE1" style="width: 50%;" />
 
-<img src="{{ site.baseurl }}/DamCensusImages/TNE2.png" alt="TNE2" style="width: 50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/TNE2.png" alt="TNE2" style="width: 60%;" />
 
 From there searching can be done by HUC 8 id by clicking on advanced search, or by selecting an extent on the map. Then click **"Find Products"** and download the NHD dataset for your area.
 
@@ -93,11 +93,11 @@ Add the perennial network layer to your QGIS project. This layer can be found un
 
 After the layer has been added to the map, it needs to be exported as a shapefile so that it can be edited.
 
-<img src="{{ site.baseurl }}/DamCensusImages/exportperen.png" alt="exportperen" style="width: 50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/exportperen.png" alt="exportperen" style="width: 60%;" />
 
 Once this shapefile has been exported, open the attribute table by right clicking and selecting attribute table. The filter the data by clicking the funnel icon and selecting features that aren't perennial. This criteria is selecting IsPeren = 0.
 
-<img src="{{ site.baseurl }}/DamCensusImages/filterperen.png" alt="filterperen" style="width:50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/filterperen.png" alt="filterperen" style="width:60%;" />
 
 Once these features are selected, click the perennial layer in the layers pane then toggle editing. Delete the selected features and then save your edits and exit the editing session.
 
@@ -137,13 +137,13 @@ Move the map so that your census area is in the center of the map, when the map 
 
 First you will need to share your web map as a web app. Click the share button.
 
-<img src="{{ site.baseurl }}/DamCensusImages/sharewebmap.png" alt="sharewebmap" style="width:50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/sharewebmap.png" alt="sharewebmap" style="width:60%;" />
 
 In the window that pops up check the **"Everyone (public)"** box. Then click **"Create a Web App"**. If a window pops up saying **"Update Sharing"** click on the blue button that says **"Update Sharing"**.
 
 In the menu that pops up to create a new web app click the **"Show All"** tab and then click the basic viewer app. After clicking on **"Basic Viewer"** a menu should pop up on the side, from there click **"Create Web App"**. Give your web app a name and click **"Done"**.
 
-<img src="{{ site.baseurl }}/DamCensusImages/basicviewer.png" alt="basicviewer" style="width:50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/basicviewer.png" alt="basicviewer" style="width:60%;" />
 
 
 
