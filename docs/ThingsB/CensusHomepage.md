@@ -65,7 +65,7 @@ The first layer is a perennial network layer, this layer can be created in two w
 
 ***
 
-The NHD dataset needs to be downloaded from the USGS National Map Downloader found here: https://viewer.nationalmap.gov/basic/#productGroupSearch In the “Datasets” tab, check “Hydrography (NHDPlus HR, NHD, WBD)” to start filtering for the product you need.
+The NHD dataset needs to be downloaded from the [USGS National Map Downloader](https://viewer.nationalmap.gov/basic/#productGroupSearch). In the “Datasets” tab, check “Hydrography (NHDPlus HR, NHD, WBD)” to start filtering for the product you need.
 
 <img src="{{ site.baseurl }}/DamCensusImages/TNE1.png" alt="TNE1" style="zoom: 25%;" />
 
@@ -149,7 +149,7 @@ In the menu that pops up to create a new web app click the **"Show All"** tab an
 
 When configuring the web app, we want it to be as concise as possible. In the **"Options"** tab we will turn off most options. The only options we are leaving on will be **"Share Tools"**, **"Display layer list"**, and **"Display Editor"**.
 
-<img src="{{ site.baseurl }}/DamCensusImages/webappoptions.png" alt="webappoptions" style="zoom:24%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/webappoptions.png" alt="webappoptions" style="zoom:14%;" />
 
 Click **"Save"** at the bottom of the screen and then you're done! The web app should appear in the content tab of your ArcGIS Online account.
 
