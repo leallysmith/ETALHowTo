@@ -23,7 +23,7 @@ To download this guide as a PDF file please [Click Here](link when it's made). T
 
 This step will create a survey that enables data collection and storage.
 
-Begin by going to https://survey123.arcgis.com/ and sign in to your ArcGIS Online account
+Begin by going to [Survey123](https://survey123.arcgis.com/) and sign in to your ArcGIS Online account
 
 Once logged in, click on **“New Survey”** in the upper left to begin creating a new survey.  Click **“Get started”** under **"Blank survey"**. 
 
@@ -33,7 +33,7 @@ The right hand side of the screen will display a menu where survey questions can
 
 Once the two questions have been added, click the question to edit. At minimum have one question, **"Feature Type**" with an answer choice for inactive and another choice for active dam and the other question **"Certainty"** with choices for low, medium, or high. To delete or add additional answer choices, use the **+** and **-** buttons beside answers.
 
-<img src="C:\Users\A02252919\Box\My Box Notes\work\DamCensusImages\editquestions.PNG" alt="editquestions" style="zoom: 67%;" />
+<img src="{{ site.baseurl }}/docs/DamCensusImages/editquestions.PNG" alt="editquestions" style="zoom: 67%;" />
 
 At this point click publish in the bottom right corner of the **"Edit"** menu.
 
@@ -188,24 +188,24 @@ Click **"Save"** at the bottom of the screen and then you're done! The web app s
 
 <h2 align="center">Idaho</h2>
 
-| [American Falls](https://arcg.is/0zPWiW)                     | [Brownlee Reservoir](https://arcg.is/0uTv49)           | [East Little Owyhee](https://arcg.is/10OGb1)    | [Little Bear Logan](https://arcg.is/11mHGX)        | [Lower Clark Fork](https://arcg.is/0S1e9L)            |
-| ------------------------------------------------------------ | ------------------------------------------------------ | ----------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------- |
-| [Bear Lake](https://arcg.is/u9iC0)                           | [Bruneau](https://arcg.is/1qmmOD)                      | [Goose](https://arcg.is/1LKHW8)                 | [Little Lost](https://arcg.is/1GrGLy)              | [Lower Henrys](https://arcg.is/1zaf5y)                |
-| [Beaver Camas](https://arcg.is/0vyiem)                       | [Camas](https://arcg.is/1080v4)                        | [Hangman](https://arcg.is/0qfP4H)               | [Little Salmon](https://arcg.is/1zzzzi)            | [Lower Kootenai](https://arcg.is/09OfHm)              |
-| [Big Lost](https://arcg.is/1TOGj0)                           | [Central Bear](https://arcg.is/DOGXz)                  | [Hells Canyon](https://arcg.is/1rfzqm)          | [Little Spokane](https://arcg.is/09KLX5)           | [Lower Middle Fork Salmon](https://arcg.is/1ayGGD)    |
-| [Big Wood](https://arcg.is/1LffDn)                           | [CJ Strike Reservoir](https://arcg.is/19O4KP)          | [Idaho Falls](https://arcg.is/1b9Gjz)           | [Little Wood](https://arcg.is/e5bbT)               | [Lower North Fork Clearwater](https://arcg.is/1aOLCe) |
-| [Birch](https://arcg.is/jCyKf0)                              | [Clearwater](https://arcg.is/0fSmKz)                   | [Jordan](https://arcg.is/1DzCjH)                | [Lochsa](https://arcg.is/15eaOG)                   | [Lower Salmon](https://arcg.is/191CCG)                |
-| [Blackfoot](https://arcg.is/0OGa8a)                          | [Coeur d'Alene Lake](https://arcg.is/1Hvy040)          | [Lake Walcott](https://arcg.is/1yemCL)          | [Lower Bear Malad](https://arcg.is/1Libbn)         | [Lower Selway](https://arcg.is/bKmmq)                 |
-| [Boise Mores](https://arcg.is/0KfHf4)                        | [Curlew Valley](https://arcg.is/e9X0f)                 | [Lemhi](https://arcg.is/0GLuH1)                 | [Lower Boise](https://arcg.is/14XXLm)              | [Lower Snake Asotin](https://arcg.is/1Kmz1G)          |
-| [Medicine Lodge](https://arcg.is/1Gyi50)                     | [Middle Snake Succor](https://arcg.is/1CDa0z)          | [Pend Oreille Lake](https://arcg.is/Gr0Pr)      | [South Fork Coeur d'Alene](https://arcg.is/1frj1q) | [Upper North Fork Clearwater](https://arcg.is/HmCLC)  |
-| [Middle Fork Clearwater](https://arcg.is/Sazu9)              | [Moyie](https://arcg.is/DHHfO)                         | [Portneuf](https://arcg.is/8eGeD)               | [South Fork Owyhee](https://arcg.is/1y1KOK)        | [Upper Owyhee ](https://arcg.is/1vS0P0)               |
-| [Middle Fork Payette](https://arcg.is/11uePT)                | [North Fork Middle Fork Boise](https://arcg.is/1LmiOX) | [Priest](https://arcg.is/1PCS5v)                | [South Fork Payette](https://arcg.is/1u0nOu)       | [Upper Salmon](https://arcg.is/15myzm)                |
-| [Middle Bear](https://usuonline.maps.arcgis.com/apps/View/index.html?appid=f2913bfa58064da7913c0acbedac8c58) | [North Fork Payette](https://arcg.is/10WzX00)          | [Raft](https://arcg.is/1fKH5f)                  | [South Fork Salmon](https://arcg.is/1yuO4O)        | [Upper Selway](https://arcg.is/001nXC)                |
-| [Middle Kootenai](https://arcg.is/1bbvS5)                    | [Pahsimeroi](https://arcg.is/1m0qSa)                   | [Rock](https://arcg.is/0Hn84D)                  | [St. Joe](https://arcg.is/Wq5mG)                   | [Upper Snake Rock](https://arcg.is/0bH8Tf)            |
-| [Middle Owyhee](https://arcg.is/1aGWje)                      | [Palisades](https://arcg.is/uSH9D)                     | [Salmon Falls](https://arcg.is/04njT9)          | [Teton](https://arcg.is/18HCfH)                    | [Upper Spokane](https://arcg.is/b9PaX)                |
-| [Middle Salmon Chamberlain](https://arcg.is/0nPmfW)          | [Palouse](https://arcg.is/0HbqL5)                      | [Salt](https://arcg.is/0yqaiT)                  | [Upper Coeur d'Alene](https://arcg.is/1XvTza0)     | [Weiser](https://arcg.is/1HuTXz)                      |
-| [Middle Salmon Panther](https://arcg.is/1byOGy)              | [Payette](https://arcg.is/1K8zWO)                      | [South Fork Boise](https://arcg.is/14nyeW)      | [Upper Henrys](https://arcg.is/1Hj8CG)             | [Willow](https://arcg.is/1amanr)                      |
-| [Middle Snake Payette](https://arcg.is/0HKff4)               | [Pend Oreille](https://arcg.is/1SyqHq)                 | [South Fork Clearwater](https://arcg.is/1fCKqT) | [Upper Middle Fork Salmon](https://arcg.is/Gm8Tr)  | [Yaak](https://arcg.is/0Oz5zK)                        |
+| **[American Falls](https://arcg.is/0zPWiW)**                 | **[Brownlee Reservoir](https://arcg.is/0uTv49)**           | **[East Little Owyhee](https://arcg.is/10OGb1)**    | **[Little Bear Logan](https://arcg.is/11mHGX)**        | **[Lower Clark Fork](https://arcg.is/0S1e9L)**            |
+| ------------------------------------------------------------ | ---------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------- |
+| **[Bear Lake](https://arcg.is/u9iC0)**                       | **[Bruneau](https://arcg.is/1qmmOD)**                      | **[Goose](https://arcg.is/1LKHW8)**                 | **[Little Lost](https://arcg.is/1GrGLy)**              | **[Lower Henrys](https://arcg.is/1zaf5y)**                |
+| **[Beaver Camas](https://arcg.is/0vyiem)**                   | **[Camas](https://arcg.is/1080v4)**                        | **[Hangman](https://arcg.is/0qfP4H)**               | **[Little Salmon](https://arcg.is/1zzzzi)**            | **[Lower Kootenai](https://arcg.is/09OfHm)**              |
+| **[Big Lost](https://arcg.is/1TOGj0)**                       | **[Central Bear](https://arcg.is/DOGXz)**                  | **[Hells Canyon](https://arcg.is/1rfzqm)**          | **[Little Spokane](https://arcg.is/09KLX5)**           | **[Lower Middle Fork Salmon](https://arcg.is/1ayGGD)**    |
+| **[Big Wood](https://arcg.is/1LffDn)**                       | **[CJ Strike Reservoir](https://arcg.is/19O4KP)**          | **[Idaho Falls](https://arcg.is/1b9Gjz)**           | **[Little Wood](https://arcg.is/e5bbT)**               | **[Lower North Fork Clearwater](https://arcg.is/1aOLCe)** |
+| **[Birch](https://arcg.is/jCyKf0)**                          | **[Clearwater](https://arcg.is/0fSmKz)**                   | **[Jordan](https://arcg.is/1DzCjH)**                | **[Lochsa](https://arcg.is/15eaOG)**                   | **[Lower Salmon](https://arcg.is/191CCG)**                |
+| **[Blackfoot](https://arcg.is/0OGa8a)**                      | **[Coeur d'Alene Lake](https://arcg.is/1Hvy040)**          | **[Lake Walcott](https://arcg.is/1yemCL)**          | **[Lower Bear Malad](https://arcg.is/1Libbn)**         | **[Lower Selway](https://arcg.is/bKmmq)**                 |
+| **[Boise Mores](https://arcg.is/0KfHf4)**                    | **[Curlew Valley](https://arcg.is/e9X0f)**                 | **[Lemhi](https://arcg.is/0GLuH1)**                 | **[Lower Boise](https://arcg.is/14XXLm)**              | **[Lower Snake Asotin](https://arcg.is/1Kmz1G)**          |
+| **[Medicine Lodge](https://arcg.is/1Gyi50)**                 | **[Middle Snake Succor](https://arcg.is/1CDa0z)**          | **[Pend Oreille Lake](https://arcg.is/Gr0Pr)**      | **[South Fork Coeur d'Alene](https://arcg.is/1frj1q)** | **[Upper North Fork Clearwater](https://arcg.is/HmCLC)**  |
+| **[Middle Fork Clearwater](https://arcg.is/Sazu9)**          | **[Moyie](https://arcg.is/DHHfO)**                         | **[Portneuf](https://arcg.is/8eGeD)**               | **[South Fork Owyhee](https://arcg.is/1y1KOK)**        | **[Upper Owyhee ](https://arcg.is/1vS0P0)**               |
+| **[Middle Fork Payette](https://arcg.is/11uePT)**            | **[North Fork Middle Fork Boise](https://arcg.is/1LmiOX)** | **[Priest](https://arcg.is/1PCS5v)**                | **[South Fork Payette](https://arcg.is/1u0nOu)**       | **[Upper Salmon](https://arcg.is/15myzm)**                |
+| **[Middle Bear](https://usuonline.maps.arcgis.com/apps/View/index.html?appid=f2913bfa58064da7913c0acbedac8c58)** | **[North Fork Payette](https://arcg.is/10WzX00)**          | **[Raft](https://arcg.is/1fKH5f)**                  | **[South Fork Salmon](https://arcg.is/1yuO4O)**        | **[Upper Selway](https://arcg.is/001nXC)**                |
+| **[Middle Kootenai](https://arcg.is/1bbvS5)**                | **[Pahsimeroi](https://arcg.is/1m0qSa)**                   | **[Rock](https://arcg.is/0Hn84D)**                  | **[St. Joe](https://arcg.is/Wq5mG)**                   | **[Upper Snake Rock](https://arcg.is/0bH8Tf)**            |
+| **[Middle Owyhee](https://arcg.is/1aGWje)**                  | **[Palisades](https://arcg.is/uSH9D)**                     | **[Salmon Falls](https://arcg.is/04njT9)**          | **[Teton](https://arcg.is/18HCfH)**                    | **[Upper Spokane](https://arcg.is/b9PaX)**                |
+| **[Middle Salmon Chamberlain](https://arcg.is/0nPmfW)**      | **[Palouse](https://arcg.is/0HbqL5)**                      | **[Salt](https://arcg.is/0yqaiT)**                  | **[Upper Coeur d'Alene](https://arcg.is/1XvTza0)**     | **[Weiser](https://arcg.is/1HuTXz)**                      |
+| **[Middle Salmon Panther](https://arcg.is/1byOGy)**          | **[Payette](https://arcg.is/1K8zWO)**                      | **[South Fork Boise](https://arcg.is/14nyeW)**      | **[Upper Henrys](https://arcg.is/1Hj8CG)**             | **[Willow](https://arcg.is/1amanr)**                      |
+| **[Middle Snake Payette](https://arcg.is/0HKff4)**           | **[Pend Oreille](https://arcg.is/1SyqHq)**                 | **[South Fork Clearwater](https://arcg.is/1fCKqT)** | **[Upper Middle Fork Salmon](https://arcg.is/Gm8Tr)**  | **[Yaak](https://arcg.is/0Oz5zK)**                        |
 
 
 
