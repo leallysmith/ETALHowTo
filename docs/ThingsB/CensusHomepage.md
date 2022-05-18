@@ -3,9 +3,7 @@ title: Beaver Dam Censusing In ArcGIS Online
 weight: 1
 ---
 
-## This page houses tutorials on the creation and use of web apps for beaver dam censusing
-
-At the bottom is the list, with links, of the completed web apps.
+This page houses tutorials on the creation and use of web apps for beaver dam censusing. At the bottom is the list, with links, of the completed web apps.
 
 
 
@@ -18,6 +16,8 @@ The steps to making a beaver dam census web app are as follows:
 To download this guide as a PDF file please [Click Here](link when it's made). This PDF also goes into greater depth with more images to walk you through the process.
 
 
+
+## Creating the Web App
 
 ### Step 1 Survey123
 
@@ -59,7 +59,7 @@ Share to everyone and approve public data collection for the remaining 2 feature
 
 This step is collecting layers needed for the censusing and then compiling them into a web map.
 
-The first layer is a perennial network layer, this layer can be created in two ways depending on whether you have access to the riverscapes data warehouse and the area you are sampling has a BRAT run. One way to get a perennial network is by using the National Hydrography Dataset and using the [Riparian Condition Assessment Toolbox (RCAT)](https://github.com/Riverscapes/RCAT) and the other is a simpler way using QGIS and RAVE. 
+The first layer is a perennial network layer, this layer can be created in two ways depending on whether you have access to the riverscapes data warehouse and the area you are sampling has a BRAT run. One way to get a perennial network is by using the National Hydrography Dataset and the [Riparian Condition Assessment Toolbox (RCAT)](https://github.com/Riverscapes/RCAT) and the other is a simpler way using QGIS and RAVE. 
 
 #### Using NHD and RCAT
 
@@ -71,7 +71,7 @@ The NHD dataset needs to be downloaded from the [USGS National Map Downloader](h
 
 <img src="{{ site.baseurl }}/DamCensusImages/TNE2.png" alt="TNE2" style="width: 60%;" />
 
-From there searching can be done by HUC 8 id by clicking on advanced search, or by selecting an extent on the map. Then click **"Find Products"** and download the NHD dataset for your area.
+From there searching can be done using HUC 8 ID by clicking on advanced search, or by selecting an extent on the map. Then click **"Find Products"** and download the NHD dataset for your area.
 
 Once the file is downloaded and unzipped, some processing needs to be done to create the perennial network which is used for the dam censusing. The NHD Network Builder Tool was designed for this process. It is part of the[ Riparian Condition Assessment Tools (RCAT) Toolbox](https://github.com/Riverscapes/RCAT). Documentation on running the NHD NBT can be found [HERE](https://bitbucket.org/jtgilbert/riparian-condition-assessment-tools/wiki/Tool_Documentation/Version_1.0/NHD_Network_Builder). 
 
@@ -152,6 +152,20 @@ When configuring the web app, we want it to be as concise as possible. In the **
 <img src="{{ site.baseurl }}/DamCensusImages/webappoptions.png" alt="webappoptions" style="width:30%;" />
 
 Click **"Save"** at the bottom of the screen and then you're done! The web app should appear in the content tab of your ArcGIS Online account.
+
+## Using the Web App
+
+Launch the web app either from the configuration menu in the bottom left or from your ArcGIS Online content. Once it is open click on the pencil icon in the top left menu. Then in the menu that pops up select **"New Feature"**
+
+<img src="{{ site.baseurl }}/DamCensusImages/editcensus.png" alt="webappoptions" style="width:30%;" />
+
+Now zoom in on your perennial network and begin moving along the streams systematically, once a dam is observed, click on the network line that is closest to that dam, NHD networks aren't always accurate so dams may not always be on the network but it is important to put the point on the network.
+
+
+
+```
+[![Using Beaver Dam Inventory Apps](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE "Using Beaver Dam Inventory Apps")
+```
 
 
 
