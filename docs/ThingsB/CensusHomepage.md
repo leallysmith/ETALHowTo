@@ -109,7 +109,7 @@ Whether you retrieved your perennial layer by using RCAT and TNM or RAVE and QGI
 
 To upload your file to ArcGIS online go to the content tab of ArcGIS online and then click **"Add Item"** then **"From your computer"** then **"Choose File"** and select your new zipped perennial network file. 
 
-<img src="{{ site.baseurl }}/DamCensusImages/editcensus.png" alt="addingitems" style="width:50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/adding.png" alt="addingitems" style="width:50%;" />
 
 Confirm that the item type is shapefile and then tick the bubble to add your zip and create a hosted feature layer. Name your file something relevant and clear, then save. As with the feature layers for your survey this layer also needs to be shared to everyone. As a reminder this can be done by clicking on the feature layer and selecting share then everyone.
 
@@ -167,11 +167,7 @@ Now zoom in on your perennial network and begin moving along the streams systema
 
 [![Using Beaver Dam Inventory Apps](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE "Using Beaver Dam Inventory Apps")
 
-```
-<div class="responsive-embed widescreen">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0N-iewScBBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-```
+
 
 Once the census is complete it may be useful to retrieve the points survey as a different file type for use in GIS programs, this can be done by clicking on the feature layer for the survey form your ArcGIS Online content. This feature layer is the one that is just your survey name, not the \_fieldworker or \_stakeholder. Clicking the feature layer should take you to the overview page for that feature layer. From there select **"Export Data"** and then select the type you need. 
 
