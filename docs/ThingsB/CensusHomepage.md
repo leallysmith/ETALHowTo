@@ -167,7 +167,11 @@ Now zoom in on your perennial network and begin moving along the streams systema
 
 [![Using Beaver Dam Inventory Apps](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE "Using Beaver Dam Inventory Apps")
 
-
+```
+<div class="responsive-embed widescreen">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0N-iewScBBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
 
 Once the census is complete it may be useful to retrieve the points survey as a different file type for use in GIS programs, this can be done by clicking on the feature layer for the survey form your ArcGIS Online content. This feature layer is the one that is just your survey name, not the \_fieldworker or \_stakeholder. Clicking the feature layer should take you to the overview page for that feature layer. From there select **"Export Data"** and then select the type you need. 
 
