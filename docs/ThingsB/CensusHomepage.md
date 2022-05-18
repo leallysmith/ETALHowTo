@@ -115,8 +115,6 @@ Confirm that the item type is shapefile and then tick the bubble to add your zip
 
 <img src="{{ site.baseurl }}/DamCensusImages/sharinglayers.PNG" alt="sharinglayers" style="width:50%;" />
 
-
-
 Now that the perennial network layer is uploaded, survey created, and both shared with everyone, making a web map can begin.
 
 Once you've shared the perennial network with everyone click on the **"Open in Map Viewer Classic"** from the feature layer's Overview. This will display the perennial network on a map, the next step is to add a basemap to use for censusing. This is done by clicking the **"Add"** dropdown then choose **“Search for Layers.”** Click on the **“My Content”** dropdown and choose **“ArcGIS Online.”** 
