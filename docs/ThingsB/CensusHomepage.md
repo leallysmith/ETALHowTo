@@ -163,9 +163,7 @@ Now zoom in on your perennial network and begin moving along the streams systema
 
 
 
-```
 [![Using Beaver Dam Inventory Apps](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE "Using Beaver Dam Inventory Apps")
-```
 
 
 
