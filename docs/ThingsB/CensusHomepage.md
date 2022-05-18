@@ -171,7 +171,7 @@ Now zoom in on your perennial network and begin moving along the streams systema
 
 Once the census is complete it may be useful to retrieve the points survey as a different file type for use in GIS programs, this can be done by clicking on the feature layer for the survey form your ArcGIS Online content. This feature layer is the one that is just your survey name, not the \_fieldworker or \_stakeholder. Clicking the feature layer should take you to the overview page for that feature layer. From there select **"Export Data"** and then select the type you need. 
 
-<img src="{{ site.baseurl }}/DamCensusImages/exportsurvey.png" alt="exportsurvey" style="width:50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/exportsurvey.png" alt="exportsurvey" style="width:35%;" />
 
 Name the file and pick where you want it to save in your content. From there navigate to where you saved the new file and then click on it to go to its overview page and then click **"Download"**.
 
