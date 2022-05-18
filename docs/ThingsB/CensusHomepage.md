@@ -175,6 +175,8 @@ Once the census is complete it may be useful to retrieve the points survey as a 
 
 Name the file and pick where you want it to save in your content. From there navigate to where you saved the new file and then click on it to go to its overview page and then click **"Download"**.
 
+
+
 ## Web Apps
 
 <h3 align="center">California</h3>
