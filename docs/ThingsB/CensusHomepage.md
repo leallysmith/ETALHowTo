@@ -157,15 +157,21 @@ Click **"Save"** at the bottom of the screen and then you're done! The web app s
 
 Launch the web app either from the configuration menu in the bottom left or from your ArcGIS Online content. Once it is open click on the pencil icon in the top left menu. Then in the menu that pops up select **"New Feature"**
 
-<img src="{{ site.baseurl }}/DamCensusImages/editcensus.png" alt="webappoptions" style="width:50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/editcensus.png" alt="editcensus" style="width:50%;" />
 
-Now zoom in on your perennial network and begin moving along the streams systematically, once a dam is observed, click on the network line that is closest to that dam, NHD networks aren't always accurate so dams may not always be on the network but it is important to put the point on the network.
+Now zoom in on your perennial network and begin moving along the streams systematically, once a dam is observed, click on the map to set a point down and then fill out the menu that pops up. Below is a video guide for using the web app.
 
 
 
 [![Using Beaver Dam Inventory Apps](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE "Using Beaver Dam Inventory Apps")
 
 
+
+Once the census is complete it may be useful to retrieve the points survey as a different file type for use in GIS programs, this can be done by clicking on the feature layer for the survey form your ArcGIS Online content. This feature layer is the one that is just your survey name, not the \_fieldworker or \_stakeholder. Clicking the feature layer should take you to the overview page for that feature layer. From there select **"Export Data"** and then select the type you need. 
+
+<img src="{{ site.baseurl }}/DamCensusImages/exportcensus.png" alt="exportcensus" style="width:50%;" />
+
+Name the file and pick where you want it to save in your content. From there navigate to where you saved the new file and then click on it to go to its overview page and then click **"Download"**.
 
 ## Web Apps
 
