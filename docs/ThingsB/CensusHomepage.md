@@ -157,7 +157,7 @@ Click **"Save"** at the bottom of the screen and then you're done! The web app s
 
 Launch the web app either from the configuration menu in the bottom left or from your ArcGIS Online content. Once it is open click on the pencil icon in the top left menu. Then in the menu that pops up select **"New Feature"**
 
-<img src="{{ site.baseurl }}/DamCensusImages/editcensus.png" alt="webappoptions" style="width:30%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/editcensus.png" alt="webappoptions" style="width:50%;" />
 
 Now zoom in on your perennial network and begin moving along the streams systematically, once a dam is observed, click on the network line that is closest to that dam, NHD networks aren't always accurate so dams may not always be on the network but it is important to put the point on the network.
 
