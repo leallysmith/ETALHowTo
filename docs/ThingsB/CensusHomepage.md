@@ -109,7 +109,7 @@ Whether you retrieved your perennial layer by using RCAT and TNM or RAVE and QGI
 
 To upload your file to ArcGIS online go to the content tab of ArcGIS online and then click **"Add Item"** then **"From your computer"** then **"Choose File"** and select your new zipped perennial network file. 
 
-<img src="{{ site.baseurl }}/DamCensusImages/addingitems.PNG" alt="addingitems" style="width:50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/addingitems.PNG" alt="sharinglayers" style="width:50%;" />
 
 Confirm that the item type is shapefile and then tick the bubble to add your zip and create a hosted feature layer. Name your file something relevant and clear, then save. As with the feature layers for your survey this layer also needs to be shared to everyone. As a reminder this can be done by clicking on the feature layer and selecting share then everyone.
 
