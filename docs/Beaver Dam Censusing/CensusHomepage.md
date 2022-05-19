@@ -1,13 +1,13 @@
 ---
-title: Beaver Dam Censusing In ArcGIS Online
+title: Virtual Beaver Dam Censusing In ArcGIS Online
 weight: 1
 ---
 
-This page houses tutorials on the creation and use of web apps for beaver dam censusing. At the bottom is the list, with links, of the completed web apps.
+This page houses tutorials on the creation and use of web apps for virtual beaver dam censusing. At the bottom of this page is the list, with links, of the completed web apps.
 
 
 
-The steps to making a beaver dam census web app are as follows:
+The steps to making a virtual beaver dam census web app are as follows:
 
 1. Create a Survey123 survey
 2. Create an ArcGIS Online web map with necessary layers, these layers can vary but at the minimum should include the Survey123 survey, perennial network, and a basemap to survey.
@@ -57,7 +57,7 @@ Share to everyone and approve public data collection for the remaining 2 feature
 
 ### Step 2 Creating the Web Map
 
-This step is collecting layers needed for the censusing and then compiling them into a web map.
+This step is collecting layers needed for the virtual censusing and then compiling them into a web map.
 
 The first layer is a perennial network layer, this layer can be created in two ways depending on whether you have access to the riverscapes data warehouse and the area you are sampling has a BRAT run. One way to get a perennial network is by using the National Hydrography Dataset and the [Riparian Condition Assessment Toolbox (RCAT)](https://github.com/Riverscapes/RCAT) and the other is a simpler way using QGIS and RAVE. 
 
@@ -131,7 +131,7 @@ Click on the **"Details"** tab in the top left of the page, the survey should be
 
 
 
-Move the map so that your census area is in the center of the map, when the map is published as an app this is the view that will automatically load.
+Move the map so that your focus area is in the center of the map, when the map is published as an app this is the view that will automatically load.
 
 
 
@@ -169,7 +169,7 @@ Now zoom in on your perennial network and begin moving along the streams systema
 
 
 
-If this census is being used as a validation input for [BRAT](http://brat.riverscapes.xyz/) then observation points for dams need to be placed as close as possible to the corresponding NHD network line. An explanation for how these points are used and why points need to be placed on the line can be found [here](http://brat.riverscapes.xyz/Documentation/Tutorials/9-DataValidation.html#caveats).
+If this virtual census is being used as a validation input for [BRAT](http://brat.riverscapes.xyz/) then observation points for dams need to be placed as close as possible to the corresponding NHD network line. An explanation for how these points are used and why points need to be placed on the line can be found [here](http://brat.riverscapes.xyz/Documentation/Tutorials/9-DataValidation.html#caveats).
 
 Once the census is complete it may be useful to retrieve the points survey as a different file type for use in GIS programs, this can be done by clicking on the feature layer for the survey form your ArcGIS Online content. This feature layer is the one that is just your survey name, not the \_fieldworker or \_stakeholder. Clicking the feature layer should take you to the overview page for that feature layer. From there select **"Export Data"** and then select the type you need. 
 
