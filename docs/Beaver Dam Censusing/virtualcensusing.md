@@ -1,5 +1,5 @@
 ---
-title: Virtual Beaver Dam Censusing In ArcGIS Online
+title: Virtual Beaver Dam Censusing
 weight: 1
 ---
 
