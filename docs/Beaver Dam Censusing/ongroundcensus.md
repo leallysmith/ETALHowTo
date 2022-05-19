@@ -12,3 +12,9 @@ The advanced form has all of the basic form and additional space to record measu
 
 
 These forms come as printable forms and as Survey123 apps.
+
+
+
+Advanced form preview
+
+<img src="{{ site.baseurl }}/DamCensusImages/advancecomplexform.PNG" alt="advancedform" style="width: 67%;" />
