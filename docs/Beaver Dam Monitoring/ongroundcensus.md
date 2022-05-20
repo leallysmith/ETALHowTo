@@ -1,6 +1,6 @@
 ---
 title: On the Ground Beaver Monitoring
-weight: 1
+weight: 2
 ---
 
 On the ground beaver structure monitoring is useful for monitoring changes over time to complexes. These forms also include options if there are manmade BDAs in the stream. None of the questions in the Survey123 forms are required for submission, so record what is necessary and possible then submit.

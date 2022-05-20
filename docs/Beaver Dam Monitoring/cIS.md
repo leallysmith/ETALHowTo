@@ -1,6 +1,6 @@
 ---
 title: BRAT cIS
-weight: 1
+weight: 3
 ---
 
 BRAT cIS is a way to run the BRAT model in the field using observations of what is seen on the ground.
