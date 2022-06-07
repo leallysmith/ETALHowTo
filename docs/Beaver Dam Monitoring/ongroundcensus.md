@@ -3,7 +3,9 @@ title: On the Ground Beaver Monitoring
 weight: 2
 ---
 
-On the ground beaver structure monitoring is useful for monitoring changes over time to complexes. The forms on this page also include options if there are manmade BDAs in the stream. None of the questions in the XLS forms are required for submission to Survey123, so record what is necessary and possible then submit. Hints for measurements in these forms assume measurements are being taken in metric units however, if needed there is a dropdown to mark if measurements were taken in imperial units. The survey is set up that these measurements need to be taken as one value. This means values should be 174 inches or cm rather than 14 ft 6 in or 1 m 74 cm
+On the ground beaver structure monitoring is useful for monitoring changes over time to complexes. The forms on this page also include options if there are manmade BDAs in the stream. None of the questions in the XLS forms are required for submission to Survey123, so record what is necessary and possible then submit. 
+
+Hints for measurements in these forms assume measurements are being taken in metric units however, if needed there is a dropdown to mark if measurements were taken in imperial units. The survey is set up that these measurements need to be taken as one value. This means values should be 174 inches or cm rather than 14 ft 6 in or 1 m 74 cm.
 
 The basic complex form covers whether the dams were beaver built, their status, and the type of complex, size of complex, and where the dams are.
 
@@ -13,7 +15,7 @@ There is an additional option for monitoring which is a form that focuses on dam
 
 
 
-These forms come as printable forms and as XLSForms which can easily be made in Survey123 forms.
+These forms come as printable forms and as XLSForms which can easily be made in Survey123 forms for use with the ESRI Survey123 field app.
 
 
 
@@ -21,7 +23,7 @@ These forms come as printable forms and as XLSForms which can easily be made in 
 
 Advanced complex form preview: [Download]
 
-<img src="{{ site.baseurl }}/DamCensusImages/advancecomplexform.PNG" alt="advancedform" style="width: 67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/advancecomplexform.PNG" alt="advancedform" style="width:67%;" />
 
 Basic complex form preview: [Download]
 
@@ -47,27 +49,27 @@ Basic dam form
 
 ## Creating Survey123 form from XLS
 
-To create a Survey123 survey from an XLS form you will need to install [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) scroll to the bottom of the page and select the download that is appropriate for your system. Survey123 Connect is only available for Windows but comes in both 64 bit and 86 bit. You will also need to download an XLS form linked above.
+To create a Survey123 survey from an XLS form you will need to install [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) scroll to the bottom of the page and select the download that is appropriate for your system. Survey123 Connect is only available for Windows but comes in both 64 bit and 86 bit. You will also need to download the XLS form you need which are linked above.
 
-<img src="{{ site.baseurl }}/DamCensusImages/downloadconnect.PNG" alt="downloadconnect" style="width: 67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/downloadconnect.PNG" alt="downloadconnect" style="width:67%;" />
 
 Once Survey123 Connect is installed, launch the program and sign in with an ArcGIS login. Surveys published will be published to this account. 
 
 Now click on **"New Survey"**
 
-<img src="{{ site.baseurl }}/DamCensusImages/newcensus.PNG" alt="newcensus" style="width: 67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/newcensus.PNG" alt="newcensus" style="width:67%;" />
 
 In the window that pops up select **"File"** then select the XLS form that you downloaded earlier. Now click **"Create survey"**
 
-<img src="{{ site.baseurl }}/DamCensusImages/uploadxls.PNG" alt="uploadxls" style="width: 67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/uploadxls.PNG" alt="uploadxls" style="width: 67%;" /
 
 Survey123 Connect will take a minute to convert the XLS form and then you can select publish then publish your survey.
 
-<img src="{{ site.baseurl }}/DamCensusImages/publishsurvey.PNG" alt="publishsurvey" style="width: 67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/publishsurvey.PNG" alt="publishsurvey" style="width:67%;" />
 
 To share this survey go to [Survey123](https://survey123.arcgis.com/surveys), sign in and then click on your survey. This should take you to an overview page. From there navigate to the **"Collaborate"** tab in the top ribbon. *"Select the option the Ask the user how to open the survey"* then select who can submit to your survey.
 
-<img src="{{ site.baseurl }}/DamCensusImages/collaborate.PNG" alt="collaborate" style="width: 67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/collaborate.PNG" alt="collaborate" style="width:67%;" />
 
 This will be the link you share to allow users to access and submit to the survey.
 
@@ -82,6 +84,4 @@ Tapping the link you created earlier should open a browser window that prompts y
 The form will download and then launch, you can close out of the survey by tapping the **x** in the corner.
 
 To access and use the survey, launch the survey by tapping on it from the home page of the app and then tapping collect at the bottom. Fill out the survey and then hit the check mark in the bottom to submit.
-
-## A Glossary of Terms Used
 
