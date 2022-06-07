@@ -235,7 +235,7 @@ Name the file and pick where you want it to save in your content. From there nav
 
 <h3 align="center">Oregon</h3>
 
-| [Middle Willamette](https://arcg.is/0P4Tmy) | [North Santiam](https://arcg.is/1azuPT0) | [South Santiam](https://arcg.is/081WKW) | [Upper Williamette](https://arcg.is/0a489O) |      |
+| [Middle Willamette](https://arcg.is/0P4Tmy) | [North Santiam](https://arcg.is/1azuPT0) | [South Santiam](https://arcg.is/081WKW) | [Upper Williamette](https://arcg.is/0a489O) | ~    |
 | ------------------------------------------- | ---------------------------------------- | --------------------------------------- | ------------------------------------------- | ---- |
 
 

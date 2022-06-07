@@ -3,7 +3,7 @@ title: On the Ground Beaver Monitoring
 weight: 2
 ---
 
-On the ground beaver structure monitoring is useful for monitoring changes over time to complexes. The forms on this page also include options if there are manmade BDAs in the stream. None of the questions in the XLS forms are required for submission to Survey123, so record what is necessary and possible then submit. Hints for measurements in these forms assume measurements are being taken in metric units however, if needed there is a dropdown to mark if measurements were taken in imperial units
+On the ground beaver structure monitoring is useful for monitoring changes over time to complexes. The forms on this page also include options if there are manmade BDAs in the stream. None of the questions in the XLS forms are required for submission to Survey123, so record what is necessary and possible then submit. Hints for measurements in these forms assume measurements are being taken in metric units however, if needed there is a dropdown to mark if measurements were taken in imperial units. The survey is set up that these measurements need to be taken as one value. This means values should be 174 inches or cm rather than 14 ft 6 in or 1 m 74 cm
 
 The basic complex form covers whether the dams were beaver built, their status, and the type of complex, size of complex, and where the dams are.
 
@@ -82,3 +82,6 @@ Tapping the link you created earlier should open a browser window that prompts y
 The form will download and then launch, you can close out of the survey by tapping the **x** in the corner.
 
 To access and use the survey, launch the survey by tapping on it from the home page of the app and then tapping collect at the bottom. Fill out the survey and then hit the check mark in the bottom to submit.
+
+## A Glossary of Terms Used
+
