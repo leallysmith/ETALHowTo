@@ -21,29 +21,35 @@ These forms come as printable forms and as XLSForms which can easily be made in 
 
 ## Paper Forms
 
-Advanced complex form preview: [Download]
+Advanced complex form preview: 
 
-<img src="{{ site.baseurl }}/DamCensusImages/advancecomplexform.PNG" alt="advancedform" style="width:67%;" />
+[Download]()
 
-Basic complex form preview: [Download]
+<img src="{{ site.baseurl }}/DamCensusImages/advancedcomplexform.PNG" alt="advancedform" style="width:67%;" />
+
+Basic complex form preview:
+
+[Download]()
 
 
 
-Basic dam form preview: [Download]
+Basic dam form preview: 
+
+[Download]()
 
 
 
 ## XLS Forms
 
-Advanced complex form
+[Advanced complex form download](https://usu.box.com/s/sqmmrzpm5ovgx7kfjulvwn2qy3nw16l9)
 
 
 
-Basic complex form
+[Basic complex form download](https://usu.box.com/s/qnn7hmep6rc1qzf0z4nxs26pjxgqfxxl)
 
 
 
-Basic dam form
+[Basic dam form download](https://usu.box.com/s/ia0cy6dwgridw4ig7wl602f34isqwxjc)
 
 
 
@@ -57,11 +63,11 @@ Once Survey123 Connect is installed, launch the program and sign in with an ArcG
 
 Now click on **"New Survey"**
 
-<img src="{{ site.baseurl }}/DamCensusImages/newcensus.PNG" alt="newcensus" style="width:67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/newsurvey.PNG" alt="newcensus" style="width:67%;" />
 
 In the window that pops up select **"File"** then select the XLS form that you downloaded earlier. Now click **"Create survey"**
 
-<img src="{{ site.baseurl }}/DamCensusImages/uploadxls.PNG" alt="uploadxls" style="width: 67%;" /
+<img src="{{ site.baseurl }}/DamCensusImages/uploadxls.PNG" alt="uploadxls" style="width: 67%;" />
 
 Survey123 Connect will take a minute to convert the XLS form and then you can select publish then publish your survey.
 
