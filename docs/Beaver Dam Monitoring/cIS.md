@@ -41,7 +41,7 @@ Now click on **"New Survey"**
 
 <img src="{{ site.baseurl }}/DamCensusImages/newsurvey.PNG" alt="newcensus" style="width:67%;" />
 
-In the window that pops up select **"File"** then select the XLS form that you downloaded earlier. Now click **"Create survey"**
+In the window that pops up select **"File"** then **"Select"** the XLS form that you downloaded earlier. Now click **"Create survey"**
 
 <img src="{{ site.baseurl }}/DamCensusImages/uploadxls.png" alt="uploadxls" style="width:60%;" />
 
