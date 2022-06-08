@@ -61,15 +61,15 @@ Now click on **"New Survey"**
 
 In the window that pops up select **"File"** then select the XLS form that you downloaded earlier. Now click **"Create survey"**
 
-<img src="{{ site.baseurl }}/DamCensusImages/uploadxls.png" alt="connect" style="width:60%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/uploadxls.png" alt="uploadxls" style="width:60%;" />
 
 Survey123 Connect will take a minute to convert the XLS form and then you can select publish then publish your survey.
 
-<img src="{{ site.baseurl }}/DamCensusImages/publishsurvey.PNG" alt="publishsurvey" style="width:67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/publishsurvey.png" alt="publish" style="width:60%;" />
 
 To share this survey go to [Survey123](https://survey123.arcgis.com/surveys), sign in and then click on your survey. This should take you to an overview page. From there navigate to the **"Collaborate"** tab in the top ribbon. *"Select the option the Ask the user how to open the survey"* then select who can submit to your survey.
 
-<img src="{{ site.baseurl }}/DamCensusImages/collaborate.PNG" alt="collaborate" style="width:67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/collaborate.png" alt="collaborate" style="width:60%;" />
 
 This will be the link you share to allow users to access and submit to the survey.
 
