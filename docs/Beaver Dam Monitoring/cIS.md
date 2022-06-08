@@ -9,19 +9,25 @@ This can be useful as a quick way to get a rough estimate of the dam capacity fo
 
 
 
-Paper Forms:
+## Paper Forms
 
 [Basic](https://usu.box.com/s/5t3dhffurgk5lm4zbx2j03k073m0qqgc)
+
+
 
 [Advanced](https://usu.box.com/s/uhvd6lvaddx1n8pynyjuw99qt14qz354)
 
 
 
-XLSForm:
+## XLSForm
 
 [Basic](https://usu.box.com/s/k761pifqbgqotp8kzt37s44vhqf52do3)
 
+
+
 [Advanced](https://usu.box.com/s/z53c41y3pmyo4c1ufopcqhtj546wuthh)
+
+
 
 ## Creating Survey123 form from XLS
 

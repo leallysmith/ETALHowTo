@@ -21,8 +21,6 @@ These forms come as printable forms and as XLSForms which can easily be made in 
 
 ## Paper Forms
 
-
-
 [Advanced complex form download](https://usu.box.com/s/676x86lr0eyfqr1yrvk2s1ykhnnrsi4d)
 
 
@@ -32,8 +30,6 @@ These forms come as printable forms and as XLSForms which can easily be made in 
 
 
 [Basic dam form download](https://usu.box.com/s/m99q9b1kjut4hyk5gxctif2i2t3rzzsj)
-
-
 
 
 
