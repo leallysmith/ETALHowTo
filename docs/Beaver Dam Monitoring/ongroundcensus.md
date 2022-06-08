@@ -55,7 +55,7 @@ Basic dam form preview:
 
 ## Creating Survey123 form from XLS
 
-To create a Survey123 survey from an XLS form you will need to install [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) scroll to the bottom of the page and select the download that is appropriate for your system. Survey123 Connect is only available for Windows but comes in both 64 bit and 86 bit. You will also need to download the XLS form you need which are linked above.
+To create a Survey123 survey from an XLS form you will need to install [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) scroll to the bottom of the page and select the download that is appropriate for your system. Survey123 Connect is only available for Windows but comes in both 64 bit and 86 bit. You will also need to download the XLS form you need, linked above.
 
 <img src="{{ site.baseurl }}/DamCensusImages/downloadconnect1.PNG" alt="downloadconnect" style="width:67%;" />
 
