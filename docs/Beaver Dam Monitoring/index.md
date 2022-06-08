@@ -11,7 +11,7 @@ Virtual beaver dam censusing can be done in areas with sufficiently clear imager
 
 ## On the Ground Beaver Monitoring
 
-On the ground beaver structure monitoring is another option for seeing where dams are, this can be useful in places that don't have high resolution imagery or if there is dense tree cover that covers the stream. On the ground monitoring is also good for monitoring changes more frequently than imagery may come out as well as more current conditions for areas that may not have recent imagery.
+On the ground beaver structure monitoring is another option for seeing where dams are, this can be useful in places that don't have high resolution imagery or if there is dense tree cover that covers the stream. On the ground monitoring is also good for monitoring changes more frequently than imagery may come out as well as more current conditions for areas that may not have recent imagery. Additionally this data can be collected alongside other data if there are field crews that are already out.
 
 ## BRAT cIS
 

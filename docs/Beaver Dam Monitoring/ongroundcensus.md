@@ -25,7 +25,7 @@ Advanced complex form preview:
 
 [Download]()
 
-<img src="{{ site.baseurl }}/DamCensusImages/advancedcomplexform1.PNG" alt="advancedform" style="width:67%;" />
+
 
 Basic complex form preview:
 

@@ -61,3 +61,9 @@ The form will download and then launch, you can close out of the survey by tappi
 
 To access and use the survey, launch the survey by tapping on it from the home page of the app and then tapping collect at the bottom. Fill out the survey and then hit the check mark in the bottom to submit.
 
+
+
+<div align="center">
+<a class="hollow button" href="{{ site.baseurl }}/Documentation"><i class="fa fa-info-circle"></i> Back to Documentation </a>
+<a class="hollow button" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/images/favicons/favicon-16x16.png">  Back to BRAT Home </a>  
+</div>
