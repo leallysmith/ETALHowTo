@@ -45,7 +45,7 @@ In the window that pops up select **"File"** then **"Select"** the XLS form that
 
 <img src="{{ site.baseurl }}/DamCensusImages/uploadxls.png" alt="uploadxls" style="width:60%;" />
 
-Survey123 Connect will take a minute to convert the XLS form and then you can select publish then publish your survey.
+Survey123 Connect will take a minute to convert the XLS form and then you can select **"Publish"** then **"Publish"** your survey.
 
 <img src="{{ site.baseurl }}/DamCensusImages/publishsurvey.png" alt="publish" style="width:60%;" />
 
