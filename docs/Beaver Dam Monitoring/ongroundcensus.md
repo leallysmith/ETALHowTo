@@ -25,7 +25,7 @@ Advanced complex form preview:
 
 [Download]()
 
-<img src="../DamCensusImages/advancedcomplexform1.PNG" alt="advancedform" style="width:67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/advancedcomplexform1.PNG" alt="advancedform" style="width:67%;" />
 
 Basic complex form preview:
 
@@ -93,3 +93,7 @@ To access and use the survey, launch the survey by tapping on it from the home p
 
 
 
+<div align="center">
+<a class="hollow button" href="{{ site.baseurl }}/Documentation"><i class="fa fa-info-circle"></i> Back to Documentation </a>
+<a class="hollow button" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/images/favicons/favicon-16x16.png">  Back to BRAT Home </a>  
+</div>
