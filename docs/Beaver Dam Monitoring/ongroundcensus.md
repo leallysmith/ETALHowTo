@@ -81,13 +81,15 @@ This will be the link you share to allow users to access and submit to the surve
 
 ## Accessing Survey123 through field app
 
-Taking this survey into the field is made easier through apps that are available for both iOS and Android. the link to download the app is available on the same website you downloaded the [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) program from. You can also go to your phone's app store and then search for "Survey123" and download "ArcGIS Survey123" by ESRI.
+Taking this survey into the field is made easier through apps that are available for both iOS and Android. the link to download the app is available on the same website you downloaded the [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) program from. You can also go to your phone or tablet's app store and then search for "Survey123" and download "ArcGIS Survey123" by ESRI.
 
 When the app finishes downloading launch it and sign into your ArcGIS Online account.
 
-Tapping the link you created earlier should open a browser window that prompts you to open the survey in  browser or field app. You'll want to tap to open the survey in the field app.
+Open the link you created earlier on the Survey123 website using your device. To get the link from desktop to mobile I like to email it to myself and access the link from my email app, you can use whatever method you prefer. This should open a browser window that prompts you to open the survey in browser or field app. You'll want to tap to open the survey in the field app.
 
 The form will download and then launch, you can close out of the survey by tapping the **x** in the corner.
 
 To access and use the survey, launch the survey by tapping on it from the home page of the app and then tapping collect at the bottom. Fill out the survey and then hit the check mark in the bottom to submit.
+
+
 
