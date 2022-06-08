@@ -147,8 +147,6 @@ In the menu that pops up to create a new web app click the **"Show All"** tab an
 
 <img src="{{ site.baseurl }}/DamCensusImages/basicviewer.png" alt="basicviewer" style="width:60%;" />
 
-
-
 When configuring the web app, we want it to be as concise as possible. In the **"Options"** tab we will turn off most options. The only options we are leaving on will be **"Share Tools"**, **"Display layer list"**, and **"Display Editor"**.
 
 <img src="{{ site.baseurl }}/DamCensusImages/webappoptions.png" alt="webappoptions" style="width:30%;" />
