@@ -21,21 +21,19 @@ These forms come as printable forms and as XLSForms which can easily be made in 
 
 ## Paper Forms
 
-Advanced complex form preview: 
-
-[Download]()
 
 
-
-Basic complex form preview:
-
-[Download]()
+[Advanced complex form download](https://usu.box.com/s/676x86lr0eyfqr1yrvk2s1ykhnnrsi4d)
 
 
 
-Basic dam form preview: 
+[Basic complex form download](https://usu.box.com/s/lnulkkkezkr66bv6zhw6g8c1uub1limr)
 
-[Download]()
+
+
+[Basic dam form download](https://usu.box.com/s/m99q9b1kjut4hyk5gxctif2i2t3rzzsj)
+
+
 
 
 
