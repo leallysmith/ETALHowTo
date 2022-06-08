@@ -55,7 +55,7 @@ Taking this survey into the field is made easier through apps that are available
 
 When the app finishes downloading launch it and sign into your ArcGIS Online account.
 
-Open the link you created earlier on the Survey123 website using your device. This should open a browser window that prompts you to open the survey in browser or field app. You'll want to tap to open the survey in the field app.
+Open the link you created earlier on the Survey123 website using your device. To get the link from desktop to mobile I like to email it to myself and access the link from my email app, you can use whatever method you prefer. This should open a browser window that prompts you to open the survey in browser or field app. You'll want to tap to open the survey in the field app.
 
 The form will download and then launch, you can close out of the survey by tapping the **x** in the corner.
 
