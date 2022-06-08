@@ -51,7 +51,7 @@ These forms come as printable forms and as XLSForms which can easily be made in 
 
 To create a Survey123 survey from an XLS form you will need to install [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) scroll to the bottom of the page and select the download that is appropriate for your system. Survey123 Connect is only available for Windows but comes in both 64 bit and 86 bit. You will also need to download the XLS form you need, linked above.
 
-<img src="{{ site.baseurl }}/DamCensusImages/downloadconnect1.png" alt="connect" style="width:50%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/downloadconnect1.png" alt="connect" style="width:60%;" />
 
 Once Survey123 Connect is installed, launch the program and sign in with an ArcGIS login. Surveys published will be published to this account. 
 
@@ -61,7 +61,7 @@ Now click on **"New Survey"**
 
 In the window that pops up select **"File"** then select the XLS form that you downloaded earlier. Now click **"Create survey"**
 
-<img src="{{ site.baseurl }}/DamCensusImages/uploadxls.PNG" alt="uploadxls" style="width: 67%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/uploadxls.png" alt="connect" style="width:60%;" />
 
 Survey123 Connect will take a minute to convert the XLS form and then you can select publish then publish your survey.
 
