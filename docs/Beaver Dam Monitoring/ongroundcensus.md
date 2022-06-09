@@ -5,7 +5,7 @@ weight: 2
 
 On the ground beaver structure monitoring is useful for monitoring changes over time to complexes. The forms on this page also include options if there are manmade BDAs in the stream. None of the questions in the XLS forms are required for submission to Survey123, so record what is necessary and possible then submit. 
 
-Hints for measurements in these forms assume measurements are being taken in metric units however, if needed there is a dropdown to mark if measurements were taken in imperial units. The survey is set up that these measurements need to be taken as one value. This means values should be 174 inches or cm rather than 14 ft 6 in or 1 m 74 cm.
+Hints for measurements in these forms assume measurements are being taken in metric units however, if needed there is a dropdown to mark if measurements were taken in imperial units. The survey is set up that these measurements need to be taken as one value. This means values should be 174 inches, 1.74 m, or 174 cm rather than 14 ft 6 in or 1 m 74 cm.
 
 The basic complex form covers whether the dams were beaver built, their status, and the type of complex, size of complex, and where the dams are.
 
