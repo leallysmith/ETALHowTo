@@ -15,4 +15,4 @@ On the ground beaver structure monitoring is another option for seeing where dam
 
 ## BRAT cIS
 
-Beaver Restoration Assessment Tool Capacity Inference System is a way to run [BRAT](brat.riverscapes.xyz) in the field. There are two forms, one a more basic version and the second is a more advanced form with additional ways to evaluate the capacity of a reach.
+Beaver Restoration Assessment Tool Capacity Inference System is a way to run [BRAT](brat.riverscapes.xyz) in the field. There are two forms, one a more basic version and the second is a more advanced form with additional ways to evaluate the capacity of a reach. This is useful for a quick and dirty field assessment for beaver capacity using observations that can be very local to your location and collected that very day.
