@@ -75,7 +75,7 @@ This will be the link you share to allow users to access and submit to the surve
 
 ## Accessing Survey123 through field app
 
-Taking this survey into the field is made easier through apps that are available for both iOS and Android. the link to download the app is available on the same website you downloaded the [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) program from. You can also go to your phone or tablet's app store and then search for "Survey123" and download "ArcGIS Survey123" by ESRI.
+Taking this survey into the field is made easier through apps that are available for both iOS and Android. The link to download the app is available on the same website you downloaded the [Survey123 Connect](https://www.esri.com/en-us/arcgis/products/arcgis-survey123/resources?rmedium=www_esri_com_EtoF&rsource=/en-us/arcgis/products/survey123/resources) program from. You can also go to your phone or tablet's app store and then search for "Survey123" and download "ArcGIS Survey123" by ESRI.
 
 When the app finishes downloading launch it and sign into your ArcGIS Online account.
 
