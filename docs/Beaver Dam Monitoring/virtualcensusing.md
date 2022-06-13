@@ -157,7 +157,7 @@ Launch the web app either from the configuration menu in the bottom left or from
 
 Now zoom in on your perennial network and begin moving along the streams systematically, once a dam is observed, click on the map to set a point down and then fill out the menu that pops up. Below is a video guide for using the web app.
 
-<iframe width="420" height="315"src="https://www.youtube.com/embed/0N-iewScBBE"> </iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0N-iewScBBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If this virtual census is being used as a validation input for [BRAT](http://brat.riverscapes.xyz/) then observation points for dams need to be placed as close as possible to the corresponding NHD network line. An explanation for how these points are used and why points need to be placed on the line can be found [here](http://brat.riverscapes.xyz/Documentation/Tutorials/9-DataValidation.html#caveats).
 
