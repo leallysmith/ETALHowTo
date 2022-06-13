@@ -161,7 +161,7 @@ Now zoom in on your perennial network and begin moving along the streams systema
 
 [![Using Beaver Dam Inventory Apps](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE "Using Beaver Dam Inventory Apps")
 
-[![Video Link](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE "")
+[![Video Link](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE) 
 
 If this virtual census is being used as a validation input for [BRAT](http://brat.riverscapes.xyz/) then observation points for dams need to be placed as close as possible to the corresponding NHD network line. An explanation for how these points are used and why points need to be placed on the line can be found [here](http://brat.riverscapes.xyz/Documentation/Tutorials/9-DataValidation.html#caveats).
 
