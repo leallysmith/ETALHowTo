@@ -27,7 +27,7 @@ Begin by going to [Survey123](https://survey123.arcgis.com/) and sign in to your
 
 Once logged in, click on **“New Survey”** in the upper left to begin creating a new survey.  Click **“Get started”** under **"Blank survey"**. 
 
-Once the survey has been created give your new survey a relevant title. When naming the surveys, try to be very specific. When publishing surveys to ArcGIS Online, the surveys will be uploaded as Feature Layers, just like shapefiles and other layer files. Be very specific about what area the survey is for, and that it is a survey. This helps to quickly find and determine which feature layers are actual surveys in the ArcGIS Online content.
+Once the survey has been created give your new survey a relevant title. When naming the surveys, try to be very specific. The surveys will be uploaded to ArcGIS Online as Feature Layers, just like shapefiles and other layer files. Be very specific about what area the survey is for, and that it is a survey. This helps to quickly find and determine which feature layers are actual surveys in the ArcGIS Online content.
 
 The right hand side of the screen will display a menu where survey questions can be created. Click and drag two **"Dropdown"** questions into the survey. Additional questions can be added at this time. If using imagery with multiple date captures (e.g. Google Earth Pro) **"Single choice"** questions can be added for each date with an option for "Yes" or "No". Doing the questions for date in this way makes the resulting feature layer's attribute table easier to use for any later data processing.
 
@@ -36,8 +36,6 @@ Once the two questions have been added, click the question to edit. At minimum h
 <img src="{{ site.baseurl }}/DamCensusImages/editquestions.PNG" alt="editquestions" style="width: 67%;" />
 
 At this point click publish in the bottom right corner of the **"Edit"** menu.
-
-
 
 Now that the survey and feature layer have been created, permissions need to be edited so that the feature layer that has been created will be usable for data collection. To do this, navigate to your ArcGIS Online content. From there locate where your survey has saved to, this is typically by default a folder called Survey-[Your Survey's Title]. You will need to do the following steps on each of the 3 feature layers in that folder for your survey. [Your Survey's Title]\_stakeholder, [Your Survey's Title]\_fieldworker, and [Your Survey's Title].
 
@@ -73,13 +71,13 @@ The NHD dataset needs to be downloaded from the [USGS National Map Downloader](h
 
 From there searching can be done using HUC 8 ID by clicking on advanced search, or by selecting an extent on the map. Then click **"Find Products"** and download the NHD dataset for your area.
 
-Once the file is downloaded and unzipped, some processing needs to be done to create the perennial network which is used for the dam censusing. The NHD Network Builder Tool was designed for this process. It is part of the[ Riparian Condition Assessment Tools (RCAT) Toolbox](https://github.com/Riverscapes/RCAT). Documentation on running the NHD NBT can be found [HERE](https://bitbucket.org/jtgilbert/riparian-condition-assessment-tools/wiki/Tool_Documentation/Version_1.0/NHD_Network_Builder). 
+Once the file is downloaded and unzipped, some processing needs to be done to create the perennial network which is used for the dam censusing. The NHD Network Builder Tool was designed for this process. It is part of the[ Riparian Condition Assessment Tools (RCAT) Toolbox](https://github.com/Riverscapes/RCAT). Documentation on running the NHD NBT can be found [HERE](http://rcat.riverscapes.xyz/Documentation/Version_2.0/SupportingTools/NHD). 
 
 #### Using QGIS and RAVE
 
 ***
 
-An easier way to retrieve the perennial network for a HUC 8 is by downloading the BRAT project from the [Riverscapes Warehouse](https://data.riverscapes.xyz/#/). These projects have a layer that distinguishes between perennial and non-perennial network. So we can simply open the project using the RAVE plugin for QGIS, and filter for perennial networks.
+An easier way to retrieve the perennial network for a HUC 8 is by downloading the BRAT project from the [Riverscapes Warehouse](https://data.riverscapes.xyz/#/). These projects have a layer that distinguishes between perennial and non-perennial network. So we can simply open the project using the RAVE plugin for QGIS, and filter for perennial networks. This method requires that you have access to the warehouse and the necessary BRAT run for the HUC you are working in.
 
 To begin, ensure you have the QRAVE plugin. If you don't already have it you can follow the steps [here](http://rave.riverscapes.xyz/Download/install_qrave.html) to download this plugin. This page also goes over downloading QGIS.
 
@@ -105,7 +103,9 @@ Once these features are selected, click the perennial layer in the layers pane t
 
 ***
 
-Whether you retrieved your perennial layer by using RCAT and TNM or RAVE and QGIS you will have to pull the shapefile into a folder and compress the folder for upload to ArcGIS Online.
+This is a good time to take your network and clip it to the appropriate extent if you are not running a census on the whole HUC 8 watershed. 
+
+Whether you retrieved your perennial layer by using RCAT and TNM or RAVE and QGIS you will have to pull the shapefile into a folder and compress the folder for upload to ArcGIS Online. If you have other files you need then also upload them at this time. Additional files could include a boundary for the extent of your censusing, an imagery layer, or other layers you may need for your specific project.
 
 To upload your file to ArcGIS online go to the content tab of ArcGIS online and then click **"Add Item"** then **"From your computer"** then **"Choose File"** and select your new zipped perennial network file. 
 
@@ -115,7 +115,7 @@ Confirm that the item type is shapefile and then tick the bubble to add your zip
 
 <img src="{{ site.baseurl }}/DamCensusImages/sharinglayers.PNG" alt="sharinglayers" style="width:50%;" />
 
-Now that the perennial network layer is uploaded, survey created, and both shared with everyone, making a web map can begin.
+Now that the perennial network layer is uploaded, survey created, and both shared with everyone, making a web map can begin. If you added other layers also share these with everyone
 
 Once you've shared the perennial network with everyone click on the **"Open in Map Viewer Classic"** from the feature layer's Overview. This will display the perennial network on a map, the next step is to add a basemap to use for censusing. This is done by clicking the **"Add"** dropdown then choose **“Search for Layers.”** Click on the **“My Content”** dropdown and choose **“ArcGIS Online.”** 
 
@@ -123,17 +123,13 @@ In the search bar, type *“World Imagery (Clarity)”* and click on **“World 
 
 <img src="{{ site.baseurl }}/DamCensusImages/claritybasemap.png" alt="claritybasemap" style="width:50%;" />
 
-Now we can add the survey feature layer to the map. Click back on the **“ArcGIS Online”** dropdown and choose **“My Content.”** In the search bar type in the name of the survey that was created earlier. Add the feature layer that is only the name, not [Your Survey Name]\_fieldworker or [Your Survey Name]\_stakeholder. You can add the layer by clicking the **+** sign.
+Now we can add the survey feature layer to the map. Click back on the **“ArcGIS Online”** dropdown and choose **“My Content.”** In the search bar type in the name of the survey that was created earlier. Add the feature layer that is only the name, not [Your Survey Name]\_fieldworker or [Your Survey Name]\_stakeholder. You can add the layer by clicking the **+** sign. Other layers should also be added at this time. Simply search their names under the **"My Content"** tab and add.
 
 Click on the **"Details"** tab in the top left of the page, the survey should be the top layer in the map so the points show up on top of the perennial network. If it is not the top layer hover over it until 3 dots appear to the left of the layer name, click and drag to move the layer above the perennial network layer.
 
 <img src="{{ site.baseurl }}/DamCensusImages/surveylayerontop.png" alt="surveylayerontop" style="width:50%;" />
 
-
-
 Move the map so that your focus area is in the center of the map, when the map is published as an app this is the view that will automatically load.
-
-
 
 ### Step 3 Creating a Web App
 
@@ -147,7 +143,7 @@ In the menu that pops up to create a new web app click the **"Show All"** tab an
 
 <img src="{{ site.baseurl }}/DamCensusImages/basicviewer.png" alt="basicviewer" style="width:60%;" />
 
-When configuring the web app, we want it to be as concise as possible. In the **"Options"** tab we will turn off most options. The only options we are leaving on will be **"Share Tools"**, **"Display layer list"**, and **"Display Editor"**.
+When configuring the web app, we want it to be as concise as possible. In the **"Options"** tab we will turn off most options. The only options we are leaving on will be **"Share Tools"**, **"Display layer list"**, and **"Display Editor"**, the **"Measure Tool"** can also be helpful but that tool is optional.
 
 <img src="{{ site.baseurl }}/DamCensusImages/webappoptions.png" alt="webappoptions" style="width:30%;" />
 
@@ -165,7 +161,7 @@ Now zoom in on your perennial network and begin moving along the streams systema
 
 [![Using Beaver Dam Inventory Apps](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE "Using Beaver Dam Inventory Apps")
 
-
+[![Video Link](http://img.youtube.com/vi/0N-iewScBBE/0.jpg)](http://www.youtube.com/watch?v=0N-iewScBBE "")
 
 If this virtual census is being used as a validation input for [BRAT](http://brat.riverscapes.xyz/) then observation points for dams need to be placed as close as possible to the corresponding NHD network line. An explanation for how these points are used and why points need to be placed on the line can be found [here](http://brat.riverscapes.xyz/Documentation/Tutorials/9-DataValidation.html#caveats).
 
