@@ -13,7 +13,7 @@ The steps to making a virtual beaver dam census web app are as follows:
 2. Create an ArcGIS Online web map with necessary layers, these layers can vary but at the minimum should include the Survey123 survey, perennial network, and a basemap to survey.
 3. Publish the web **map** as a web **app** on ArcGIS Online.
 
-To download this guide as a PDF file please [Click Here](link when it's made). This PDF also goes into greater depth with more images to walk you through the process.
+To download this guide as a PDF file please [Click Here](link when it's made) (PDF not yet live). This PDF also goes into greater depth with more images to walk you through the process.
 
 
 
