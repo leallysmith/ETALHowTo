@@ -5,27 +5,31 @@ weight: 4
 
 Example photos and definitions of terms that may be useful for beaver dam data collection.
 
-Beaver Dam
+Beaver Dam:
 
 Beaver Dam Analogue: A manmade structure built to mimic a beaver dam, these can be built with posts or postless.
 
 <img src="{{ site.baseurl }}/DamCensusImages/BDA2.jpg" alt="bda" style="width:60%;" />
 
+Photo by Ally Smith
+
 Beaver Dam Complex: A series of beaver dams, typically a mix of primary and secondary dams.
 
-Dam Notching
+Dam Height:
+
+Dam Notching:
 
 Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter store of food. This is usually found in the pond behind a dam.
 
-Skid Trail Usage
+Skid Trail Usage:
 
-Material Harvest
+Material Harvest:
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
 
 Secondary Dam: Smaller dams that typically span only the active channel and not extending onto the floodplain, these dams create smaller ponds that allow beaver to travel up and downstream in safety.
 
-Scent Mound: Otherwise known as a castor mound, these are piles of mud around beaver ponds that are used to tell other passing beaver to move on. Beaver secrete castoreum from a gland onto these piles. The scent has been described as a musky vanilla or leathery.
+Scent Mound: Otherwise known as a castor mound, these are piles of mud around beaver ponds that are used to mark territory. Beaver secrete castoreum from a gland onto these piles. The scent has been described as a musky vanilla or leathery.
 
 
 
