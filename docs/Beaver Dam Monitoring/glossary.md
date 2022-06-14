@@ -25,7 +25,7 @@ Primary Dam: The largest dams in a complex, these dams usually extend onto the f
 
 Secondary Dam: Smaller dams that typically span only the active channel and not extending onto the floodplain, these dams create smaller ponds that allow beaver to travel up and downstream in safety.
 
-Scent Mound
+Scent Mound: Otherwise known as a castor mound, these are piles of mud around beaver ponds that are used to tell other passing beaver to move on. Beaver secrete castoreum from a gland onto these piles. The scent has been described as a musky vanilla or leathery.
 
 
 
