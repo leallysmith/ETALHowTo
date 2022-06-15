@@ -15,6 +15,10 @@ Photo by Ally Smith
 
 Beaver Dam Complex: A series of beaver dams, typically a mix of primary and secondary dams.
 
+<img src="{{ site.baseurl }}/DamCensusImages/damcomplexnickweber.png" alt="complex" style="width:60%;" />
+
+Photo by Nick Weber
+
 Dam Height:
 
 Dam Notching:
