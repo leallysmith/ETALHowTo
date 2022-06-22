@@ -5,6 +5,10 @@ weight: 4
 
 Example photos and definitions of terms that may be useful for beaver dam data collection.
 
+Average Flow:
+
+Base Flow:
+
 Beaver Dam:
 
 Beaver Dam Analogue: A manmade structure built to mimic a beaver dam, these can be built with posts or postless.
@@ -19,17 +23,25 @@ Beaver Dam Complex: A series of beaver dams, typically a mix of primary and seco
 
 Photo by Nick Weber
 
+Blowout:
+
+Breach:
+
+Dam Crest: The top edge of a dam.
+
 Dam Height:
 
 Dam Notching:
 
 Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter store of food. This is usually found in the pond behind a dam.
 
-Skid Trail Usage:
-
 Material Harvest:
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
+
+Primary Water Surface Drop:
+
+Skid Trail Usage:
 
 Secondary Dam: Smaller dams that typically span only the active channel and not extending onto the floodplain, these dams create smaller ponds that allow beaver to travel up and downstream in safety.
 
