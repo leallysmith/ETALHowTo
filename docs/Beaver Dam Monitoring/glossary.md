@@ -35,6 +35,8 @@ Dam Notching:
 
 Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter store of food. This is usually found in the pond behind a dam.
 
+Lodge: There are two types of lodges beavers can build. One is a bank lodge and the other is what you might typically think of when you think of a lodge. These lodges are found in the large pond that forms behind a primary dam. Bank lodges are close to the bank and include tunnels dug through the bank. The other type of lodge looks like a pile of mud and sticks in the middle of the pond.
+
 Material Harvest:
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
