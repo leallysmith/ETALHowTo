@@ -27,9 +27,9 @@ Beaver Dam Complex: A series of beaver dams, typically a mix of primary and seco
 
 Photo by Nick Weber
 
-Blowout:
+Blowout: A dam blowout is catastrophic damage to the dam. This dam hold back very limited water because so much has been knocked out.
 
-Breach:
+Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
 
 Dam Crest: The top edge of a dam.
 
@@ -37,15 +37,15 @@ Dam Crest: The top edge of a dam.
 
 Photo by Ally Smith
 
-Dam Height:
+Dam Height: Measured from bottom of dam on the downstream side to the dam crest.
 
-Dam Notching: This is something humans do when a dam is ponding so much water that it causes flooding that affects nearby infrastructure. Dam notches are notches cut into dams to let some water through so that the pond depth is decreased.
+Dam Notching: This is something humans do when a dam is ponding so much water that it causes inundation which affects nearby infrastructure. Dam notches are notches cut into dams to let some water through so that the pond depth and inundation extent are decreased.
 
 Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter store of food. This is usually found in the pond behind a dam.
 
 Lodge: There are two types of lodges beavers can build. One is a bank lodge and the other is what you might typically think of when you think of a lodge. These lodges are found in the large pond that forms behind a primary dam. Bank lodges are close to the bank and include tunnels dug through the bank. The other type of lodge looks like a pile of mud and sticks in the middle of the pond.
 
-Material Harvest:
+Material Harvest: Main evidence here is freshly felled trees with a pile of wood shavings around the cut.
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
 
@@ -73,7 +73,7 @@ Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter sto
 
 Intermittent: Streams that flow for a short while after run off but not year round
 
-Material Harvest:
+Material Harvest: Main evidence here is freshly felled trees with a pile of wood shavings around the cut.
 
 Perennial:
 
