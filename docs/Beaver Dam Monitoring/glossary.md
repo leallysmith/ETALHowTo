@@ -9,7 +9,7 @@ Example photos and definitions of terms that may be useful for beaver dam data c
 
 
 
-Average Flow: Typical flow, use a USGS gage or else it's usually the flow a bit after runoff but before base flow that can happen in the fall.
+Average Flow: Typical flow, use a USGS gage. Average flow is the "normal" flow, not the higher flows of runoff or the lower base flows.
 
 Base Flow: This is the minimum flow of a river and is a result of groundwater seepage rather than runoff.
 
