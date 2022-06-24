@@ -9,8 +9,6 @@ Example photos and definitions of terms that may be useful for beaver dam data c
 
 ## Complex Monitoring
 
-
-
 Average Flow: Typical flow, use a USGS gage. Average flow is the "normal" flow, not the higher flows of runoff or the lower base flows.
 
 Base Flow: This is the minimum flow of a river and is a result of groundwater seepage rather than runoff.
@@ -19,13 +17,13 @@ Beaver Dam:
 
 Beaver Dam Analogue: A manmade structure built to mimic a beaver dam, these can be built with posts or postless.
 
-<img src="{{ site.baseurl }}/DamCensusImages/BDA2.jpg" alt="bda" style="width:100%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/BDA2.jpg" alt="bda" style="width:60%;" />
 
 Photo by Ally Smith
 
 Beaver Dam Complex: A series of beaver dams, typically a mix of primary and secondary dams.
 
-<img src="{{ site.baseurl }}/DamCensusImages/damcomplex2.png" alt="complex" style="width:60%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/damcomplex2.png" alt="complex" style="width:100%;" />
 
 Photo by Nick Weber
 
@@ -53,7 +51,7 @@ Primary Dam: The largest dams in a complex, these dams usually extend onto the f
 
 Primary Water Surface Drop: This is a measurement taken in the pond behind a primary dam.
 
-Skid Trail Usage:
+Skid Trail Usage: Skid trails are little paths of packed down grass or compacted dirt that beaver use to drag materials into the pond.
 
 Secondary Dam: Smaller dams that typically span only the active channel and not extending onto the floodplain, these dams create smaller ponds that allow beaver to travel up and downstream in safety.
 
