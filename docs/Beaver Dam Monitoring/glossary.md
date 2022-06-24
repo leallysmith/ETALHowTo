@@ -7,6 +7,8 @@ Example photos and definitions of terms that may be useful for beaver dam data c
 
 <img src="{{ site.baseurl }}/DamCensusImages/glossaryqr.png" alt="qrcode" style="width:60%;" />
 
+
+
 ## Complex Monitoring
 
 Average Flow: Typical flow, use a USGS gage. Average flow is the "normal" flow, not the higher flows of runoff or the lower base flows.
