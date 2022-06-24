@@ -61,25 +61,29 @@ Scent Mound: Otherwise known as a castor mound, these are piles of mud around be
 
 ## BRAT cIS
 
-Age of Activity:
+Age of Activity: Assessing age of activity will primarily rely on looking at how old the chewed wood looks. When beavers chew trees down they usually leave a pile of wood chips behind. Both the color of these and the stump of the tree they came from can be used to estimate when a beaver 
 
-Anabranch:
+Anabranch: Branches from the main stem of the river that rejoin the river downstream.
 
-Blowout:
+Backwater: Backwaters are where the water is delivered by back flow as a result of some downstream channel restriction rather than being delivered by the current of the river.
 
-Breach:
+Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back very limited water because so much has been knocked out.
+
+Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
+
+Channel Setting:
 
 Ephemeral: A stream that only flows when there is a storm/runoff event that feeds it water. These usually dry up shortly after the event.
 
 Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter store of food. This is usually found in the pond behind a dam.
 
-Intermittent: Streams that flow for a short while after run off but not year round
+Intermittent: Streams that flow for some time after run off but not year round, these dry up or have disconnected residual ponds at some point in the year.
 
 Material Harvest: Main evidence here is freshly felled trees with a pile of wood shavings around the cut.
 
-Perennial:
+Perennial: Perennial streams flow year round, without drying up during the year.
 
-Proximity to Expansion Zone:
+Proximity to Expansion Zone: This metric is one that evaluates the potential for the expansion of the beaver's range. As beaver reproduce and the colony grows the older kits will be dispersing into the broader area.
 
 <div align="center">
 <a class="hollow button" href="{{ site.baseurl }}/Documentation"><i class="fa fa-info-circle"></i> Back to Documentation </a>
