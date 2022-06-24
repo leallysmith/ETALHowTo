@@ -3,7 +3,9 @@ title: Glossary
 weight: 4
 ---
 
-Example photos and definitions of terms that may be useful for beaver dam data collection. Some measurements are also unclear in the survey and this glossary will define how those measurements are taken.
+Example photos and definitions of terms that may be useful for beaver dam data collection. Some measurements are also unclear in the survey and this glossary will define how those measurements are taken. There is a survey123 edition of this glossary which can be downloaded to the mobile app and taken offline. However, the survey123 edition won't have images. That survey is available [here](https://arcg.is/1vfHf9). You can also scan this QR code using your device for easier access.
+
+<img src="{{ site.baseurl }}/DamCensusImages/glossaryqr.png" alt="bda" style="width:60%;" />
 
 ## Complex Monitoring
 
@@ -27,7 +29,7 @@ Beaver Dam Complex: A series of beaver dams, typically a mix of primary and seco
 
 Photo by Nick Weber
 
-Blowout: A dam blowout is catastrophic damage to the dam. This dam hold back very limited water because so much has been knocked out.
+Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back very limited water because so much has been knocked out.
 
 Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
 
@@ -49,7 +51,7 @@ Material Harvest: Main evidence here is freshly felled trees with a pile of wood
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
 
-Primary Water Surface Drop:
+Primary Water Surface Drop: This is a measurement taken in the pond behind a primary dam.
 
 Skid Trail Usage:
 

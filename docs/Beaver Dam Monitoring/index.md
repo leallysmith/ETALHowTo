@@ -19,4 +19,4 @@ Beaver Restoration Assessment Tool Capacity Inference System is a way to run [BR
 
 ## Glossary
 
-The glossary has photos and definitions for some terms used within the survey forms. These examples will demonstrate what these terms mean for the sake of clarification.
+The glossary has photos and definitions for some terms used within the survey forms. Hopefully the glossary can clarify some confusing terms or measurements.
