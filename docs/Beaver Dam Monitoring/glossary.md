@@ -5,7 +5,7 @@ weight: 4
 
 Example photos and definitions of terms that may be useful for beaver dam data collection. Some measurements are also unclear in the survey and this glossary will define how those measurements are taken. There is a survey123 edition of this glossary which can be downloaded to the mobile app and taken offline. However, the survey123 edition won't have images. That survey is available [here](https://arcg.is/1vfHf9). You can also scan this QR code using your device for easier access.
 
-<img src="{{ site.baseurl }}/DamCensusImages/glossaryqr.png" alt="bda" style="width:60%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/glossaryqr.png" alt="qrcode" style="width:60%;" />
 
 ## Complex Monitoring
 
