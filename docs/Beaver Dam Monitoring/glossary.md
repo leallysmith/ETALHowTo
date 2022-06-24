@@ -3,15 +3,19 @@ title: Glossary
 weight: 4
 ---
 
-Example photos and definitions of terms that may be useful for beaver dam data collection. Some measurements are also unclear in the survey and this glossary will define how those measurements are taken. There is a survey123 edition of this glossary which can be downloaded to the mobile app and taken offline. However, the survey123 edition won't have images. That survey is available [here](https://arcg.is/1vfHf9). You can also scan this QR code using your device for easier access.
+Example photos and definitions of terms that may be useful for beaver dam data collection. Some measurements are also unclear in the survey and this glossary will define how those measurements are taken. There is a Survey123 edition of this glossary which can be downloaded to the mobile app and taken offline. However, the Survey123 edition won't have images. That survey is available [here](https://arcg.is/1vfHf9). You can also scan this QR code using your device for easier access. Additionally there is a paper copy that can be downloaded [here]()
 
 <img src="{{ site.baseurl }}/DamCensusImages/qrcode.PNG" alt="qrcode" style="width:30%;" />
 
 ## Complex Monitoring
 
+Around Flow: Flow that goes around the dam whether that's right at the ends of the dam or there is side channel formation.
+
 Average Flow: Typical flow, use a USGS gage. Average flow is the "normal" flow, not the higher flows of runoff or the lower base flows.
 
-Base Flow: This is the minimum flow of a river and is a result of groundwater seepage rather than runoff.
+Basal Flow: Basal flow describes a type of flow for water moving through beaver dams. This type of flow is when water escapes through the bottom of a dam. Not to be confused with base flow.
+
+Base Flow: This is the minimum flow of a river and is a result of groundwater seepage rather than runoff. Not to be confused with basal flow.
 
 Beaver Dam:
 
@@ -19,9 +23,11 @@ Beaver Dam Analogue: A manmade structure built to mimic a beaver dam, these can 
 
 <img src="{{ site.baseurl }}/DamCensusImages/BDA2.jpg" alt="bda" style="width:60%;" />
 
-Photo by Ally Smith
+<img src="{{ site.baseurl }}/DamCensusImages/palsbda.jpg" alt="pals" style="width:60%;" />
 
-Beaver Dam Complex: A series of beaver dams, typically a mix of primary and secondary dams.
+First photo by Ally Smith, second photo by Wally Macfarlane.
+
+Beaver Dam Complex: A series of beaver dams, typically a mix of primary and secondary dams. The left image has red lines to indicate the location of dams, the right is the image as it was taken.
 
 <img src="{{ site.baseurl }}/DamCensusImages/damcomplex2.png" alt="complex" style="width:100%;" />
 
@@ -47,6 +53,8 @@ Lodge: There are two types of lodges beavers can build. One is a bank lodge and 
 
 Material Harvest: Main evidence here is freshly felled trees with a pile of wood shavings around the cut.
 
+Over Top Flow: This is flow that cascades over the top of a dam like a waterfall.
+
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
 
 Primary Water Surface Drop: This is a measurement taken in the pond behind a primary dam.
@@ -56,6 +64,8 @@ Skid Trail Usage: Skid trails are little paths of packed down grass or compacted
 Secondary Dam: Smaller dams that typically span only the active channel and not extending onto the floodplain, these dams create smaller ponds that allow beaver to travel up and downstream in safety.
 
 Scent Mound: Otherwise known as a castor mound, these are piles of mud around beaver ponds that are used to mark territory. Beaver secrete castoreum from a gland onto these piles. The scent has been described as a musky vanilla or leathery.
+
+Through Flow: Through flow is water that passes through a dam.
 
 ## BRAT cIS
 
