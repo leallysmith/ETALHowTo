@@ -19,7 +19,7 @@ Beaver Dam:
 
 Beaver Dam Analogue: A manmade structure built to mimic a beaver dam, these can be built with posts or postless.
 
-<img src="{{ site.baseurl }}/DamCensusImages/BDA2.jpg" alt="bda" style="width:60%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/BDA2.jpg" alt="bda" style="width:100%;" />
 
 Photo by Ally Smith
 
