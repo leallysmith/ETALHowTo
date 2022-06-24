@@ -23,7 +23,7 @@ Beaver Dam Analogue: A manmade structure built to mimic a beaver dam, these can 
 
 <img src="{{ site.baseurl }}/DamCensusImages/BDA2.jpg" alt="bda" style="width:60%;" />
 
-<img src="{{ site.baseurl }}/DamCensusImages/palsbda.jpg" alt="pals" style="width:60%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/palsbdamacfarlane.jpg" alt="pals" style="width:60%;" />
 
 First photo by Ally Smith, second photo by Wally Macfarlane.
 
