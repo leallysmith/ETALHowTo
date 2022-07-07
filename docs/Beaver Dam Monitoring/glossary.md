@@ -45,7 +45,7 @@ Photo by Ally Smith
 
 Dam Height: Measured from streambed on the downstream side to the dam crest.
 
-Dam Notching: This is something humans do when a dam is ponding so much water that it causes inundation which affects nearby infrastructure. Dam notches are notches cut into dams to let some water through so that the pond depth and inundation extent are decreased.
+Dam Notching: This is an act that beavers perform where they lower the crest elevation of their dam or remove part of the dam to drain their pond to clear out old material so that it can refill with fresh water. Similar to draining a bathtub
 
 Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter store of food. This is usually found in the pond behind a dam.
 
@@ -57,7 +57,7 @@ Over Top Flow: This is flow that cascades over the top of a dam like a waterfall
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
 
-Primary Water Surface Drop: This is a measurement taken in the pond behind a primary dam. ❌
+Primary Water Surface Drop: Measure the elevation difference between the primary pond water surface and the water surface directly downstream of the pond.
 
 Skid Trail Usage: Skid trails are little paths of packed down grass or compacted dirt that beaver use to drag materials into the pond.
 
