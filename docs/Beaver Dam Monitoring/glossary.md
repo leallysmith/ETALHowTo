@@ -19,7 +19,7 @@ Base Flow: This is the minimum flow of a river and is a result of groundwater se
 
 Beaver Dam: A beaver dam is a dam built by beaver these can be small secondary dams that may be as little as a couple feet across or larger primary dams which can span huge lengths.
 
-Beaver Dam Analogue: A manmade structure built to mimic a beaver dam, these can be built with posts or postless.
+Beaver Dam Analogue: A manmade structure built to mimic a beaver dam, these can be built with posts or postless. The first image is a postless BDA while the second has posts.
 
 <img src="{{ site.baseurl }}/DamCensusImages/BDA2.jpg" alt="bda" style="width:60%;" />
 
@@ -51,15 +51,15 @@ Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter sto
 
 Lodge: There are two types of lodges beavers can build. One is a bank lodge and the other is what you might typically think of when you think of a lodge. These lodges are found in the large pond that forms behind a primary dam. Bank lodges are close to the bank and include tunnels dug through the bank. The other type of lodge looks like a pile of mud and sticks in the middle of the pond.
 
-Material Harvest: Main evidence here is freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
+Material Harvest: Evidence includes freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
 
 Over Top Flow: This is flow that cascades over the top of a dam like a waterfall.
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
 
-Primary Water Surface Drop: Measure the elevation difference between the primary pond water surface and the water surface directly downstream of the pond.
+Primary Water Surface Drop: Measure the elevation difference between the primary pond water surface behind the dam and the water surface directly downstream of the dam and pond.
 
-Skid Trail Usage: Skid trails are little paths of packed down grass or compacted dirt that beaver use to drag materials into the pond.
+Skid Trail Usage: Skid trails are little paths of packed down grass or compacted dirt or mud that beaver use to drag materials into the pond.
 
 Secondary Dam: Smaller dams that typically span only the active channel and not extending onto the floodplain, these dams create smaller ponds that allow beaver to travel up and downstream in safety.
 
@@ -79,7 +79,7 @@ Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back ve
 
 Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
 
-Channel Setting: For the channel you're looking at and assessing for capacity what type of channel is it? 
+Channel Setting: This dropdown in the survey asks about what type/which channel of the river you are in and currently assessing capacity for.
 
 Ephemeral: A stream that only flows when there is a storm/runoff event that feeds it water. These usually dry up shortly after the event.
 
@@ -91,7 +91,7 @@ Material Harvest: Main evidence here is freshly felled trees with a pile of wood
 
 Perennial: Perennial streams flow year round, without drying up during the year.
 
-Potential for Conflict: The human activity this question is asking about is human activity that is going to cause conflict, activities include roads, culverts, manicured landscaping, farming, potential for flooding of infrastructure, etc.. 
+Potential for Conflict: The likelihood that beaver dam building will impact human infrastructure or the adjacent human landscape, activities include: roads, culverts, manicured landscaping, farming, potential for flooding of infrastructure, etc..
 
 Proximity to Expansion Zone: This metric is one that evaluates the potential for the expansion of the beaver's range. As beaver reproduce and the colony grows the older kits will be dispersing into the broader area.
 
