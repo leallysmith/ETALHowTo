@@ -87,7 +87,7 @@ Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter sto
 
 Intermittent: Streams that flow for some time after run off but not year round, these dry up or have disconnected residual ponds at some point in the year.
 
-Material Harvest: Main evidence here is freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
+Material Harvest: Evidence includes freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
 
 Perennial: Perennial streams flow year round, without drying up during the year.
 
