@@ -9,6 +9,8 @@ Example photos and definitions of terms that may be useful for beaver dam data c
 
 ## Complex Monitoring
 
+Active Beaver Activity: Do you see beaver or signs of beaver that indicate they are very likely still in the area and actively maintaining dams?
+
 Around Flow: Flow that goes around the dam whether that's right at the ends of the dam or there is side channel formation.
 
 Average Flow: Use a USGS gage if possible. Average flow is the "normal" flow, not the higher flows of runoff or the lower base flows.
@@ -50,6 +52,10 @@ Dam Notching: This is an act that beavers perform where they lower the crest ele
 Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter store of food. This is usually found in the pond behind a dam.
 
 Freshet: High flows because of heavy rain or melting snow.
+
+Historic/Relic Beaver Activity: Do dams in the area appear to have been blown out for more than a year? There aren't signs of beaver activity at all? There isn't much food around, and it would take a substantial amount of beaver power to reinhabit? This is what historic beaver activity looks like.
+
+Inactive Beaver Activity: Is this an area that looks hospitable to beaver, dams are present but maybe not as maintained, and with minimal work a beaver could move back in? That means it is inactive.
 
 Lodge: There are two types of lodges beavers can build. One is a bank lodge and the other is what you might typically think of when you think of a  lodge. A typical lodge can be found in the large pond that forms behind a primary dam. Bank lodges are close to the bank and include tunnels dug  through the bank.
 
