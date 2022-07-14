@@ -3,7 +3,7 @@ title: Glossary
 weight: 4
 ---
 
-Example photos and definitions of terms that may be useful for beaver dam data collection. Some measurements are also unclear in the survey and this glossary will define how those measurements are taken. There is a Survey123 edition of this glossary which can be downloaded to the mobile app and taken offline. However, the Survey123 edition won't have images. That survey is available [here](https://arcg.is/1vfHf9). You can also scan the QR code using your device for easier access. Additionally there is a paper copy that can be downloaded [here](https://usu.box.com/s/11s9v5v5fzfizq4cz5wxv22559zrgo8n).
+Example photos and definitions of terms that may be useful for beaver dam data collection. Some measurements are also unclear in the survey and this glossary will define how those measurements are taken.  There is a paper copy that can be downloaded [here](https://usu.box.com/s/11s9v5v5fzfizq4cz5wxv22559zrgo8n), this copy does not include pictures so it can print nicely. There is also a Survey123 edition of this glossary which can be downloaded to the mobile app and taken offline. However, the Survey123 edition won't have images. That survey is available [here](https://arcg.is/vuvX0). You can also scan the QR code using your device for easier access. 
 
 <img src="{{ site.baseurl }}/DamCensusImages/qrcode.PNG" alt="qrcode" style="width:30%;" />
 
@@ -48,6 +48,8 @@ Dam Height: Measured from streambed on the downstream side to the dam crest.
 Dam Notching: This is an act that beavers perform where they lower the crest elevation of their dam or remove part of the dam to drain their pond to clear out old material so that it can refill with fresh water. Similar to draining a bathtub
 
 Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter store of food. This is usually found in the pond behind a dam.
+
+Freshet: High flows because of heavy rain or melting snow.
 
 Lodge: There are two types of lodges beavers can build. One is a bank lodge and the other is what you might typically think of when you think of a  lodge. A typical lodge can be found in the large pond that forms behind a primary dam. Bank lodges are close to the bank and include tunnels dug  through the bank.
 
