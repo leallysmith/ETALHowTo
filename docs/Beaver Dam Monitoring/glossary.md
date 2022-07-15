@@ -65,7 +65,7 @@ Lodge: There are two types of lodges beavers can build. One is a bank lodge and 
 
 Material Harvest: Evidence includes freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
 
-<img src="{{ site.baseurl }}/DamCensusImages/materialharvest.jpg" alt="materialharvest" style="width:100%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/materialharvest.JPG" alt="materialharvest" style="width:100%;" />
 
 Photos by Jay Wilde, Joe Wheaton
 
@@ -109,7 +109,7 @@ Intermittent: Streams that flow for some time after run off but not year round, 
 
 Material Harvest: Evidence includes freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
 
-<img src="{{ site.baseurl }}/DamCensusImages/materialharvest.jpg" alt="materialharvest" style="width:100%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/materialharvest.JPG" alt="materialharvest" style="width:100%;" />
 
 Photos by Jay Wilde, Joe Wheaton
 
