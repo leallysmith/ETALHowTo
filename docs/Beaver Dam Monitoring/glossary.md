@@ -3,7 +3,7 @@ title: Glossary
 weight: 4
 ---
 
-Example photos and definitions of terms that may be useful for beaver dam data collection. Some measurements are also unclear in the survey and this glossary will define how those measurements are taken.  There is a paper copy that can be downloaded [here](https://usu.box.com/s/11s9v5v5fzfizq4cz5wxv22559zrgo8n), this copy does not include pictures so it can print nicely. There is also a Survey123 edition of this glossary which can be downloaded to the mobile app and taken offline. However, the Survey123 edition won't have images. That survey is available [here](https://arcg.is/vuvX0). You can also scan the QR code using your device for easier access. 
+Example photos and definitions of terms that may be useful for beaver dam data collection. Some measurements are also unclear in the survey and this glossary will define how those measurements are taken.  There is a paper copy that can be downloaded [here](https://usu.box.com/s/11s9v5v5fzfizq4cz5wxv22559zrgo8n), this copy does not include pictures so it can print nicely. There is also a Survey123 edition of this glossary which can be downloaded to the mobile app and taken offline. However, the Survey123 edition also won't have images. That survey is available [here](https://arcg.is/vuvX0). You can also scan the QR code using your device for easier access. 
 
 <img src="{{ site.baseurl }}/DamCensusImages/qrcode.PNG" alt="qrcode" style="width:30%;" />
 
