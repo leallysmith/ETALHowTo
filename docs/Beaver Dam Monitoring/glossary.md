@@ -67,6 +67,8 @@ Material Harvest: Evidence includes freshly felled trees with a pile of wood sha
 
 <img src="{{ site.baseurl }}/DamCensusImages/materialharvest.jpg" alt="materialharvest" style="width:100%;" />
 
+Photos by Jay Wilde, Joe Wheaton
+
 Over Top Flow: This is flow that cascades over the top of a dam like a waterfall.
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
@@ -108,6 +110,8 @@ Intermittent: Streams that flow for some time after run off but not year round, 
 Material Harvest: Evidence includes freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
 
 <img src="{{ site.baseurl }}/DamCensusImages/materialharvest.jpg" alt="materialharvest" style="width:100%;" />
+
+Photos by Jay Wilde, Joe Wheaton
 
 Perennial: Perennial streams flow year round, without drying up during the year.
 
