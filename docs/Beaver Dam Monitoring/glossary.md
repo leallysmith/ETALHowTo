@@ -35,7 +35,7 @@ Beaver Dam Complex: A series of beaver dams, typically a mix of primary and seco
 
 Photo by Nick Weber
 
-<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:100%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:60%;" />
 
 Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back very limited water because so much has been knocked out.
 
@@ -61,7 +61,7 @@ Inactive Beaver Activity: Is this an area that looks hospitable to beaver, dams 
 
 Lodge: There are two types of lodges beavers can build. One is a bank lodge and the other is what you might typically think of when you think of a  lodge. A typical lodge can be found in the large pond that forms behind a primary dam. Bank lodges are close to the bank and include tunnels dug  through the bank.
 
-<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:100%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:60%;" />
 
 Material Harvest: Evidence includes freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
 
@@ -73,7 +73,7 @@ Over Top Flow: This is flow that cascades over the top of a dam like a waterfall
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
 
-<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:100%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:60%;" />
 
 Primary Water Surface Drop: Measure the elevation difference between the primary pond water surface behind the dam and the water surface directly downstream of the dam and pond.
 
@@ -81,7 +81,7 @@ Skid Trail Usage: Skid trails are little paths of packed down grass or compacted
 
 Secondary Dam: Smaller dams that typically span only the active channel and not extending onto the floodplain, these dams create smaller ponds that allow beaver to travel up and downstream in safety.
 
-<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:100%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:60%;" />
 
 Scent Mound: Otherwise known as a castor mound, these are piles of mud around beaver ponds that are used to mark territory. Beaver secrete castoreum from a gland onto these piles. The scent has been described as a musky vanilla or leathery.
 
