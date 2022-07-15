@@ -29,11 +29,13 @@ Beaver Dam Analogue: A manmade structure built to mimic a beaver dam, these can 
 
 First photo by Ally Smith, second photo by Wally Macfarlane.
 
-Beaver Dam Complex: A series of beaver dams, typically a mix of primary and secondary dams. The left image has red lines to indicate the location of dams, the right is the image as it was taken.
+Beaver Dam Complex: A series of beaver dams, typically a mix of primary and secondary dams. The left image has red lines to indicate the location of dams, the right is the image as it was taken. The bottom image shows a primary and secondary dam as well as a lodge.
 
 <img src="{{ site.baseurl }}/DamCensusImages/damcomplex2.png" alt="complex" style="width:100%;" />
 
 Photo by Nick Weber
+
+<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:100%;" />
 
 Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back very limited water because so much has been knocked out.
 
@@ -59,17 +61,25 @@ Inactive Beaver Activity: Is this an area that looks hospitable to beaver, dams 
 
 Lodge: There are two types of lodges beavers can build. One is a bank lodge and the other is what you might typically think of when you think of a  lodge. A typical lodge can be found in the large pond that forms behind a primary dam. Bank lodges are close to the bank and include tunnels dug  through the bank.
 
+<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:100%;" />
+
 Material Harvest: Evidence includes freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
+
+<img src="{{ site.baseurl }}/DamCensusImages/materialharvest.jpg" alt="materialharvest" style="width:100%;" />
 
 Over Top Flow: This is flow that cascades over the top of a dam like a waterfall.
 
 Primary Dam: The largest dams in a complex, these dams usually extend onto the floodplain and create the ponds beaver place their lodge in.
+
+<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:100%;" />
 
 Primary Water Surface Drop: Measure the elevation difference between the primary pond water surface behind the dam and the water surface directly downstream of the dam and pond.
 
 Skid Trail Usage: Skid trails are little paths of packed down grass or compacted dirt or mud that beaver use to drag materials into the pond.
 
 Secondary Dam: Smaller dams that typically span only the active channel and not extending onto the floodplain, these dams create smaller ponds that allow beaver to travel up and downstream in safety.
+
+<img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:100%;" />
 
 Scent Mound: Otherwise known as a castor mound, these are piles of mud around beaver ponds that are used to mark territory. Beaver secrete castoreum from a gland onto these piles. The scent has been described as a musky vanilla or leathery.
 
@@ -96,6 +106,8 @@ Food Caching: A pile of bark, twigs, and leaves that beavers use as a winter sto
 Intermittent: Streams that flow for some time after run off but not year round, these dry up or have disconnected residual ponds at some point in the year.
 
 Material Harvest: Evidence includes freshly felled trees with a pile of wood shavings around the cut. Felled trees may have smaller branches plucked off by beaver and willow in the area may be coppiced.
+
+<img src="{{ site.baseurl }}/DamCensusImages/materialharvest.jpg" alt="materialharvest" style="width:100%;" />
 
 Perennial: Perennial streams flow year round, without drying up during the year.
 
