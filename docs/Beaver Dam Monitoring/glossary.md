@@ -39,7 +39,7 @@ Photo by Nick Weber
 
 Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back very limited water because so much has been knocked out.
 
-<img src="{{ site.baseurl }}/DamCensusImages/blownout.jpg" alt="complex" style="width:60%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/blownout.jpg" alt="blownout" style="width:60%;" />
 
 Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
 
@@ -47,7 +47,7 @@ Breach: This is mild damage to the dam so that it doesn't hold back all water bu
 
 Dam Crest: The top edge of a dam.
 
-<img src="{{ site.baseurl }}/DamCensusImages/damcrest.jpg" alt="complex" style="width:60%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/damcrest.jpg" alt="crest" style="width:60%;" />
 
 Photo by Ally Smith
 
@@ -101,7 +101,7 @@ Backwater: Backwaters are where the water is delivered by back flow as a result 
 
 Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back very limited water because so much has been knocked out.
 
-<img src="{{ site.baseurl }}/DamCensusImages/blownout.jpg" alt="complex" style="width:60%;" />
+<img src="{{ site.baseurl }}/DamCensusImages/blownout.jpg" alt="blowout" style="width:60%;" />
 
 Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
 
