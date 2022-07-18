@@ -83,13 +83,17 @@ Primary Water Surface Drop: Measure the elevation difference between the primary
 
 Skid Trail Usage: Skid trails are little paths of packed down grass or compacted dirt or mud that beaver use to drag materials into the pond.
 
+<img src="{{ site.baseurl }}/DamCensusImages/skid_beaverusu.jpg" alt="skidtrail" style="width:60%;" />
+
+Photo from: Beaver Ecology and Relocation Center
+
 Secondary Dam: Smaller dams that typically span only the active channel and not extending onto the floodplain, these dams create smaller ponds that allow beaver to travel up and downstream in safety.
 
 <img src="{{ site.baseurl }}/DamCensusImages/lodgecomplex.png" alt="complex" style="width:60%;" />
 
 Scent Mound: Otherwise known as a castor mound, these are piles of mud around beaver ponds that are used to mark territory. Beaver secrete castoreum from a gland onto these piles. The scent has been described as a musky vanilla or leathery.
 
-Through Flow: Through flow is water that passes through a dam.
+Through Flow: Through flow is water that passes through a dam to the downstream side.
 
 ## BRAT cIS
 
