@@ -43,6 +43,8 @@ Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back ve
 
 Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
 
+<img src="{{ site.baseurl }}/DamCensusImages/breach.JPEG" alt="complex" style="width:60%;" />
+
 Dam Crest: The top edge of a dam.
 
 <img src="{{ site.baseurl }}/DamCensusImages/damcrest.jpg" alt="complex" style="width:60%;" />
@@ -102,6 +104,8 @@ Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back ve
 <img src="{{ site.baseurl }}/DamCensusImages/blownout.jpg" alt="complex" style="width:60%;" />
 
 Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
+
+<img src="{{ site.baseurl }}/DamCensusImages/breach.JPEG" alt="complex" style="width:60%;" />
 
 Channel Setting: This dropdown in the survey asks about what type/which channel of the river you are in and currently assessing capacity for.
 
