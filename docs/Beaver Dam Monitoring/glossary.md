@@ -39,6 +39,8 @@ Photo by Nick Weber
 
 Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back very limited water because so much has been knocked out.
 
+<img src="{{ site.baseurl }}/DamCensusImages/blownout.jpg" alt="complex" style="width:60%;" />
+
 Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
 
 Dam Crest: The top edge of a dam.
