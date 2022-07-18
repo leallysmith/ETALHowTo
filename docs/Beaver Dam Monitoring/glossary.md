@@ -9,7 +9,7 @@ Example photos and definitions of terms that may be useful for beaver dam data c
 
 ## Complex Monitoring
 
-Active Beaver Activity: Do you see beaver or signs of beaver that indicate they are very likely still in the area and actively maintaining dams?
+Active Beaver Activity: Do you see beaver or signs of beaver that indicate they are very likely still in the area and actively maintaining dams? Signs of activity can include fresh material harvest, food scraps floating in ponds behind dams.
 
 Around Flow: Flow that goes around the dam whether that's right at the ends of the dam or there is side channel formation.
 
@@ -96,6 +96,8 @@ Anabranch: Branches from the main stem of the river that rejoin the river downst
 Backwater: Backwaters are where the water is delivered by back flow as a result of some downstream channel restriction rather than being delivered by the current of the river.
 
 Blowout: A dam blowout is catastrophic damage to the dam. This dam holds back very limited water because so much has been knocked out.
+
+<img src="{{ site.baseurl }}/DamCensusImages/blownout.jpg" alt="complex" style="width:60%;" />
 
 Breach: This is mild damage to the dam so that it doesn't hold back all water but isn't completely broken away.
 
