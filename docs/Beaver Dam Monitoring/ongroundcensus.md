@@ -13,7 +13,7 @@ The advanced complex form has all of the basic form and additional space to reco
 
 There is an additional option for monitoring which is a form that focuses on dam level monitoring, this approach can be less useful because individual dams rise and fall but complexes usually persist. The form for individual dam monitoring has questions about whether dams were beaver built, the type of dam, the status of that dam, and location of the dam.
 
-
+Something important to note is that whoever generates these forms should be the person who will be managing the data. When a Survey123 form is created all data collected through those forms stores to the ArcGIS Online account of the person who created the form.
 
 These forms come as printable forms and as XLSForms which can easily be made in Survey123 forms for use with the ESRI Survey123 field app.
 

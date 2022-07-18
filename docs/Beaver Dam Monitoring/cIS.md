@@ -5,7 +5,11 @@ weight: 3
 
 BRAT cIS is a way to run the BRAT model in the field using observations of your surroundings.
 
-This can be useful as a quick way to get a rough estimate of the dam capacity for a reach. The capacity inference system comes in a basic and an advanced form. These forms come as printouts or as Survey123 forms. The paper forms have rule tables that guide you through if-and statements for inputs and then it leads to the output. The Survey123 forms take user input and then generates the output for you. 
+This can be useful as a quick way to get a rough estimate of the dam capacity for a reach. The capacity inference system comes in a basic and an advanced form. These forms come as printouts or as Survey123 ready XLS forms. The paper forms have rule tables that guide you through if-and statements for inputs and then it leads to the output. The Survey123 forms take user input and then generates the output for you. 
+
+Something important to note is that whoever generates these forms should be the person who will be managing the data. When a Survey123 form is created all data collected through those forms stores to the ArcGIS Online account of the person who created the form.
+
+These forms come as printable forms and as XLSForms which can easily be made in Survey123 forms for use with the ESRI Survey123 field app.
 
 
 
