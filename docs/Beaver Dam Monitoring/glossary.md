@@ -97,7 +97,7 @@ Through Flow: Through flow is water that passes through a dam to the downstream 
 
 ## BRAT cIS
 
-Age of Activity: Assessing age of activity will primarily rely on looking at how old the chewed wood looks. When beavers chew trees down they usually leave a pile of wood chips behind. Both the color of these and the stump of the tree can be used to estimate how fresh a cut is. Another sign of activity can be how intact and maintained the dams look or by the food scraps floating in a pond.
+Age of Activity: Assessing age of activity will rely on looking at how old the chewed wood looks. When beavers chew trees down they usually leave a pile of wood chips behind. Both the color of these and the stump of the tree can be used to estimate how fresh a cut is. Another sign of activity can be how intact and maintained the dams look or by the food scraps floating in a pond, whether those scraps look freshly debarked or not.
 
 Anabranch: Branches from the main stem of the river that rejoin the river downstream.
 
