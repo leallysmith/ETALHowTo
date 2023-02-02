@@ -1,5 +1,5 @@
 ---
-title: My Homepage
+title: ETAL Guides
 weight: 1
 ---
 
