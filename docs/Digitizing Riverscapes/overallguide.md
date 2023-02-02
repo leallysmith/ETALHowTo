@@ -134,7 +134,7 @@ What is this Layer?
 
 Significantly ponded water
 
-Is the dam concave with the current?
+Is the dam convex with the current?
 
 Does the dam have a mattress?
 
