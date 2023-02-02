@@ -32,6 +32,12 @@ now() - the date and time at that moment
 
 ### Symbology
 
+There is a set of symbology we use in the lab to ensure all our data looks consistent. This symbology can be found at 0_ET_AL\Projects\USA\Utah\BLM_Statewide_Monitoring_Kimbell_Ranch_Bear\wrk_Data\Symbology. To apply this symbology, navigate to the properties of the shapefile you are symbolozing. You can do this by double clicking on the shapefile in your layer pane. Then, regardless of which tab you are on in the bottom left should be a dropdown that says style. From here, click load style then navigate to the directory outlined above. Select the appropriate QGIS Layer setting, then click load style, then click OK. The shapefile should now be symbolized
+
+### Geopackaging
+
+Once you've finished digitizing the riverscape and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package the, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage
+
 ## Shapefiles
 
 ### Valley Bottom
