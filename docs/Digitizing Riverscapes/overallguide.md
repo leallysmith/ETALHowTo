@@ -8,7 +8,7 @@ The first section will detail useful plugins and the basic mechanics of using QG
 
 ## Digitizing in QGIS
 
-Click on to create a shapefile
+Click on <img src="{{ site.baseurl }}/QGISImages/shapefilebutton.PNG" alt="button" style="width:67%;" /> to create a shapefile
 
 ## Shapefiles
 
