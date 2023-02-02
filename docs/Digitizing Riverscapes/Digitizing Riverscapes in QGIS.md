@@ -1,5 +1,5 @@
 ---
-title: Digitizing Riverscapes
+title: How to digitize riverscapes
 weight: 2
 ---
 
