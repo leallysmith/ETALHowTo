@@ -1,10 +1,7 @@
-TO DO
-
-Create a page for just QGIS tutorial part
-
-Create pages for each shapefile
-
-Create a page for the entire tutorial as a whole
+---
+title: Digitizing Riverscapes
+weight: 2
+---
 
 This page will contain step by step instructions for digitizing a riverscape in QGIS. Under each section will be the type of shapefile, name for that shapefile, and fields for the shapefile. Keep in mind that these fields are the minimum and project specific demands may require additional fields. If the project is a large digitizing effort it may be helpful to have one technician generate a series of blank shapefiles to distribute so that other technicians can copy and paste those shapefiles into their projects. This can help ensure consistency across shapefiles and decrease errors with field types.
 The first section will detail useful plugins and the basic mechanics of using QGIS to avoid redundancy in later sections.
@@ -36,7 +33,7 @@ Lines of Evidence:
 
 Images:
 
-### Floodplain/Riparian
+### Riparian
 How to:
 	Fields:
 What is this layer?
