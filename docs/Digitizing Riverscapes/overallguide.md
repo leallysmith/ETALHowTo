@@ -89,19 +89,28 @@ Voronoi polygons layer
 3. Copy and paste the valley bottom polygon into the Riparian shapefile, for type, fill in "upland"
 4. Digitize the riparian areas and for these polygons enter the type as "riparian"
 5. From here, select all the areas labeled as riparian and then clip them from the upland polygon by clicking the "Clipper" <img src="{{ site.baseurl }}/QGISImages/clipper.PNG" alt="button" style="width:5%;" /> icon from the clipper toolbar. 
+6. Calculate fields
 
-What is this layer?
+What is this layer? The riparian layer is our best approximation of the floodplain. Previously we had tried to map floodplain but the lines of evidence were weak. Now we map riparian as a way to approximate the current floodplain without making any false claims as to where the floodplain may really be. This layer delineates upland plants vs. riparian plants.
 
 #### Lines of Evidence:
+
+Perennial riparian vegetation
 
 #### Images:
 
 ### Active Channel
 #### How to:
 ​	Fields:
-What is this Layer?
+What is this Layer? Active channel is the area of the channel that is modified by average stream discharge. This means includes non wetted features such as islands and bars that are located within the channel.
 
 #### Lines of Evidence:
+
+Clear scouring
+
+Channelization
+
+Bars
 
 #### Images:
 
@@ -112,6 +121,8 @@ What is this Layer?
 
 #### Lines of Evidence:
 
+Structure nearby affecting flows?
+
 #### Images:
 
 ### Dam Crests
@@ -121,6 +132,14 @@ What is this Layer?
 
 #### Lines of Evidence:
 
+Significantly ponded water
+
+Is the dam concave with the current?
+
+Does the dam have a mattress?
+
+Be careful to make sure this isn't a woody debris accumulation.
+
 #### Images:
 
 ### Thalwegs
@@ -129,6 +148,10 @@ What is this Layer?
 What is this layer?
 
 #### Lines of Evidence:
+
+Look for areas in the channel that appear darker, these are likely deeper water than the surrounding channel
+
+If there are multiple channels, the main thalweg is likely the one that follows the channel with a name in google map base imagery
 
 #### Images:
 
@@ -147,5 +170,11 @@ What is this layer?
 What is this layer?
 
 #### Lines of Evidence:
+
+Thalwegs split
+
+Islands
+
+Determine flow direction by looking at channel heads and slope. Higher elevation is generally upstream and channel heads generally point upstream.
 
 #### Images:
