@@ -88,7 +88,7 @@ Voronoi polygons layer
 ### Riparian
 #### How to: 
 
-1. Create a polygon shapefile
+1. Create a polygon shapefile named riparian.shp
 
 2. Fields:
 
@@ -117,7 +117,7 @@ Perennial riparian vegetation
 ### Active Channel
 #### How to:
 
-1. Create a polygon shapefile
+1. Create a polygon shapefile named active_channel.shp
 
 2. Fields:
 
@@ -140,7 +140,7 @@ Bars
 ### Inundation
 #### How to:
 
-1. Duplicate the active_channel layer by exporting it and saving as "inundation". If you prefer you can make a polygon from scratch rather than reshaping and building on the active_channel
+1. Duplicate the active_channel layer by exporting it and saving as inundation.shp. If you prefer you can make a polygon from scratch rather than reshaping and building on the active_channel
 
 2. Fields:
 
@@ -202,7 +202,8 @@ The main thalweg is the thalweg in the larger channel, if there are two channels
 ### Structures
 #### How to:
 ​	Fields:
-What is this layer?
+
+What is this layer? This layer will include low tech restoration structures and other structures that are structurally forcing flows, such as LWD, boulders, PALS, BDAs, etc.
 
 #### Lines of Evidence:
 
