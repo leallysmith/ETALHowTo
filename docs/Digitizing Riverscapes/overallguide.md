@@ -89,14 +89,21 @@ Voronoi polygons layer
 #### How to: 
 
 1. Create a polygon shapefile
+
 2. Fields:
+
      area_sq_m - type decimal (double)
      type - type string
+
      - riparian
      - upland
+
 3. Copy and paste the valley bottom polygon into the Riparian shapefile, for type, fill in "upland"
+
 4. Digitize the riparian areas and for these polygons enter the type as "riparian"
+
 5. From here, select all the areas labeled as riparian and then clip them from the upland polygon by clicking the "Clipper" <img src="{{ site.baseurl }}/QGISImages/clipper.PNG" alt="button" style="width:5%;" /> icon from the clipper toolbar. 
+
 6. Calculate fields
 
 What is this layer? The riparian layer is our best approximation of the floodplain. Previously we had tried to map floodplain but the lines of evidence were weak. Now we map riparian as a way to approximate the current floodplain without making any false claims as to where the floodplain may really be. This layer delineates upland plants vs. riparian plants.
@@ -113,7 +120,9 @@ Perennial riparian vegetation
 1. Create a polygon shapefile
 
 2. Fields:
+
    area_sq_m - type double
+
 3. Digitize the stream edge, this includes bars and islands that are in the channel
 
 What is this Layer? Active channel is the area of the channel that is modified by average stream discharge. This means it includes non wetted features such as islands and bars that are located within the channel.
@@ -132,7 +141,9 @@ Bars
 #### How to:
 
 1. Duplicate the active_channel layer by exporting it and saving as "inundation". If you prefer you can make a polygon from scratch rather than reshaping and building on the active_channel
+
 2. Fields:
+
    type - type string
 
    - free_flowing
@@ -140,6 +151,7 @@ Bars
    - overflow
 
    area_sq_m - type double
+
 3. Using the reshape and add ring tools, modify the polygon to fit where there is water.
 
 What is this Layer? This layer shows where the water is within the valley bottom. Free flowing is water that is flowing in the channel unobstructed, ponded is water that is being ponded by some sort of structure, generally a beaver dam, overflow is water that is being structurally forced onto the floodplain.
@@ -199,6 +211,7 @@ What is this layer?
 ### Confluences and Difluences
 #### How to:
 ​	Fields:
+
 What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits.
 
 #### Lines of Evidence:
