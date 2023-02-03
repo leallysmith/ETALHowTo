@@ -92,6 +92,8 @@ Voronoi polygons layer
 2. Fields:
      area_sq_m - type decimal (double)
      type - type string
+     - riparian
+     - upland
 3. Copy and paste the valley bottom polygon into the Riparian shapefile, for type, fill in "upland"
 4. Digitize the riparian areas and for these polygons enter the type as "riparian"
 5. From here, select all the areas labeled as riparian and then clip them from the upland polygon by clicking the "Clipper" <img src="{{ site.baseurl }}/QGISImages/clipper.PNG" alt="button" style="width:5%;" /> icon from the clipper toolbar. 
@@ -107,12 +109,18 @@ Perennial riparian vegetation
 
 ### Active Channel
 #### How to:
-​	Fields:
-What is this Layer? Active channel is the area of the channel that is modified by average stream discharge. This means includes non wetted features such as islands and bars that are located within the channel.
+
+1. Create a polygon shapefile
+
+2. Fields:
+   area_sq_m - type double
+3. Digitize the stream edge, this includes bars and islands that are in the channel
+
+What is this Layer? Active channel is the area of the channel that is modified by average stream discharge. This means it includes non wetted features such as islands and bars that are located within the channel.
 
 #### Lines of Evidence:
 
-Clear scouring
+Clear signs of scouring
 
 Channelization
 
@@ -122,8 +130,19 @@ Bars
 
 ### Inundation
 #### How to:
-​	Fields:
-What is this Layer?
+
+1. Duplicate the active_channel layer by exporting it and saving as "inundation". If you prefer you can make a polygon from scratch rather than reshaping and building on the active_channel
+2. Fields:
+   type - type string
+
+   - free_flowing
+   - ponded
+   - overflow
+
+   area_sq_m - type double
+3. Using the reshape and add ring tools, modify the polygon to fit where there is water.
+
+What is this Layer? This layer shows where the water is within the valley bottom. Free flowing is water that is flowing in the channel unobstructed, ponded is water that is being ponded by some sort of structure, generally a beaver dam, overflow is water that is being structurally forced onto the floodplain.
 
 #### Lines of Evidence:
 
@@ -134,7 +153,10 @@ Structure nearby affecting flows?
 ### Dam Crests
 #### How to:
 ​	Fields:
-What is this Layer?
+
+
+
+What is this Layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water.
 
 #### Lines of Evidence:
 
@@ -146,18 +168,22 @@ Does the dam have a mattress?
 
 Be careful to make sure this isn't a woody debris accumulation.
 
+"bath tub" ring of mud around the perimeter of the dam indicating a relatively recent breach
+
+Area of concentrated flow at the location of the breach
+
 #### Images:
 
 ### Thalwegs
 #### How to:
 ​	Fields:
-What is this layer?
+What is this layer? This layer delineates the deepest part of the channel for the whole length of the channel. The main thalweg traces the deepest point of the main channel, anabranches
 
 #### Lines of Evidence:
 
 Look for areas in the channel that appear darker, these are likely deeper water than the surrounding channel
 
-If there are multiple channels, the main thalweg is likely the one that follows the channel with a name in google map base imagery
+The main thalweg is the thalweg in the larger channel, if there are two channels that are similar sizes, use the channel that follows the google maps trace of the river.
 
 #### Images:
 
@@ -173,7 +199,7 @@ What is this layer?
 ### Confluences and Difluences
 #### How to:
 ​	Fields:
-What is this layer?
+What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits.
 
 #### Lines of Evidence:
 
