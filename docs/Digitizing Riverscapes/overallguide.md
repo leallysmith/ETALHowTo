@@ -8,7 +8,7 @@ The first section will detail useful plugins and the basic mechanics of using QG
 
 ## Digitizing in QGIS
 
-Some useful plugins to install before digitizing are "Clipper" and "Locate points along lines"
+Some useful plugins to install before digitizing are "Clipper" and "Locate points along lines". Toolbars you'll want to have enabled are Digitizing, Advanced Digitizing, and Snapping. To enable toolbars, find view then toolbars or right click on the toolbars that are already enabled to see more.
 
 ### Shapefile creation
 
@@ -26,7 +26,7 @@ area($geometry) - will calculate area
 
 length($geometry) - will calculate length
 
-'string' - you must enclose strings in '  ' to fill tables
+'string' - you must enclose strings in '  ' to fill tables typing ```'string'``` will fill the cells and display ```string```
 
 now() - the date and time at that moment
 
@@ -38,12 +38,12 @@ There is a set of symbology we use in the lab to ensure all our data looks consi
 
 Once you've finished digitizing the riverscape and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package the, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage!
 
-### General Tips & Tricks
+### General Tips, Tricks, & Troubleshooting
 
 - For inundation you can either create a new shapefile or duplicate the active channel one and modify that, whichever makes more sense to you
 - Thalwegs can be easier if you start and finish a shape, and then use the modify vertices tool, that way you can save more frequently than if you just digitize the whole time and QGIS crashes in the middle. A lot of the the features you can digitize via reshape, add vertices or drawing polygons and merging them. That way you can save frequently and not lose progress if QGIS crashes.
 - Some projects may require additional fields, like a field for waterbody name or site id, for things like that don't worry about filling out those features every time you get a pop up, you can use the field calculator to fill all the cells at once which is a nice time saver.
-- 
+- In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices, in these cases just zoom in and try again.
 
 ## Shapefiles
 
@@ -61,7 +61,7 @@ What is this layer? Valley bottom is the stream/river channels and the nearby lo
 
 #### Lines of Evidence: 
 
-In elevation rasters you may see a "shelf" where the elevation changes from flatter valley bottom to steeper hill slopes
+In sufficiently resolved elevation rasters such as ones derived from drones you may see a "shelf" where the elevation changes from flatter valley bottom to steeper hill slopes rapidly.
 
 You may see a change from dense vegetation to sparse vegetation because slope is too steep
 
@@ -100,7 +100,6 @@ Voronoi polygons layer
      area_sq_m - type decimal (double)
 
      type - type string
-
      - riparian
      - upland
 
@@ -153,7 +152,6 @@ Bars
 2. Fields:
 
    type - type string
-
    - free_flowing
    - ponded
    - overflow
@@ -180,7 +178,6 @@ Structure nearby affecting flows?
 2. Fields:
 
    dam_state - type string
-
    - intact
    - breached
    - blown_out
@@ -213,7 +210,6 @@ Area of concentrated flow at the location of the breach
 2. Fields:
 
    type - type string
-
    - main
    - anabranch
    - braid
@@ -253,7 +249,6 @@ What is this layer? This layer will include low tech restoration structures and 
 2. Fields:
 
    type - string
-
    - D
    - C
    - C/D
