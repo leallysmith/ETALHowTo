@@ -84,7 +84,7 @@ You may see a change from dense vegetation to sparse vegetation because slope is
 
 6. Using the snapping and trace tools in QGIS, digitize the line that runs down the center of the valley bottom.
 
-What is this Layer?
+What is this Layer? This line shows the center of the valley bottom.
 
 #### Lines of Evidence: 
 
