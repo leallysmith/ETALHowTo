@@ -3,10 +3,12 @@ title: How to digitize riverscapes
 weight: 1
 ---
 
-This page will contain step by step instructions for digitizing a riverscape in QGIS. Under each section will be the type of shapefile, name for that shapefile, and fields for the shapefile. Keep in mind that these fields are the minimum and project specific demands may require additional fields. If the project is a large digitizing effort it may be helpful to have one technician generate a series of blank shapefiles to distribute so that other technicians can copy and paste those shapefiles into their projects. This can help ensure consistency across shapefiles and decrease errors with field types.
-The first section will detail useful plugins and the basic mechanics of using QGIS to avoid redundancy in later sections.
+This page will contain step by step instructions for digitizing a riverscape in QGIS. Under each section will be the type of shapefile, name for that shapefile, and fields for the shapefile. Keep in mind that these fields are the minimum and project specific demands may require additional fields. If the project is a large digitizing effort it may be beneficial to have one technician generate a series of blank shapefiles to distribute so that other technicians can copy and paste those shapefiles into their projects. This can help ensure consistency across shapefiles and decrease errors with field types.
+The first section will detail useful plugins and the basic mechanics of using QGIS to avoid redundancy in later sections where we will go in depth on how to digitize each layer.
 
 ## Digitizing in QGIS
+
+A key element of high quality digitized data is maintaining a consistent scale. This means that once you begin digitizing a layer at 1:500 for example, the rest of that layer must be digitized at 1:500 scale. You can zoom in and out a little bit if you need better context but avoid digitizing at a variety of scales. This does not mean you have to use the same scale for the entire project, you only have to maintain that scale for the layer you are working on.
 
 Some useful plugins to install before digitizing are "Clipper" and "Locate points along lines". Toolbars you'll want to have enabled are Digitizing, Advanced Digitizing, and Snapping. To enable toolbars, find view then toolbars or right click on the toolbars that are already enabled to see more.
 
@@ -26,9 +28,13 @@ area($geometry) - will calculate area
 
 length($geometry) - will calculate length
 
-'string' - you must enclose strings in '  ' to fill tables typing ```'string'``` will fill the cells and display ```string```
+'string' - you must enclose strings in '  ' to fill tables in field calculator typing, ```'string'``` will fill the cells and display ```string```
 
 now() - the date and time at that moment
+
+$y - will calculate the latitude
+
+$x - will calculate the longitude
 
 ### Symbology
 
@@ -38,12 +44,16 @@ There is a set of symbology we use in the lab to ensure all our data looks consi
 
 Once you've finished digitizing the riverscape and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package the, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage!
 
-### General Tips, Tricks, & Troubleshooting
+###  Tips, Tricks, & Troubleshooting
 
 - For inundation you can either create a new shapefile or duplicate the active channel one and modify that, whichever makes more sense to you
 - Thalwegs can be easier if you start and finish a shape, and then use the modify vertices tool, that way you can save more frequently than if you just digitize the whole time and QGIS crashes in the middle. A lot of the the features you can digitize via reshape, add vertices or drawing polygons and merging them. That way you can save frequently and not lose progress if QGIS crashes.
 - Some projects may require additional fields, like a field for waterbody name or site id, for things like that don't worry about filling out those features every time you get a pop up, you can use the field calculator to fill all the cells at once which is a nice time saver.
-- In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices, in these cases just zoom in and try again.
+- In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices in view, in these cases simply zoom in and try again.
+- There are a number of digitized projects under Box\0_ET_AL\Projects\USA\Nevada\LCT\Wrk_data\HUC_16040101_Upper_Humboldt\Marys\GIS , you can check that folder to see many desert sites that have been digitized under dry and wet conditions to see how they look.
+- For most sites generally digitizing valley bottom somewhere at 1:1000 or 2000 scale is sufficient, riparian in the ballpark of 1:1000 or 500, and the remaining layers between 1:125 and 1:500. However, once you pick a scale for that layer you must stick with that scale for the rest of the layer.
+- If there is no clear thalweg you can use use the centerline of the channel, to derive the centerline do the same process as for vb_centerline but use the active channel instead. The modify the the centerline to fit sections where you can determine thalweg and export that as your thalweg file.
+- If you plan to have one technician create a series of blank shapefiles they may want to consider going into the properties of that shapefile and modifying the attributes form so that every time a feature is added or changed a specific calculation will autopopulate fields. However, evaluate the usefulness of this feature on a case by case basis.
 
 ## Shapefiles
 
@@ -84,7 +94,7 @@ You may see a change from dense vegetation to sparse vegetation because slope is
 
 6. Using the snapping and trace tools in QGIS, digitize the line that runs down the center of the valley bottom.
 
-What is this Layer? This line shows the center of the valley bottom.
+What is this Layer? This line shows the center of the valley bottom. It is useful in data analysis.
 
 #### Lines of Evidence: 
 
@@ -225,7 +235,7 @@ Area of concentrated flow at the location of the breach
 
    length - type double
 
-3. Digitize along the deepest part of the channels you've previously digitized, ensure snapping is enabled so that thalweg pieces connect to each other
+3. Digitize along the deepest part of the channels you've previously digitized, ensure snapping is enabled so that thalweg segments connect to each other
 
 4. Calculate fields
 
