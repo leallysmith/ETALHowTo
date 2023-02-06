@@ -78,7 +78,7 @@ You may see a change from dense vegetation to sparse vegetation because slope is
 
 #### Images:
 
-
+<img src="{{ site.baseurl }}/QGISImages/vbshelf.PNG" alt="shelf" style="width:75%;" />
 
 ### Valley Bottom Centerline
 #### How to:
@@ -130,9 +130,15 @@ What is this layer? The riparian layer is our best approximation of the floodpla
 
 Perennial riparian vegetation
 
+In desert systems riparian can sometimes be the only greenery in the valley bottom
+
+Check to see if the area appears to be irrigated, this does not count as riparian
+
+If the riparian stands are dead, this does not count as riparian
+
 #### Images:
 
-
+<img src="{{ site.baseurl }}/QGISImages/riparian.PNG" alt="riparian" style="width:75%;" />
 
 ### Active Channel
 #### How to:
