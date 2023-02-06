@@ -67,6 +67,8 @@ You may see a change from dense vegetation to sparse vegetation because slope is
 
 #### Images:
 
+<img src="{{ site.baseurl }}/QGISImages/vbshelf.PNG" alt="shelf" style="width:75%;" />
+
 ### Valley Bottom Centerline
 #### How to:
 
@@ -119,6 +121,8 @@ Perennial riparian vegetation
 
 #### Images:
 
+<img src="{{ site.baseurl }}/QGISImages/riparian.PNG" alt="riparian" style="width:75%;" />
+
 ### Active Channel
 #### How to:
 
@@ -142,7 +146,11 @@ Channelization
 
 Bars
 
+Elevation raster may show the channel
+
 #### Images:
+
+<img src="{{ site.baseurl }}/QGISImages/ac.PNG" alt="ac" style="width:75%;" />
 
 ### Inundation
 #### How to:
@@ -238,6 +246,12 @@ The main thalweg is the thalweg in the larger channel, if there are two channels
 What is this layer? This layer will include low tech restoration structures and other structures that are structurally forcing flows, such as LWD, boulders, PALS, BDAs, etc.
 
 #### Lines of Evidence:
+
+Structurally forced flows
+
+Some sort of geomorphic modification
+
+
 
 #### Images:
 

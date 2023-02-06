@@ -13,6 +13,8 @@ Create pages for each shapefile
 
 Create a page for the entire tutorial as a whole
 
+Create a photo gallery (in google photos for speed?) that displays various digitized sites, including difficult calls, to help calibrate new techs
+
 Generate links for all of the below
 
 Digitizing in QGIS
