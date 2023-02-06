@@ -78,7 +78,7 @@ You may see a change from dense vegetation to sparse vegetation because slope is
 
 #### Images:
 
-<img src="{{ site.baseurl }}/QGISImages/vbshelf.PNG" alt="shelf" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/vbshelf.png" alt="shelf" style="width:75%;" />
 
 ### Valley Bottom Centerline
 #### How to:
@@ -138,7 +138,7 @@ If the riparian stands are dead, this does not count as riparian
 
 #### Images:
 
-<img src="{{ site.baseurl }}/QGISImages/riparian.PNG" alt="riparian" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/riparian.png" alt="riparian" style="width:75%;" />
 
 ### Active Channel
 #### How to:
