@@ -38,6 +38,13 @@ There is a set of symbology we use in the lab to ensure all our data looks consi
 
 Once you've finished digitizing the riverscape and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package the, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage!
 
+### General Tips & Tricks
+
+- For inundation you can either create a new shapefile or duplicate the active channel one and modify that, whichever makes more sense to you
+- Thalwegs can be easier if you start and finish a shape, and then use the modify vertices tool, that way you can save more frequently than if you just digitize the whole time and QGIS crashes in the middle. A lot of the the features you can digitize via reshape, add vertices or drawing polygons and merging them. That way you can save frequently and not lose progress if QGIS crashes.
+- Some projects may require additional fields, like a field for waterbody name or site id, for things like that don't worry about filling out those features every time you get a pop up, you can use the field calculator to fill all the cells at once which is a nice time saver.
+- 
+
 ## Shapefiles
 
 ### Valley Bottom
@@ -91,16 +98,17 @@ Voronoi polygons layer
 2. Fields:
 
      area_sq_m - type decimal (double)
+
      type - type string
 
      - riparian
      - upland
 
-3. Copy and paste the valley bottom polygon into the Riparian shapefile, for type, fill in "upland"
+3. Copy and paste the valley bottom polygon into the Riparian shapefile, for the type, fill in "upland"
 
-4. Digitize the riparian areas and for these polygons enter the type as "riparian"
+4. Digitize the riparian areas and for these polygons enter the type as "riparian", ensure trace is enabled for areas that abut the valley bottom.
 
-5. From here, select all the areas labeled as riparian and then clip them from the upland polygon by clicking the "Clipper" <img src="{{ site.baseurl }}/QGISImages/clipper.PNG" alt="button" style="width:5%;" /> icon from the clipper toolbar. 
+5. From here, select all the areas labeled as riparian and then clip them from the upland polygon by clicking the "Clipper" <img src="{{ site.baseurl }}/QGISImages/clipper.PNG" alt="button" style="width:5%;" /> icon from the clipper toolbar. (You can also do riparian in step 3 and then upland in step 4, do what makes more sense)
 
 6. Calculate fields
 
@@ -121,9 +129,11 @@ Perennial riparian vegetation
 
    area_sq_m - type double
 
-3. Digitize the stream edge, this includes bars and islands that are in the channel
+3. Digitize the channel edge, this includes bars and islands that are in the channel
 
-What is this Layer? Active channel is the area of the channel that is modified by average stream discharge. This means it includes non wetted features such as islands and bars that are located within the channel.
+4. Calculate fields
+
+What is this layer? Active channel is the area of the channel that is modified by average stream discharge. This means it includes non wetted features such as islands and bars that are located within the channel.
 
 #### Lines of Evidence:
 
@@ -151,6 +161,8 @@ Bars
    area_sq_m - type double
 
 3. Using the reshape and add ring tools, modify the polygon to fit where there is water.
+
+4. Calculate fields
 
 What is this Layer? This layer shows where the water is within the valley bottom. Free flowing is water that is flowing in the channel unobstructed, ponded is water that is being ponded by some sort of structure, generally a beaver dam, overflow is water that is being structurally forced onto the floodplain.
 
@@ -209,6 +221,10 @@ Area of concentrated flow at the location of the breach
 
    length - type double
 
+3. Digitize along the deepest part of the channels you've previously digitized, ensure snapping is enabled so that thalweg pieces connect to each other
+
+4. Calculate fields
+
 What is this layer? This layer delineates the deepest part of the channel for the whole length of the channel. The main thalweg traces the deepest point of the main channel, anabranches, braids, and splits. The main channel is the deepest point in the main channel. Anabranches are the deepest part of a full formed secondary channel that is longer than two ocularly estimated channel widths. Splits are thalwegs that follow the deepest points of short side channels or structurally forced sheet flow. Braids are small thalwegs in the main channel that aren't the main thalweg.
 
 #### Lines of Evidence:
@@ -253,3 +269,4 @@ Islands
 Determine flow direction by looking at channel heads and slope. Higher elevation is generally upstream and channel heads generally point upstream.
 
 #### Images:
+
