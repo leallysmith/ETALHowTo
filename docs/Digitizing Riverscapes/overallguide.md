@@ -32,11 +32,11 @@ now() - the date and time at that moment
 
 ### Symbology
 
-There is a set of symbology we use in the lab to ensure all our data looks consistent. This symbology can be found at 0_ET_AL\Projects\USA\Utah\BLM_Statewide_Monitoring_Kimbell_Ranch_Bear\wrk_Data\Symbology. To apply this symbology, navigate to the properties of the shapefile you are symbolozing. You can do this by double clicking on the shapefile in your layer pane. Then, regardless of which tab you are on in the bottom left should be a dropdown that says style. From here, click load style then navigate to the directory outlined above. Select the appropriate QGIS Layer setting, then click load style, then click OK. The shapefile should now be symbolized
+There is a set of symbology we use in the lab to ensure all our data looks consistent. This symbology can be found at 0_ET_AL\Projects\USA\Utah\BLM_Statewide_Monitoring_Kimbell_Ranch_Bear\wrk_Data\Symbology. To apply this symbology, navigate to the properties of the shapefile you are symbolizing. You can do this by double clicking on the shapefile in your layer pane. Then, regardless of which tab you are on in the bottom left should be a dropdown that says style. From here, click load style then navigate to the directory outlined above. Select the appropriate QGIS Layer setting, then click load style, then click OK. The shapefile should now be symbolized
 
 ### Geopackaging
 
-Once you've finished digitizing the riverscape and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package the, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage
+Once you've finished digitizing the riverscape and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package the, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage!
 
 ## Shapefiles
 
@@ -57,8 +57,6 @@ What is this layer? Valley bottom is the stream/river channels and the nearby lo
 In elevation rasters you may see a "shelf" where the elevation changes from flatter valley bottom to steeper hill slopes
 
 You may see a change from dense vegetation to sparse vegetation because slope is too steep
-
-A transition to pine stands
 
 #### Images:
 
@@ -164,8 +162,17 @@ Structure nearby affecting flows?
 
 ### Dam Crests
 #### How to:
-​	Fields:
 
+1. Create a new line shapefile named dam_crests.shp
+
+2. Fields:
+
+   dam_state - type string
+
+   - intact
+   - breached
+   - blown_out
+3. Trace the crest of each observed dam, in cases where the dam has damage, trace where the crest would be if it was intact
 
 
 What is this Layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water.
@@ -174,13 +181,13 @@ What is this Layer? This layer traces the top crest of a dam to show location, e
 
 Significantly ponded water
 
-Is the dam convex with the current?
+Dams are generally convex with the current
 
 Does the dam have a mattress?
 
 Be careful to make sure this isn't a woody debris accumulation.
 
-"bath tub" ring of mud around the perimeter of the dam indicating a relatively recent breach
+"Bath tub" ring of mud around the perimeter of the dam indicating a relatively recent breach
 
 Area of concentrated flow at the location of the breach
 
@@ -188,8 +195,21 @@ Area of concentrated flow at the location of the breach
 
 ### Thalwegs
 #### How to:
-​	Fields:
-What is this layer? This layer delineates the deepest part of the channel for the whole length of the channel. The main thalweg traces the deepest point of the main channel, anabranches
+
+1. Create a line shapefile named thalwegs.shp
+
+2. Fields:
+
+   type - type string
+
+   - main
+   - anabranch
+   - braid
+   - split
+
+   length - type double
+
+What is this layer? This layer delineates the deepest part of the channel for the whole length of the channel. The main thalweg traces the deepest point of the main channel, anabranches, braids, and splits. The main channel is the deepest point in the main channel. Anabranches are the deepest part of a full formed secondary channel that is longer than two ocularly estimated channel widths. Splits are thalwegs that follow the deepest points of short side channels or structurally forced sheet flow. Braids are small thalwegs in the main channel that aren't the main thalweg.
 
 #### Lines of Evidence:
 
@@ -211,13 +231,22 @@ What is this layer? This layer will include low tech restoration structures and 
 
 ### Confluences and Difluences
 #### How to:
-​	Fields:
 
-What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits.
+1. Create a point shapefile named confluence_difluence.shp
+
+2. Fields:
+
+   type - string
+
+   - D
+   - C
+   - C/D
+
+What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits. C/D can be used where one area has both a difluence and a confluence.
 
 #### Lines of Evidence:
 
-Thalwegs split
+Thalwegs converge or diverge
 
 Islands
 
