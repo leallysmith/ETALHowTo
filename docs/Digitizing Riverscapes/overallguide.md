@@ -8,7 +8,7 @@ The first section will detail useful plugins and the basic mechanics of using QG
 
 ## Digitizing in QGIS
 
-A key element of high quality digitized data is maintaining a consistent scale. This means that once you begin digitizing a layer at 1:500 for example, the rest of that layer must be digitized at 1:500 scale. You can zoom in and out a little bit if you need better context but avoid digitizing at a variety of scales. This does not mean you have to use the same scale for the entire project, you only have to maintain that scale for the layer you are working on.
+An important element of high quality digitized data is maintaining a consistent scale. This means that once you begin digitizing a layer at 1:500 for example, the rest of that layer must be digitized at 1:500 scale. You can zoom in and out a little bit if you need better context but avoid digitizing at a variety of scales. This does not mean you have to use the same scale for the entire project, you only have to maintain that scale for the layer you are working on.
 
 Some useful plugins to install before digitizing are "Clipper" and "Locate points along lines". Toolbars you'll want to have enabled are Digitizing, Advanced Digitizing, and Snapping. To enable toolbars, find view then toolbars or right click on the toolbars that are already enabled to see more.
 
@@ -51,9 +51,10 @@ Once you've finished digitizing the riverscape and applying the proper symbology
 - Some projects may require additional fields, like a field for waterbody name or site id, for things like that don't worry about filling out those features every time you get a pop up, you can use the field calculator to fill all the cells at once which is a nice time saver.
 - In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices in view, in these cases simply zoom in and try again.
 - There are a number of digitized projects under Box\0_ET_AL\Projects\USA\Nevada\LCT\Wrk_data\HUC_16040101_Upper_Humboldt\Marys\GIS , you can check that folder to see many desert sites that have been digitized under dry and wet conditions to see how they look.
-- For most sites generally digitizing valley bottom somewhere at 1:1000 or 2000 scale is sufficient, riparian in the ballpark of 1:1000 or 500, and the remaining layers between 1:125 and 1:500. However, once you pick a scale for that layer you must stick with that scale for the rest of the layer.
-- If there is no clear thalweg you can use use the centerline of the channel, to derive the centerline do the same process as for vb_centerline but use the active channel instead. The modify the the centerline to fit sections where you can determine thalweg and export that as your thalweg file.
+- For most sites generally digitizing valley bottom somewhere at 1:1000 or 2000 scale is sufficient, riparian in the ballpark of 1:1000 or 500, and the remaining layers between 1:125 and 1:500. This can vary from site to site so use your discretion.
+- If there is no clear thalweg you can use use the centerline of the channel, to derive the centerline do the same process as for vb_centerline but use the active channel instead. Then modify the the centerline to fit sections where you can determine thalweg and export that as your thalweg file.
 - If you plan to have one technician create a series of blank shapefiles they may want to consider going into the properties of that shapefile and modifying the attributes form so that every time a feature is added or changed a specific calculation will autopopulate fields. However, evaluate the usefulness of this feature on a case by case basis.
+- Sometimes you may need to digitize the active channel but you can't see it. In these cases do your best to approximate where the channel is and digitize a thalweg that follows where you believe the channel is. Once that is done you can create a buffer using what sections of the channel you can see to determine the width of the buffer. 
 
 ## Shapefiles
 
@@ -77,7 +78,7 @@ You may see a change from dense vegetation to sparse vegetation because slope is
 
 #### Images:
 
-<img src="{{ site.baseurl }}/QGISImages/vbshelf.PNG" alt="shelf" style="width:75%;" />
+
 
 ### Valley Bottom Centerline
 #### How to:
@@ -131,7 +132,7 @@ Perennial riparian vegetation
 
 #### Images:
 
-<img src="{{ site.baseurl }}/QGISImages/riparian.PNG" alt="riparian" style="width:75%;" />
+
 
 ### Active Channel
 #### How to:
@@ -158,6 +159,10 @@ Bars
 
 Elevation raster may show the channel
 
+Breaks in the tree line
+
+Greener areas
+
 #### Images:
 
 <img src="{{ site.baseurl }}/QGISImages/ac.PNG" alt="ac" style="width:75%;" />
@@ -180,7 +185,7 @@ Elevation raster may show the channel
 
 4. Calculate fields
 
-What is this Layer? This layer shows where the water is within the valley bottom. Free flowing is water that is flowing in the channel unobstructed, ponded is water that is being ponded by some sort of structure, generally a beaver dam, overflow is water that is being structurally forced onto the floodplain.
+What is this layer? This layer shows where the water is within the valley bottom. Free flowing is water that is flowing in the channel unobstructed, ponded is water that is being ponded by some sort of structure, generally a beaver dam, overflow is water that is being structurally forced onto the floodplain.
 
 #### Lines of Evidence:
 
@@ -202,7 +207,7 @@ Structure nearby affecting flows?
 3. Trace the crest of each observed dam, in cases where the dam has damage, trace where the crest would be if it was intact
 
 
-What is this Layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water.
+What is this layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water.
 
 #### Lines of Evidence:
 
