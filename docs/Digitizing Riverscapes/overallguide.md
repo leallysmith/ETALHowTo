@@ -52,7 +52,7 @@ Once you've finished digitizing the riverscape, calculating the fields, and appl
 
 ### Metadata
 
-This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz) is a good baseline to build your metadata off of. While you won't need the geomorphic units and transects sections you can use that template as a base to build your project metadata on. Name will be your name, Date is the date you started digitizing, you'll then state yes or no as to whether you've been to site or not, then list your lines of evidence in digitizing, this section will is about what sorts of imagery and shapefiles you used for more context of the site. Then, for each layer you'll denote what scale you used for digitizing and then your confidence; low, medium, or high. The confidence of accuracy is also a good place to list what reasons you had for your confidence level.
+This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz) is a good baseline to build your metadata off of. While you won't need the geomorphic units and transects sections you can use that template as a base to build your project metadata on. Name will be your name, Date is the date you started digitizing, you'll then state yes or no regarding whether you've been to site or not, then list your lines of evidence in digitizing, this section is about what sorts of imagery and shapefiles you used for more context of the site. Then, for each layer you'll denote what scale you used for digitizing and then your confidence; low, medium, or high. The confidence of accuracy is also a good place to list what reasons you had for your confidence level.
 
 ###  Tips, Tricks, & Troubleshooting
 
@@ -268,22 +268,23 @@ Structure nearby affecting flows?
    - intact
    - breached
    - blown_out
-   
+
    date - type date
-   
+
    waterbody - type string
 3. Trace the crest of each observed dam, in cases where the dam has damage, trace where the crest would be if it was intact
+4. Calculate fields
 
 
 What is this layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water.
 
 #### Lines of Evidence:
 
-Significantly ponded water
+Ponded water
 
 Dams are generally convex with the current
 
-Does the dam have a mattress?
+Does the dam have a mattress? A mattress is branches that lay on the downstream side of a dam to help dampen the strength of any overflow and prevent scouring.
 
 Be careful to make sure this isn't a woody debris accumulation.
 
@@ -345,6 +346,8 @@ The primary thalweg is the thalweg in the larger channel, if there are two chann
    date - type date
 
    waterbody - type string
+
+3. Calculate fields
 
 What is this layer? This layer can contain low tech restoration structures and other structures that are structurally forcing flows. Which set of structures you digitize may be project specific but generally digitize them all and then apply either the structures symbology or restoration structures symbology. Live means vegetation growing in the channel, inorganic can be things like boulders or tires, a jam is woody debris that is channel spanning and ponding water, lwd is large woody debris in the channel such as a fallen tree, BDAs or beaver dam analogues are human made structures meant to mimic the function and form of a beaver dam, PALS or post assisted log structures are logs being held in the channel by posts, PALS are also made by humans. 
 
