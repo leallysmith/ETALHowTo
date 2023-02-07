@@ -64,7 +64,7 @@ This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz)
 - For most sites generally digitizing valley bottom somewhere at 1:1000 or 2000 scale is sufficient, riparian in the ballpark of 1:1000 or 500, and the remaining layers between 1:125 and 1:500. This can vary from site to site so use your discretion.
 - If there is no clear thalweg you can use use the centerline of the channel, then modify that to fit the channel where you can see the thalweg.
 - If you plan to have one technician create a series of blank shapefiles they may want to consider going into the layer properties of that shapefile and modifying the attributes form so that every time a feature is added or changed a specific calculation will autopopulate fields. However, evaluate the usefulness of this feature on a case by case basis.
-- Sometimes you may need to digitize the active channel but you can't see it. In these cases do your best to approximate where the channel is and digitize a thalweg that follows where you believe the channel is. Once that is done you can create a buffer using what sections of the channel you can see to determine the width of the buffer. 
+- Sometimes you may need to digitize the active channel but you can't see it. In these cases do your best to approximate where the channel is and digitize a thalweg that follows where you believe the channel is. Once that is done you can create a buffer using what sections of the channel you can see to determine the width of the buffer. You can then edit this buffer to better match the channel where you can see it and then use the buffer for where you can't see it.
 - If you want some 3D context, use google earth or the obliques from the drone if available
 
 ## Shapefiles
@@ -114,7 +114,7 @@ You may see a change from dense vegetation to sparse vegetation because slope is
 
 6. Using the snapping and trace tools in QGIS, digitize the line that runs down the center of the valley bottom.
 
-What is this Layer? This line shows the center of the valley bottom. This can be used in conjunction with ac_centerline to determine sinuosity. It's useful for data processing after digitizing
+What is this layer? This line shows the center of the valley bottom. This can be used in conjunction with ac_centerline to determine sinuosity. It's useful for data processing after digitizing
 
 #### Lines of Evidence: 
 
@@ -220,13 +220,15 @@ Generally no non-aquatic vegetation, in non-perennial systems there may be some 
 
 6. Using the snapping and trace tools in QGIS, digitize the line that runs down the center of the active channel.
 
-What is this Layer? This line shows the center of the active channel. This can be used in conjunction with vb_centerline to determine sinuosity.
+What is this layer? This line shows the center of the active channel. This can be used in conjunction with vb_centerline to determine sinuosity.
 
 #### Lines of Evidence: 
 
 Voronoi polygons layer
 
 #### Images:
+
+<img src="{{ site.baseurl }}/QGISImages/accenter.PNG" alt="ac centerline" style="width:50%;" />
 
 ### Inundation
 
