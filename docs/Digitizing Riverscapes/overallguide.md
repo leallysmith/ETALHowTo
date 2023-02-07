@@ -259,6 +259,8 @@ Structure nearby affecting flows?
 
 #### Images:
 
+<img src="{{ site.baseurl }}/QGISImages/inundation.png" alt="inundation" style="width:75%;" />
+
 ### Dam Crests
 #### How to:
 
