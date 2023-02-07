@@ -52,7 +52,7 @@ Once you've finished digitizing the riverscape, calculating the fields, and appl
 
 ### Metadata
 
-This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz) is a good baseline to build your metadata off of. While you won't need the geomorphic units and transects sections you can use that template as a base to build your project metadata on. Name will be your name, Date is the date you started digitizing, you'll then state yes or no regarding whether you've been to site or not, then list your lines of evidence in digitizing, this section is about what sorts of imagery and shapefiles you used for more context of the site. Then, for each layer you'll denote what scale you used for digitizing and then your confidence; low, medium, or high. The confidence of accuracy is also a good place to list what reasons you had for your confidence level.
+This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz) is a good baseline to build your metadata off of. While you may not need the geomorphic units and transects sections you can use that template as a base to build your project metadata on. Name will be your name, Date is the date you started digitizing, you'll then state yes or no regarding whether you've been to site or not, then list your lines of evidence in digitizing, this section is about what sorts of imagery and shapefiles you used for more context of the site. Then, for each layer you'll denote what scale you used for digitizing and then your confidence; low, medium, or high. The confidence of accuracy is also a good place to list what reasons you had for your confidence level.
 
 ###  Tips, Tricks, & Troubleshooting
 
