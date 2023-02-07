@@ -230,6 +230,47 @@ Voronoi polygons layer
 
 <img src="{{ site.baseurl }}/QGISImages/accenter.PNG" alt="ac centerline" style="width:50%;" />
 
+### Dam Crests
+
+#### How to:
+
+1. Create a new line shapefile named dam_crests.shp
+
+2. Fields:
+
+   dam_state - type string
+
+   - intact
+   - breached
+   - blown_out
+
+   date - type date
+
+   waterbody - type string
+
+3. Trace the crest of each observed dam, in cases where the dam has damage, trace where the crest would be if it was intact
+
+4. Calculate fields
+
+
+What is this layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water. Ponded water should be traced along the dam crest line if a dam crest is present, then the freeflowing after should trace that same dam crest line.
+
+#### Lines of Evidence:
+
+Ponded water
+
+Dams are generally convex with the current
+
+Does the dam have a mattress? A mattress is branches that lay on the downstream side of a dam to help dampen the strength of any overflow and prevent scouring.
+
+Be careful to make sure this isn't a woody debris accumulation.
+
+"Bath tub" ring of mud around the perimeter of the dam indicating a relatively recent breach
+
+Area of concentrated flow at the location of the breach
+
+#### Images:
+
 ### Inundation
 
 #### How to:
@@ -262,43 +303,6 @@ Structure nearby affecting flows?
 #### Images:
 
 <img src="{{ site.baseurl }}/QGISImages/inundation.PNG" alt="inundation" style="width:75%;" />
-
-### Dam Crests
-#### How to:
-
-1. Create a new line shapefile named dam_crests.shp
-
-2. Fields:
-
-   dam_state - type string
-   - intact
-   - breached
-   - blown_out
-
-   date - type date
-
-   waterbody - type string
-3. Trace the crest of each observed dam, in cases where the dam has damage, trace where the crest would be if it was intact
-4. Calculate fields
-
-
-What is this layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water. Ponded water should be traced along the dam crest line if a dam crest is present, then the freeflowing after should trace that same dam crest line.
-
-#### Lines of Evidence:
-
-Ponded water
-
-Dams are generally convex with the current
-
-Does the dam have a mattress? A mattress is branches that lay on the downstream side of a dam to help dampen the strength of any overflow and prevent scouring.
-
-Be careful to make sure this isn't a woody debris accumulation.
-
-"Bath tub" ring of mud around the perimeter of the dam indicating a relatively recent breach
-
-Area of concentrated flow at the location of the breach
-
-#### Images:
 
 ### Thalwegs
 #### How to:
