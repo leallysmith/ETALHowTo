@@ -10,7 +10,7 @@ The first section will detail useful plugins and the basic mechanics of using QG
 
 An important element of high quality digitized data is maintaining a consistent scale. This means that once you begin digitizing a layer at 1:500 for example, the rest of that layer must be digitized at 1:500 scale. You can zoom in and out a little bit if you need better context but avoid digitizing at a variety of scales. This does not mean you have to use the same scale for the entire project, you only have to maintain that scale for the layer you are working on.
 
-Another consideration is to avoid "spaghetti digitizing" this is where the digitizer does not use snapping and tracing and little holes get left behind that from far away, are not visible, but once you zoom in they become clear. In the example below you can see that the polygons have gaps between them in some places and overlap in others when they should touch and not overlap. 
+Another consideration is to avoid "spaghetti digitizing" this is where the digitizer does not use snapping and tracing and little holes get left behind that from far away, are not visible, but once you zoom in they become clear. In the example below you can see that the polygons have gaps between them in some places and overlap in others when they should touch but not overlap
 
 <img src="{{ site.baseurl }}/QGISImages/spaghetti.png" alt="spaghetti" style="width:75%;" />
 
