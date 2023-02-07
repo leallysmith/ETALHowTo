@@ -46,12 +46,16 @@ There is a standard set of symbology we use in the lab to ensure all our data lo
 
 ### Geopackaging
 
-Once you've finished digitizing the riverscape and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package shapefiles, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Make sure your layers have the correct symbology applied and all the fields have been filled out and calculated. Then run, now you've created a geopackage!
+Once you've finished digitizing the riverscape, calculating the fields, and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package shapefiles, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage!
+
+### Metadata
+
+This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz) is a good baseline to build your metadata off of. While you won't need the geomorphic units and transects sections you can use that template as a base to build your project metadata on. Name will be your name, Date is the date you started digitizing, you'll then state yes or no as to whether you've been to site or not, then list your lines of evidence in digitizing, this section will is about what sorts of imagery and shapefiles you used for more context of the site. Then, for each layer you'll denote what scale you used for digitizing and then your confidence; low, medium, or high. The confidence of accuracy is also a good place to list what reasons you had for your confidence level.
 
 ###  Tips, Tricks, & Troubleshooting
 
 - For inundation you can either create a new shapefile or duplicate the active channel one and modify that, whichever makes more sense to you
-- A lot of the the features you can digitize via reshape, add vertices or drawing polygons and merging them. That way you can save frequently and not lose progress if QGIS crashes. For example, thalwegs can be easier if you start and finish a shape, and then use the modify vertices tool, that way you can save more frequently than if you work a new feature the whole time and QGIS crashes in the middle. 
+- A lot of the the features you can digitize via reshape<img src="{{ site.baseurl }}/QGISImages/reshape.PNG" alt="reshape" style="width:5%;" />, add vertices<img src="{{ site.baseurl }}/QGISImages/vertex.PNG" alt="vertex" style="width:5%;" /> or drawing polygons and merging<img src="{{ site.baseurl }}/QGISImages/merge.PNG" alt="merge" style="width:5%;" /> them. That way you can save frequently and not lose progress if QGIS crashes. For example, thalwegs can be easier if you start and finish a shape, and then use the modify vertices tool, that way you can save more frequently than if you work a new feature the whole time and QGIS crashes in the middle. 
 - Some projects may require additional fields, like a field for waterbody name or site id, for things like that don't worry about filling out those features every time you get a pop up, you can use the field calculator to fill all the cells at once which is a nice time saver.
 - In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices in view, in these cases simply zoom in and try again.
 - There are a number of digitized projects under Box\0_ET_AL\Projects\USA\Nevada\LCT\Wrk_data\HUC_16040101_Upper_Humboldt\Marys\GIS , you can check that folder to see many desert sites that have been digitized under dry and wet conditions to see how they look.
@@ -59,6 +63,7 @@ Once you've finished digitizing the riverscape and applying the proper symbology
 - If there is no clear thalweg you can use use the centerline of the channel, then modify that to fit the channel where you can see the thalweg.
 - If you plan to have one technician create a series of blank shapefiles they may want to consider going into the properties of that shapefile and modifying the attributes form so that every time a feature is added or changed a specific calculation will autopopulate fields. However, evaluate the usefulness of this feature on a case by case basis.
 - Sometimes you may need to digitize the active channel but you can't see it. In these cases do your best to approximate where the channel is and digitize a thalweg that follows where you believe the channel is. Once that is done you can create a buffer using what sections of the channel you can see to determine the width of the buffer. 
+- If you want a 3D context, use google earth
 
 ## Shapefiles
 
