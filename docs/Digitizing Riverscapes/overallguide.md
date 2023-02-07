@@ -10,17 +10,21 @@ The first section will detail useful plugins and the basic mechanics of using QG
 
 An important element of high quality digitized data is maintaining a consistent scale. This means that once you begin digitizing a layer at 1:500 for example, the rest of that layer must be digitized at 1:500 scale. You can zoom in and out a little bit if you need better context but avoid digitizing at a variety of scales. This does not mean you have to use the same scale for the entire project, you only have to maintain that scale for the layer you are working on.
 
+Another consideration is to avoid "spaghetti digitizing" this is where the digitizer does not use snapping and tracing and little holes get left behind that from far away, are not visible, but once you zoom in they become clear.
+
 Some useful plugins to install before digitizing are "Clipper" and "Locate points along lines". Toolbars you'll want to have enabled are Digitizing, Advanced Digitizing, and Snapping. To enable toolbars, find view then toolbars or right click on the toolbars that are already enabled to see more.
 
 ### Shapefile creation
 
 Click on <img src="{{ site.baseurl }}/QGISImages/shapefilebutton.PNG" alt="button" style="width:5%;" /> to create a shapefile. 
 
-From here name your shapefile and choose its save location then select which type of shapefile you want, polygon, line, or point. Select an appropriate coordinate system for your site. Adding fields can be done by naming the field, selecting what type of field it is and then once that is filled out, click the "Add to Fields List" button.
+From here name your shapefile and choose its save location then select which type of shapefile you want, polygon, line, or point. Select an appropriate coordinate system for your site. Adding fields can be done by naming the field, selecting what type of field it is and then once that is filled out, click the "Add to Fields List" button. If you forget to add fields in this step, you can also do it from the field calculator after you finish creating the shapefile.
 
 <img src="{{ site.baseurl }}/QGISImages/shapefilescreen.PNG" alt="button" style="width:50%;" />
 
 ### Field Calculation
+
+Before you calculate area or length ensure that your project will calculate in the correct units. You can check what units your project will use in Project > Properties > General, then under measurements you can check your units. You can also find this information in the properties of the coordinate system you are using.
 
 To calculate fields click on the shapefile you want to calculate for and then either in the attribute table or the ribbon click on <img src="{{ site.baseurl }}/QGISImages/abacus.PNG" alt="button" style="width:5%;" />. Here you can create a field if you didn't during the shapefile creation step or "Update existing field". Select the field you'd like to calculate and enter the formula needed. Once that formula is entered, click "OK" and the fields will be calculated.
 
@@ -38,11 +42,11 @@ $x - will calculate the longitude
 
 ### Symbology
 
-There is a set of symbology we use in the lab to ensure all our data looks consistent. This symbology can be found at 0_ET_AL\Projects\USA\Utah\BLM_Statewide_Monitoring_Kimbell_Ranch_Bear\wrk_Data\Symbology. To apply this symbology, navigate to the properties of the shapefile you are symbolizing. You can do this by double clicking on the shapefile in your layer pane. Then, regardless of which tab you are on in the bottom left should be a dropdown that says style. From here, click load style then navigate to the directory outlined above. Select the appropriate QGIS Layer setting, then click load style, then click OK. The shapefile should now be symbolized
+There is a standard set of symbology we use in the lab to ensure all our data looks consistent. This symbology can be found at 0_ET_AL\NonProject\etal_Symbology. They are named according to the layer they should be used for. To apply this symbology, navigate to the properties of the shapefile you are symbolizing. You can do this by double clicking on the shapefile in your layer pane. Then, regardless of which tab you are on in the bottom left should be a dropdown that says style. From here, click load style then navigate to the directory outlined above. Select the appropriate QGIS Layer setting, then click load style, then click OK. The shapefile should now be symbolized. Older versions and ArcMap versions of symbology can be found in 0_ET_AL\Projects\USA\Utah\BLM_Statewide_Monitoring_Kimbell_Ranch_Bear\wrk_Data\Symbology.
 
 ### Geopackaging
 
-Once you've finished digitizing the riverscape and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package the, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage!
+Once you've finished digitizing the riverscape and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package shapefiles, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Make sure your layers have the correct symbology applied and all the fields have been filled out and calculated. Then run, now you've created a geopackage!
 
 ###  Tips, Tricks, & Troubleshooting
 
@@ -52,7 +56,7 @@ Once you've finished digitizing the riverscape and applying the proper symbology
 - In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices in view, in these cases simply zoom in and try again.
 - There are a number of digitized projects under Box\0_ET_AL\Projects\USA\Nevada\LCT\Wrk_data\HUC_16040101_Upper_Humboldt\Marys\GIS , you can check that folder to see many desert sites that have been digitized under dry and wet conditions to see how they look.
 - For most sites generally digitizing valley bottom somewhere at 1:1000 or 2000 scale is sufficient, riparian in the ballpark of 1:1000 or 500, and the remaining layers between 1:125 and 1:500. This can vary from site to site so use your discretion.
-- If there is no clear thalweg you can use use the centerline of the channel, to derive the centerline do the same process as for vb_centerline but use the active channel instead. Then modify the the centerline to fit sections where you can determine thalweg and export that as your thalweg file.
+- If there is no clear thalweg you can use use the centerline of the channel, then modify that to fit the channel where you can see the thalweg.
 - If you plan to have one technician create a series of blank shapefiles they may want to consider going into the properties of that shapefile and modifying the attributes form so that every time a feature is added or changed a specific calculation will autopopulate fields. However, evaluate the usefulness of this feature on a case by case basis.
 - Sometimes you may need to digitize the active channel but you can't see it. In these cases do your best to approximate where the channel is and digitize a thalweg that follows where you believe the channel is. Once that is done you can create a buffer using what sections of the channel you can see to determine the width of the buffer. 
 
@@ -62,10 +66,18 @@ Once you've finished digitizing the riverscape and applying the proper symbology
 #### How to:
 
 1. Create a polygon shapefile named valley_bottom
+
 2. Fields: 
     area_sq_m - type decimal (double)
+
+    date - type date
+
+    waterbody - type string
+
 3. Use the "Smooth" tool at default values
+
 4. Remove your old valley_bottom layer from the map and export the new "Smooth" temporary layer, overwriting your old shapefile. Keep the name as valley_bottom
+
 5. Field calculate necessary fields
 
 What is this layer? Valley bottom is the stream/river channels and the nearby low-lying contemporary floodplain. The spatial extent of the valley bottom is defined as the area that could plausibly flood during the contemporary flood regime. This layer also sets the boundaries for the rest of the digitizing effort. 
@@ -95,7 +107,7 @@ You may see a change from dense vegetation to sparse vegetation because slope is
 
 6. Using the snapping and trace tools in QGIS, digitize the line that runs down the center of the valley bottom.
 
-What is this Layer? This line shows the center of the valley bottom. It is useful in data analysis.
+What is this Layer? This line shows the center of the valley bottom. This can be used in conjunction with ac_centerline to determine sinuosity. It's useful for data processing after digitizing
 
 #### Lines of Evidence: 
 
@@ -115,6 +127,10 @@ Voronoi polygons layer
      type - type string
      - riparian
      - upland
+
+     date - type date
+
+     waterbody - type string
 
 3. Copy and paste the valley bottom polygon into the Riparian shapefile, for the type, fill in "upland"
 
@@ -149,6 +165,10 @@ If the riparian stands are dead, this does not count as riparian
 
    area_sq_m - type double
 
+   date - type date
+
+   waterbody - type string
+
 3. Digitize the channel edge, this includes bars and islands that are in the channel
 
 4. Calculate fields
@@ -173,7 +193,32 @@ Greener areas
 
 <img src="{{ site.baseurl }}/QGISImages/ac.PNG" alt="ac" style="width:75%;" />
 
+### Active Channel Centerline
+
+#### How to:
+
+1. Create a line shapefile named ac_centerline
+
+2. Fields: None
+
+3. Use the polygons to lines tool on the active channel shapefile
+
+4. Use the locate points along lines tool from the plugin and input the "Lines" temporary file you just created. Offset 0, interval 1, give it an output name, check the "Add Vertices" box, then run.
+
+5. Use this new points temporary layer as the input for the "Voronoi polygons tool"
+
+6. Using the snapping and trace tools in QGIS, digitize the line that runs down the center of the active channel.
+
+What is this Layer? This line shows the center of the active channel. This can be used in conjunction with vb_centerline to determine sinuosity.
+
+#### Lines of Evidence: 
+
+Voronoi polygons layer
+
+#### Images:
+
 ### Inundation
+
 #### How to:
 
 1. Duplicate the active_channel layer by exporting it and saving as inundation.shp. If you prefer you can make a polygon from scratch rather than reshaping and building on the active_channel
@@ -187,11 +232,15 @@ Greener areas
 
    area_sq_m - type double
 
+   date - type date
+
+   waterbody - type string
+
 3. Using the reshape and add ring tools, modify the polygon to fit where there is water.
 
 4. Calculate fields
 
-What is this layer? This layer shows where the water is within the valley bottom. Free flowing is water that is flowing in the channel unobstructed, ponded is water that is being ponded by some sort of structure, generally a beaver dam, overflow is water that is being structurally forced onto the floodplain.
+What is this layer? This layer shows where the water is within the valley bottom. Free flowing is water that is flowing in the channel unobstructed, ponded is water that is being ponded by some sort of structure, generally a beaver dam, overflow is water that is being structurally forced onto the floodplain and out of the channel.
 
 #### Lines of Evidence:
 
@@ -210,6 +259,10 @@ Structure nearby affecting flows?
    - intact
    - breached
    - blown_out
+   
+   date - type date
+   
+   waterbody - type string
 3. Trace the crest of each observed dam, in cases where the dam has damage, trace where the crest would be if it was intact
 
 
@@ -239,40 +292,60 @@ Area of concentrated flow at the location of the breach
 2. Fields:
 
    type - type string
-   - main
-   - anabranch
-   - braid
-   - split
+   - primary
+   - secondary
 
    length - type double
+
+   date - type date
+
+   waterbody - type string
 
 3. Digitize along the deepest part of the channels you've previously digitized, ensure snapping is enabled so that thalweg segments connect to each other
 
 4. Calculate fields
 
-What is this layer? This layer delineates the deepest part of the channel for the whole length of the channel. The main thalweg traces the deepest point of the main channel, anabranches, braids, and splits. The main channel is the deepest point in the main channel. Anabranches are the deepest part of a full formed secondary channel that is longer than two ocularly estimated channel widths. Splits are thalwegs that follow the deepest points of short side channels or structurally forced sheet flow. Braids are small thalwegs in the main channel that aren't the main thalweg.
+What is this layer? This layer delineates the deepest part of the channel for the whole length of the channel. The primary thalweg is the thalweg that runs through the main channel, secondary thalwegs run along side channels and areas where the primary thalweg may split due to structures in the stream or islands.
 
 #### Lines of Evidence:
 
 Look for areas in the channel that appear darker, these are likely deeper water than the surrounding channel
 
-The main thalweg is the thalweg in the larger channel, if there are two channels that are similar sizes, use the channel that follows the google maps trace of the river.
+The primary thalweg is the thalweg in the larger channel, if there are two channels that are similar sizes, use the channel that follows the google maps trace of the river and has a name.
 
 #### Images:
 
 ### Structures
 #### How to:
-​	Fields:
 
-What is this layer? This layer will include low tech restoration structures and other structures that are structurally forcing flows, such as LWD, boulders, PALS, BDAs, etc.
+1. Create a shapefile named structures.shp
+
+2. Fields:
+
+   type - type string
+
+   - live 
+   - inorganic
+   - jam
+   - lwd
+   - BDA
+   - PALS
+
+   date - type date
+
+   waterbody - type string
+
+What is this layer? This layer can contain low tech restoration structures and other structures that are structurally forcing flows. Which set of structures you digitize may be project specific but generally digitize them all and then apply either the structures symbology or restoration structures symbology. Live means vegetation growing in the channel, inorganic can be things like boulders or tires, a jam is woody debris that is channel spanning and ponding water, lwd is wood in the channel like a fallen tree, BDAs or beaver dam analogues are human made structures meant to mimic the function and form of a beaver dam, PALS or post assisted log structures are logs being held in the channel by posts, PALS are also made by humans. 
 
 #### Lines of Evidence:
 
 Structurally forced flows
 
-Some sort of geomorphic modification
+Signs of geomorphic modification
 
+PALS may have small circles in the structure visible from aerial imagery, those are the posts
 
+Shapefile indicating location of LTPBR structures
 
 #### Images:
 
@@ -287,6 +360,10 @@ Some sort of geomorphic modification
    - D
    - C
    - C/D
+   
+   date - type date
+   
+   waterbody - type string
 
 What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits. C/D can be used where one area has both a difluence and a confluence.
 
