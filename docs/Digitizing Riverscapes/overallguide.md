@@ -65,7 +65,7 @@ This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz)
 - If there is no clear thalweg you can use use the centerline of the channel, then modify that to fit the channel where you can see the thalweg.
 - If you plan to have one technician create a series of blank shapefiles they may want to consider going into the layer properties of that shapefile and modifying the attributes form so that every time a feature is added or changed a specific calculation will autopopulate fields. However, evaluate the usefulness of this feature on a case by case basis.
 - Sometimes you may need to digitize the active channel but you can't see it. In these cases do your best to approximate where the channel is and digitize a thalweg that follows where you believe the channel is. Once that is done you can create a buffer using what sections of the channel you can see to determine the width of the buffer. 
-- If you want a 3D context, use google earth
+- If you want some 3D context, use google earth or the obliques from the drone if available
 
 ## Shapefiles
 
