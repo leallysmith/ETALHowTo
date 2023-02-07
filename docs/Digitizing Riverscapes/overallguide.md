@@ -12,7 +12,7 @@ An important element of high quality digitized data is maintaining a consistent 
 
 Another consideration is to avoid "spaghetti digitizing" this is where the digitizer does not use snapping and tracing and little holes get left behind that from far away, are not visible, but once you zoom in they become clear. In the example below you can see that the polygons have gaps between them in some places and overlap in others. 
 
-
+<img src="{{ site.baseurl }}/QGISImages/spaghetti.png" alt="spaghetti" style="width:75%;" />
 
 Some useful plugins to install before digitizing are "Clipper" and "Locate points along lines". Toolbars you'll want to have enabled are Digitizing, Advanced Digitizing, and Snapping. To enable toolbars, find view then toolbars or right click on the toolbars that are already enabled to see more.
 
