@@ -72,7 +72,7 @@ This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz)
 ### Valley Bottom
 #### How to:
 
-1. Create a polygon shapefile named valley_bottom
+1. Create a polygon shapefile named valley_bottom.shp
 
 2. Fields: 
     area_sq_m - type decimal (double)
@@ -102,7 +102,7 @@ You may see a change from dense vegetation to sparse vegetation because slope is
 ### Valley Bottom Centerline
 #### How to:
 
-1. Create a line shapefile named vb_centerline
+1. Create a line shapefile named vb_centerline.shp
 
 2. Fields: None
 
@@ -208,7 +208,7 @@ Generally no non-aquatic vegetation, in non-perennial systems there may be some 
 
 #### How to:
 
-1. Create a line shapefile named ac_centerline
+1. Create a line shapefile named ac_centerline.shp
 
 2. Fields: None
 
@@ -280,7 +280,7 @@ Structure nearby affecting flows?
 4. Calculate fields
 
 
-What is this layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water.
+What is this layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water. Ponded water should be traced along the dam crest line if a dam crest is present, then the freeflowing after should trace that same dam crest line.
 
 #### Lines of Evidence:
 
