@@ -122,7 +122,7 @@ Voronoi polygons layer
 
 #### Images:
 
-<img src="{{ site.baseurl }}/QGISImages/vbcenter.PNG" alt="vb centerline" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/vbcenter.PNG" alt="vb centerline" style="width:50%;" />
 
 ### Riparian
 #### How to: 
