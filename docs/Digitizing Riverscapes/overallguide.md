@@ -122,6 +122,8 @@ Voronoi polygons layer
 
 #### Images:
 
+<img src="{{ site.baseurl }}/QGISImages/vbcenter.PNG" alt="vb centerline" style="width:75%;" />
+
 ### Riparian
 #### How to: 
 
@@ -391,4 +393,3 @@ Determine flow direction by looking at channel heads and slope. Higher elevation
 
 #### Images:
 
-<img src="{{ site.baseurl }}/QGISImages/cd.PNG" alt="cd" style="width:75%;" />
