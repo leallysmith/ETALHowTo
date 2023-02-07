@@ -24,7 +24,7 @@ From here name your shapefile and choose its save location then select which typ
 
 ### Field Calculation
 
-Before you calculate area or length ensure that your project will calculate in the correct units. You can check what units your project will use in Project > Properties > General, then under measurements you can check your units. You can also find this information in the properties of the coordinate system you are using.
+Before you calculate area or length ensure that your project will calculate in the correct units (generally meters). You can check what units your project will use in Project > Properties > General, then under measurements you can check your units. If you use area($geometry) and length($geometry) as is recommended then these fields will be calculated using the coordinate system's units. You can check this by looking it up through a search engine or by double clicking the layer to open the layer properties, then going to information, and under the Coordinate Reference Section (CRS) section the units will be shown.
 
 To calculate fields click on the shapefile you want to calculate for and then either in the attribute table or the ribbon click on <img src="{{ site.baseurl }}/QGISImages/abacus.PNG" alt="button" style="width:5%;" />. Here you can create a field if you didn't during the shapefile creation step or "Update existing field". Select the field you'd like to calculate and enter the formula needed. Once that formula is entered, click "OK" and the fields will be calculated.
 
@@ -51,7 +51,7 @@ Once you've finished digitizing the riverscape and applying the proper symbology
 ###  Tips, Tricks, & Troubleshooting
 
 - For inundation you can either create a new shapefile or duplicate the active channel one and modify that, whichever makes more sense to you
-- Thalwegs can be easier if you start and finish a shape, and then use the modify vertices tool, that way you can save more frequently than if you just digitize the whole time and QGIS crashes in the middle. A lot of the the features you can digitize via reshape, add vertices or drawing polygons and merging them. That way you can save frequently and not lose progress if QGIS crashes.
+- A lot of the the features you can digitize via reshape, add vertices or drawing polygons and merging them. That way you can save frequently and not lose progress if QGIS crashes. For example, thalwegs can be easier if you start and finish a shape, and then use the modify vertices tool, that way you can save more frequently than if you work a new feature the whole time and QGIS crashes in the middle. 
 - Some projects may require additional fields, like a field for waterbody name or site id, for things like that don't worry about filling out those features every time you get a pop up, you can use the field calculator to fill all the cells at once which is a nice time saver.
 - In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices in view, in these cases simply zoom in and try again.
 - There are a number of digitized projects under Box\0_ET_AL\Projects\USA\Nevada\LCT\Wrk_data\HUC_16040101_Upper_Humboldt\Marys\GIS , you can check that folder to see many desert sites that have been digitized under dry and wet conditions to see how they look.
@@ -187,7 +187,9 @@ Elevation raster may show the channel
 
 Breaks in the tree line
 
-Greener areas
+Greener areas beside the channel
+
+Generally no non-aquatic vegetation, in non-perennial systems there may be some grasses growing in the channel during the dry season
 
 #### Images:
 
@@ -315,6 +317,8 @@ The primary thalweg is the thalweg in the larger channel, if there are two chann
 
 #### Images:
 
+<img src="{{ site.baseurl }}/QGISImages/thalweg.PNG" alt="thalweg" style="width:75%;" />
+
 ### Structures
 #### How to:
 
@@ -335,7 +339,7 @@ The primary thalweg is the thalweg in the larger channel, if there are two chann
 
    waterbody - type string
 
-What is this layer? This layer can contain low tech restoration structures and other structures that are structurally forcing flows. Which set of structures you digitize may be project specific but generally digitize them all and then apply either the structures symbology or restoration structures symbology. Live means vegetation growing in the channel, inorganic can be things like boulders or tires, a jam is woody debris that is channel spanning and ponding water, lwd is wood in the channel like a fallen tree, BDAs or beaver dam analogues are human made structures meant to mimic the function and form of a beaver dam, PALS or post assisted log structures are logs being held in the channel by posts, PALS are also made by humans. 
+What is this layer? This layer can contain low tech restoration structures and other structures that are structurally forcing flows. Which set of structures you digitize may be project specific but generally digitize them all and then apply either the structures symbology or restoration structures symbology. Live means vegetation growing in the channel, inorganic can be things like boulders or tires, a jam is woody debris that is channel spanning and ponding water, lwd is large woody debris in the channel such as a fallen tree, BDAs or beaver dam analogues are human made structures meant to mimic the function and form of a beaver dam, PALS or post assisted log structures are logs being held in the channel by posts, PALS are also made by humans. 
 
 #### Lines of Evidence:
 
@@ -377,3 +381,4 @@ Determine flow direction by looking at channel heads and slope. Higher elevation
 
 #### Images:
 
+<img src="{{ site.baseurl }}/QGISImages/cd.PNG" alt="cd" style="width:75%;" />
