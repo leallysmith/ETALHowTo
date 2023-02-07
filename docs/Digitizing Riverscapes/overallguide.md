@@ -333,7 +333,40 @@ The primary thalweg is the thalweg in the larger channel, if there are two chann
 
 <img src="{{ site.baseurl }}/QGISImages/thalweg.PNG" alt="thalweg" style="width:75%;" />
 
+### Confluences and Difluences
+
+#### How to:
+
+1. Create a point shapefile named confluence_difluence.shp
+
+2. Fields:
+
+   type - string
+
+   - D
+   - C
+   - C/D
+
+   date - type date
+
+   waterbody - type string
+
+What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits. C/D can be used where one area has both a difluence and a confluence.
+
+#### Lines of Evidence:
+
+Thalwegs converge or diverge
+
+Islands
+
+Determine flow direction by looking at channel heads and slope. Higher elevation is generally upstream and channel heads generally point upstream.
+
+#### Images:
+
+<img src="{{ site.baseurl }}/QGISImages/cd.PNG" alt="cd" style="width:75%;" />
+
 ### Structures
+
 #### How to:
 
 1. Create a shapefile named structures.shp
@@ -369,32 +402,3 @@ Shapefile indicating location of LTPBR structures
 
 #### Images:
 
-### Confluences and Difluences
-#### How to:
-
-1. Create a point shapefile named confluence_difluence.shp
-
-2. Fields:
-
-   type - string
-   - D
-   - C
-   - C/D
-   
-   date - type date
-   
-   waterbody - type string
-
-What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits. C/D can be used where one area has both a difluence and a confluence.
-
-#### Lines of Evidence:
-
-Thalwegs converge or diverge
-
-Islands
-
-Determine flow direction by looking at channel heads and slope. Higher elevation is generally upstream and channel heads generally point upstream.
-
-#### Images:
-
-<img src="{{ site.baseurl }}/QGISImages/cd.PNG" alt="cd" style="width:75%;" />
