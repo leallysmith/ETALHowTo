@@ -16,13 +16,17 @@ Another consideration is to avoid "spaghetti digitizing" this is where the digit
 
 Some useful plugins to install before digitizing are "Clipper" and "Locate points along lines". Toolbars you'll want to have enabled are Digitizing, Advanced Digitizing, and Snapping. To enable toolbars, find view then toolbars or right click on the toolbars that are already enabled to see more.
 
-### Shapefile creation
+
+
+### Shapefile Creation and Editing
 
 Click on <img src="{{ site.baseurl }}/QGISImages/shapefilebutton.PNG" alt="button" style="width:5%;" /> to create a shapefile. 
 
 From here name your shapefile and choose its save location then select which type of shapefile you want, polygon, line, or point. Select an appropriate coordinate system for your site. Adding fields can be done by naming the field, selecting what type of field it is and then once that is filled out, click the "Add to Fields List" button. If you forget to add fields in this step, you can also do it from the field calculator after you finish creating the shapefile.
 
 <img src="{{ site.baseurl }}/QGISImages/shapefilescreen.PNG" alt="button" style="width:50%;" />
+
+To begin an edit session, select the add feature button. This will look different depending on whether you are working on a polygon, line, or point. <img src="{{ site.baseurl }}/QGISImages/editsession" alt="beginediting" style="width:15%;" />
 
 ### Field Calculation
 
@@ -57,8 +61,8 @@ This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz)
 ###  Tips, Tricks, & Troubleshooting
 
 - For inundation you can either create a new shapefile or duplicate the active channel one and modify that, whichever makes more sense to you
-- A lot of the the features you can digitize via reshape <img src="{{ site.baseurl }}/QGISImages/reshape.PNG" alt="reshape" style="width:5%;" />, add vertices <img src="{{ site.baseurl }}/QGISImages/vertex.PNG" alt="vertex" style="width:5%;" />, or drawing polygons and merging <img src="{{ site.baseurl }}/QGISImages/merge.PNG" alt="merge" style="width:5%;" /> them. That way you can save frequently and not lose progress if QGIS crashes. For example, thalwegs can be easier if you start and finish a shape, and then use the modify vertices tool, that way you can save more frequently than if you work a new feature the whole time and QGIS crashes in the middle. 
-- Some projects may require additional fields, like a field for waterbody name or site id, for things like that don't worry about filling out those features every time you get a pop up, you can use the field calculator to fill all the cells at once which is a nice time saver.
+- A lot of the the features you can digitize via reshape <img src="{{ site.baseurl }}/QGISImages/reshape.PNG" alt="reshape" style="width:5%;" />, add vertices <img src="{{ site.baseurl }}/QGISImages/vertex.PNG" alt="vertex" style="width:5%;" />, or drawing polygons and merging <img src="{{ site.baseurl }}/QGISImages/merge.PNG" alt="merge" style="width:5%;" /> them. That way you can save frequently and not lose progress if QGIS crashes. For example, thalwegs can be easier if you start and finish a shape with a couple vertices, and then use the modify vertices tool to add vertices to the end, that way you can save more frequently than if you work a new feature the whole time and QGIS crashes in the middle. 
+- Some projects may require additional fields, like a field for site id, for things like that don't worry about filling out those features every time you get a pop up, you can use the field calculator to fill all the cells at once which is a nice time saver.
 - In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices in view, in these cases simply zoom in and try again.
 - There are a number of digitized projects under ~\0_ET_AL\Projects\USA\Nevada\LCT\Wrk_data\HUC_16040101_Upper_Humboldt\Marys\GIS , you can check that folder to see many desert sites that have been digitized under dry and wet conditions to see how they look.
 - For most sites generally digitizing valley bottom somewhere at 1:1000 or 2000 scale is sufficient, riparian in the ballpark of 1:1000 or 500, and the remaining layers between 1:125 and 1:500. This can vary from site to site so use your discretion.
@@ -81,6 +85,8 @@ This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz)
 
     waterbody - type string
 
+2. Digitize the valley bottom
+    
 3. Use the "Smooth" tool at default values
 
 4. Remove your old valley_bottom layer from the map and export the new "Smooth" temporary layer, overwriting your old shapefile. Keep the name as valley_bottom
@@ -355,6 +361,10 @@ The primary thalweg is the thalweg in the larger channel, if there are two chann
 
    waterbody - type string
 
+3. Digitize features
+
+4. Calculate fields
+
 What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits. C/D can be used where one area has both a difluence and a confluence.
 
 #### Lines of Evidence:
@@ -389,6 +399,8 @@ Determine flow direction by looking at channel heads and slope. Higher elevation
    date - type date
 
    waterbody - type string
+
+3. Digitize features
 
 3. Calculate fields
 
