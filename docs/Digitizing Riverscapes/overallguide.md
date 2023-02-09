@@ -424,3 +424,4 @@ Shapefile indicating location of LTPBR structures
 
 #### Images:
 
+<img src="{{ site.baseurl }}/QGISImages/boulders.PNG" alt="inorganic" style="width:75%;" />
