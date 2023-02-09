@@ -275,6 +275,10 @@ Area of concentrated flow at the location of the breach
 
 #### Images:
 
+<img src="{{ site.baseurl }}/QGISImages/breached.PNG" alt="breached" style="width:50%;" />
+
+<img src="{{ site.baseurl }}/QGISImages/intactdam.PNG" alt="intact" style="width:50%;" />
+
 ### Inundation
 
 #### How to:
