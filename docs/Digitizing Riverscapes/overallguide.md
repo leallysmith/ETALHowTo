@@ -265,7 +265,7 @@ Ponded water
 
 Dams are generally convex with the current
 
-Does the dam have a mattress? A mattress is branches that lay on the downstream side of a dam to help dampen the strength of any overflow and prevent scouring.
+Does the dam have a mattress? A mattress is branches that lay on the downstream side of a dam parallel to the current to help dampen the strength of any overflow and prevent scouring.
 
 Be careful to make sure this isn't a woody debris accumulation.
 
