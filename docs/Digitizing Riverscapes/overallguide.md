@@ -26,11 +26,11 @@ From here name your shapefile and choose its save location then select which typ
 
 <img src="{{ site.baseurl }}/QGISImages/shapefilescreen.PNG" alt="button" style="width:50%;" />
 
-To begin an edit session, select the add feature button. This will look different depending on whether you are working on a polygon, line, or point. <img src="{{ site.baseurl }}/QGISImages/editsession" alt="beginediting" style="width:15%;" />
+To begin an edit session, select the add feature button. This will look different depending on whether you are working on a polygon, line, or point. <img src="{{ site.baseurl }}/QGISImages/editsession.png" alt="beginediting" style="width:15%;" />
 
 ### Field Calculation
 
-If you use area($geometry) and length($geometry) as is recommended then these fields will be calculated using the coordinate system's units. You can check this by looking it up through a search engine or by double clicking the layer to open the layer properties, then going to information, and under the Coordinate Reference Section (CRS) section the units will be shown.
+If you use area($geometry) and length($geometry) as is recommended then these fields will be calculated using the coordinate system's units. You can check what units your CRS uses by looking it up through a search engine or by double clicking the layer to open the layer properties, then going to information, and under the Coordinate Reference Section (CRS) section the units will be shown. Ensure that the units your CRS uses are meters because that's what we generally use for digitizing units. If your project needs to be in different units, use the appropriate CRS and change the area_sq_m column to be more representative of what you are using.
 
 To calculate fields click on the shapefile you want to calculate for and then either in the attribute table or the ribbon click on <img src="{{ site.baseurl }}/QGISImages/abacus.PNG" alt="button" style="width:5%;" />. Here you can create a field if you didn't during the shapefile creation step or "Update existing field". Select the field you'd like to calculate and enter the formula needed. Once that formula is entered, click "OK" and the fields will be calculated.
 
