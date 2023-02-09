@@ -265,7 +265,7 @@ Ponded water
 
 Dams are generally convex with the current
 
-Does the dam have a mattress? A mattress is branches that lay on the downstream side of a dam parallel to the current to help dampen the strength of any overflow and prevent scouring.
+Does the dam have a mattress? A mattress is branches that lay on the downstream side of a dam parallel to the current to help dampen the strength of any overflow and prevent scouring at the base of a dam.
 
 Be careful to make sure this isn't a woody debris accumulation.
 
@@ -302,7 +302,11 @@ What is this layer? This layer shows where the water is within the valley bottom
 
 #### Lines of Evidence:
 
-Structure nearby affecting flows?
+Are there surrounding structures that may be affecting the flow?
+
+Is there water in the system?
+
+Dams can back up water much further than you may expect.
 
 #### Images:
 
@@ -329,7 +333,7 @@ Structure nearby affecting flows?
 
 4. Calculate fields
 
-What is this layer? This layer delineates the deepest part of the channel for the whole length of the channel. The primary thalweg is the thalweg that runs through the main channel, secondary thalwegs run along side channels and areas where the primary thalweg may split due to structures in the stream or islands.
+What is this layer? This layer delineates the deepest part of the channel for the whole length of the channel. The primary thalweg is the thalweg that runs through the main channel, secondary thalwegs run along side channels and areas where the primary thalweg may split due to structures in the stream or islands. 
 
 #### Lines of Evidence:
 
@@ -359,7 +363,7 @@ The primary thalweg is the thalweg in the larger channel, if there are two chann
 
    waterbody - type string
 
-3. Digitize features
+3. Digitize c/ds where there are thalwegs that meet and split
 
 4. Calculate fields
 
@@ -398,7 +402,7 @@ Determine flow direction by looking at channel heads and slope. Higher elevation
 
    waterbody - type string
 
-3. Digitize features
+3. Digitize features by placing points atop structures where you observe them.
 
 3. Calculate fields
 
