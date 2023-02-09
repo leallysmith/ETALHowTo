@@ -163,8 +163,6 @@ Perennial riparian vegetation
 
 In desert systems riparian can sometimes be the only greenery in the valley bottom
 
-Check to see if the area appears to be irrigated, this does not count as riparian
-
 If the riparian stands are dead, this does not count as riparian
 
 #### Images:
