@@ -165,6 +165,10 @@ In desert systems riparian can sometimes be the only greenery in the valley bott
 
 If the riparian stands are dead, this does not count as riparian
 
+Suppression of upland vegetation growth indicates riparian
+
+NDVI raster if available
+
 #### Images:
 
 <img src="{{ site.baseurl }}/QGISImages/riparian.png" alt="riparian" style="width:75%;" />
