@@ -46,6 +46,10 @@ $y - will calculate the latitude
 
 $x - will calculate the longitude
 
+$area - will calculate area in the project's units NOT the CRS units (accessed through project properties)
+
+$length - will calculate length in the project's units NOT the CRS units (accessed through project properties)
+
 ### Symbology
 
 There is a standard set of symbology we use in the lab to ensure all our data looks consistent. This symbology can be found at ~\0_ET_AL\NonProject\etal_Symbology. They are named according to the layer they should be used for. To apply this symbology, navigate to the properties of the shapefile you are symbolizing. You can do this by double clicking on the shapefile in your layer pane. Then, regardless of which tab you are on in the bottom left should be a dropdown that says style. From here, click load style then navigate to the directory outlined above. Select the appropriate QGIS Layer setting, then click load style, then click OK. The shapefile should now be symbolized. Older versions and ArcMap versions of symbology can be found in ~\0_ET_AL\Projects\USA\Utah\BLM_Statewide_Monitoring_Kimbell_Ranch_Bear\wrk_Data\Symbology.
@@ -86,7 +90,7 @@ This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz)
     waterbody - type string
 
 2. Digitize the valley bottom
-    
+   
 3. Use the "Smooth" tool at default values
 
 4. Remove your old valley_bottom layer from the map and export the new "Smooth" temporary layer, overwriting your old shapefile. Keep the name as valley_bottom
