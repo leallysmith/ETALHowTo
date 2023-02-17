@@ -14,7 +14,7 @@ Another consideration is to avoid "spaghetti digitizing" this is where the digit
 
 <img src="{{ site.baseurl }}/QGISImages/spaghetti.png" alt="spaghetti" style="width:75%;" />
 
-Some useful plugins to install before digitizing are "Clipper" and "Locate points along lines". Toolbars you'll want to have enabled are Digitizing, Advanced Digitizing, and Snapping. To enable toolbars, find view then toolbars or right click on the toolbars that are already enabled to see more.
+Some useful plugins to install before digitizing are "Clipper" and "Locate points along lines". Toolbars you'll want to have enabled are Digitizing, Advanced Digitizing, Plugins Toolbar (clipper), Locate Lines (locate points along lines), and Snapping. To enable toolbars, find view then toolbars or right click on the toolbars that are already enabled to see more.
 
 
 
@@ -22,7 +22,7 @@ Some useful plugins to install before digitizing are "Clipper" and "Locate point
 
 Click on <img src="{{ site.baseurl }}/QGISImages/shapefilebutton.PNG" alt="button" style="width:5%;" /> to create a shapefile. 
 
-From here name your shapefile and choose its save location then select which type of shapefile you want, polygon, line, or point. Select an appropriate coordinate system for your site. Adding fields can be done by naming the field, selecting what type of field it is and then once that is filled out, click the "Add to Fields List" button. If you forget to add fields in this step, you can also do it from the field calculator after you finish creating the shapefile.
+From here name your shapefile and choose its save location then select which type of shapefile you want, polygon, line, or point. Select an appropriate coordinate system for your site this will generally be NAD83/UTM zone [zone for your site]. Adding fields can be done by naming the field, selecting what type of field it is and then once that is filled out, click the "Add to Fields List" button. If you forget to add fields in this step, you can also do it from the field calculator after you finish creating the shapefile.
 
 <img src="{{ site.baseurl }}/QGISImages/shapefilescreen.PNG" alt="button" style="width:50%;" />
 
@@ -30,13 +30,13 @@ To begin an edit session, select the add feature button. This will look differen
 
 ### Field Calculation
 
-If you use area($geometry) and length($geometry) as is recommended then these fields will be calculated using the coordinate system's units. You can check what units your CRS uses by looking it up through a search engine or by double clicking the layer to open the layer properties, then going to information, and under the Coordinate Reference Section (CRS) section the units will be shown. Ensure that the units your CRS uses are meters because that's what we generally use for digitizing units. If your project needs to be in different units, use the appropriate CRS and change the area_sq_m column to be more representative of what you are using.
+If you use area($geometry) and length($geometry) which is what I recommend then these fields will be calculated using the coordinate system's units. You can check what units your CRS uses by looking it up through a search engine or by double clicking the layer to open the layer properties, then going to information, and under the Coordinate Reference Section (CRS) section the units will be shown. Ensure that the units your CRS uses are meters because that's what we generally use for digitizing units. If your project needs to be in different units, use the appropriate CRS and change the area_sq_m column to be more representative of what you are using. You can also use $area and $length to calculate using units that you can set under Project > Properties > General > Measurements. If you choose this method be careful to make sure that QGIS doesn't change which units it defaults to.
 
 To calculate fields click on the shapefile you want to calculate for and then either in the attribute table or the ribbon click on <img src="{{ site.baseurl }}/QGISImages/abacus.PNG" alt="button" style="width:5%;" />. Here you can create a field if you didn't during the shapefile creation step or "Update existing field". Select the field you'd like to calculate and enter the formula needed. Once that formula is entered, click "OK" and the fields will be calculated.
 
-area($geometry) - will calculate area
+area($geometry) - will calculate area in CRS units
 
-length($geometry) - will calculate length
+length($geometry) - will calculate length in CRS units
 
 'string' - you must enclose strings in '  ' to fill tables in field calculator. Typing 'string' will fill the cells and display string
 
@@ -46,9 +46,9 @@ $y - will calculate the latitude
 
 $x - will calculate the longitude
 
-$area - will calculate area in the project's units NOT the CRS units (units accessed through project properties)
+$area - will calculate area in the project's units NOT the CRS units
 
-$length - will calculate length in the project's units NOT the CRS units (units accessed through project properties)
+$length - will calculate length in the project's units NOT the CRS units
 
 ### Symbology
 
@@ -64,10 +64,10 @@ This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz)
 
 ###  Tips, Tricks, & Troubleshooting
 
-- For inundation you can either create a new shapefile or duplicate the active channel one and modify that, whichever makes more sense to you
-- A lot of the the features you can digitize via reshape <img src="{{ site.baseurl }}/QGISImages/reshape.PNG" alt="reshape" style="width:5%;" />, add vertices <img src="{{ site.baseurl }}/QGISImages/vertex.PNG" alt="vertex" style="width:5%;" />, or drawing polygons and merging <img src="{{ site.baseurl }}/QGISImages/merge.PNG" alt="merge" style="width:5%;" /> them. That way you can save frequently and not lose progress if QGIS crashes. For example, thalwegs can be easier if you start and finish a shape with a couple vertices, and then use the modify vertices tool to add vertices to the end, that way you can save more frequently than if you work a new feature the whole time and QGIS crashes in the middle. 
+- For inundation you can either create a new shapefile or duplicate the active channel one and build on that, whichever makes more sense to you
+- A lot of the the features you can digitize via reshape <img src="{{ site.baseurl }}/QGISImages/reshape.PNG" alt="reshape" style="width:5%;" />, add vertices <img src="{{ site.baseurl }}/QGISImages/vertex.PNG" alt="vertex" style="width:5%;" />, or adding features and merging <img src="{{ site.baseurl }}/QGISImages/merge.PNG" alt="merge" style="width:5%;" /> them. That way you can save frequently and not lose progress if QGIS crashes. For example, thalwegs can be easier if you start and finish a shape with a couple vertices, and then use the modify vertices tool to add vertices to the end, that way you can save more frequently in the event that QGIS crashes.
 - Some projects may require additional fields, like a field for site id, for things like that don't worry about filling out those features every time you get a pop up, you can use the field calculator to fill all the cells at once which is a nice time saver.
-- In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices in view, in these cases simply zoom in and try again.
+- In some cases the trace and reshape tools may not work even if they're enabled. Occasionally in the snapping toolbar it may have unselected what you are snapping to, make sure that there isn't a blank box in the snapping toolbar there and that you're snapping to segments and vertices on all layers. If that doesn't fix it, use the "Fix Geometry" tool on the layer you're trying to trace or the layer you're reshaping, and finally try completely closing QGIS and relaunching it. Additionally, trace may not behave as expected if there are too many vertices in view, in these cases simply zoom in and try again.
 - There are a number of digitized projects under ~\0_ET_AL\Projects\USA\Nevada\LCT\Wrk_data\HUC_16040101_Upper_Humboldt\Marys\GIS , you can check that folder to see many desert sites that have been digitized under dry and wet conditions to see how they look.
 - For most sites generally digitizing valley bottom somewhere at 1:1000 or 2000 scale is sufficient, riparian in the ballpark of 1:1000 or 500, and the remaining layers between 1:125 and 1:500. This can vary from site to site so use your discretion.
 - If there is no clear thalweg you can use use the centerline of the channel, then modify that to fit the channel where you can see the thalweg.
