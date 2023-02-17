@@ -38,7 +38,7 @@ area($geometry) - will calculate area
 
 length($geometry) - will calculate length
 
-'string' - you must enclose strings in '  ' to fill tables in field calculator typing, ```'string'``` will fill the cells and display ```string```
+'string' - you must enclose strings in '  ' to fill tables in field calculator. Typing ```'string'``` will fill the cells and display ```string```
 
 now() - the date and time at that moment
 
@@ -46,9 +46,9 @@ $y - will calculate the latitude
 
 $x - will calculate the longitude
 
-$area - will calculate area in the project's units NOT the CRS units (accessed through project properties)
+$area - will calculate area in the project's units NOT the CRS units (units accessed through project properties)
 
-$length - will calculate length in the project's units NOT the CRS units (accessed through project properties)
+$length - will calculate length in the project's units NOT the CRS units (units accessed through project properties)
 
 ### Symbology
 
