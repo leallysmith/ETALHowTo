@@ -38,7 +38,7 @@ area($geometry) - will calculate area
 
 length($geometry) - will calculate length
 
-'string' - you must enclose strings in '  ' to fill tables in field calculator. Typing ```'string'``` will fill the cells and display ```string```
+'string' - you must enclose strings in '  ' to fill tables in field calculator. Typing 'string' will fill the cells and display string
 
 now() - the date and time at that moment
 
