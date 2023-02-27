@@ -104,7 +104,9 @@ What is this layer? Valley bottom is the stream/river channels and the nearby lo
 
 In sufficiently resolved elevation rasters such as ones derived from drones you may see a "shelf" where the elevation changes from flatter valley bottom to steeper hill slopes rapidly.
 
-You may see a change from dense vegetation to sparse vegetation because slope is too steep
+You may see a change from dense vegetation to sparse vegetation because slope is too steep to support vegetation.
+
+If there is a VBET run for your area, that is also a good line of evidence
 
 #### Images:
 
