@@ -24,7 +24,7 @@ Some useful plugins to install before digitizing are "Clipper" and "Locate point
 
 Click on <img src="{{ site.baseurl }}/QGISImages/shapefilebutton.PNG" alt="button" style="width:5%;" /> to create a shapefile. 
 
-From here name your shapefile and choose its save location then select which type of shapefile you want, polygon, line, or point. Select an appropriate coordinate system for your site this will generally be NAD83/UTM zone [zone for your site]. Adding fields can be done by naming the field, selecting what type of field it is and then once that is filled out, click the "Add to Fields List" button. If you forget to add fields in this step, you can also do it from the field calculator after you finish creating the shapefile.
+From here name your shapefile and choose its save location then select which type of shapefile you want, polygon, line, or point. Select an appropriate coordinate system for your site this will generally be NAD83/UTM zone ___. Adding fields can be done by naming the field, selecting what type of field it is and then once that is filled out, click the "Add to Fields List" button. If you forget to add fields in this step, you can also do it from the field calculator after you finish creating the shapefile.
 
 <img src="{{ site.baseurl }}/QGISImages/shapefilescreen.PNG" alt="button" style="width:50%;" />
 
@@ -58,11 +58,13 @@ There is a standard set of symbology we use in the lab to ensure all our data lo
 
 ### Geopackaging
 
-Once you've finished digitizing the riverscape, calculating the fields, and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package shapefiles, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage!
+Once you've finished digitizing the riverscape, calculating the fields, and applying the proper symbology, you'll need to save all these shapefiles as a geopackage. This allows a user to load in all the layers at once and properly symbolized rather than unsymbolized shapefiles one at a time. To package shapefiles, use the "Package Layers" tool from QGIS. You'll select all your layers in inputs and then select where you want it saved and the name. Then run, now you've created a geopackage! 
 
 ### Metadata
 
 This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz) is a good baseline to build your metadata off of. While you may not need the geomorphic units and transects sections you can use that template as a base to build your project metadata on. Name will be your name, Date is the date you started digitizing, you'll then state yes or no regarding whether you've been to site or not, then list your lines of evidence in digitizing, this section is about what sorts of imagery and shapefiles you used for more context of the site. Then, for each layer you'll denote what scale you used for digitizing and then your confidence; low, medium, or high. The confidence of accuracy is also a good place to list what reasons you had for your confidence level.
+
+For creating FGDC CSDGM formatted metadata there are tools in both Arc and QGIS that can help and [this website](https://go.mdeditor.org/#/export). This style of metadata will generally only be necessary if the data you create will end up in a government database. This means that unless you're told to create this specifically, just use the template above.
 
 ###  Tips, Tricks, & Troubleshooting
 
