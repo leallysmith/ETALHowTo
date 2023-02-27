@@ -6,6 +6,8 @@ weight: 1
 This page will contain step by step instructions for digitizing a riverscape in QGIS. Under each section will be the type of shapefile, name for that shapefile, and fields for the shapefile. Keep in mind that these fields are the minimum and project specific demands may require additional fields. If the project is a large digitizing effort it may be beneficial to have one technician generate a series of blank shapefiles to distribute so that other technicians can copy and paste those shapefiles into their projects. This can help ensure consistency across shapefiles and decrease errors with field types.
 The first section will detail useful plugins and the basic mechanics of using QGIS to avoid redundancy in later sections where we will go in depth on how to digitize each layer.
 
+For a cheat sheet that only contains field names and types and not a complete guide on how to do them, [see here](https://docs.google.com/document/d/10IKopN1gDufCflItdEPjOzrOjzYp5hHpO2IO35zVeSE/edit?usp=sharing).
+
 ## Using QGIS to Digitize Riverscapes
 
 An important element of high quality digitized data is maintaining a consistent scale. This means that once you begin digitizing a layer at 1:500 for example, the rest of that layer must be digitized at 1:500 scale. You can zoom in and out a little bit if you need better context but avoid digitizing at a variety of scales. This does not mean you have to use the same scale for the entire project, you only have to maintain that scale for the layer you are working on.
@@ -313,7 +315,7 @@ Area of concentrated flow at the location of the breach
 
 4. Calculate fields
 
-What is this layer? This layer shows where the water is within the valley bottom. Free flowing is water that is flowing in the channel unobstructed, ponded is water that is being ponded by some sort of structure, generally a beaver dam, overflow is water that is being structurally forced onto the floodplain and out of the channel.
+What is this layer? This layer shows where the water is within the valley bottom. Free flowing is water that is flowing in the channel unobstructed, ponded is water that is being ponded by some sort of structure, generally a beaver dam, overflow is water that is being structurally forced onto the floodplain and out of the channel, or a structurally forced secondary channel.
 
 #### Lines of Evidence:
 
