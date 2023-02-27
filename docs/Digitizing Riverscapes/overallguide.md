@@ -83,21 +83,22 @@ This [metadata template](https://usu.box.com/s/kg71wsj4gfl4zcd98wm36wl8p5po8baz)
 1. Create a polygon shapefile named valley_bottom.shp
 
 2. Fields: 
+
     area_sq_m - type decimal (double)
 
     date - type date
 
     waterbody - type string
 
-2. Digitize the valley bottom
-   
-3. Use the "Smooth" tool at default values
+3. Digitize the valley bottom
 
-4. Remove your old valley_bottom layer from the map and export the new "Smooth" temporary layer, overwriting your old shapefile. Keep the name as valley_bottom
+4. Use the "Smooth" tool at default values
 
-5. Field calculate necessary fields
+5. Remove your old valley_bottom layer from the map and export the new "Smooth" temporary layer, overwriting your old shapefile. Keep the name as valley_bottom
 
-What is this layer? Valley bottom is the stream/river channels and the nearby low-lying contemporary floodplain. The spatial extent of the valley bottom is defined as the area that could plausibly flood during the contemporary flood regime. This layer also sets the boundaries for the rest of the digitizing effort. 
+6. Field calculate necessary fields
+
+What is this layer? Valley bottom is the stream/river channels and the nearby low-lying contemporary floodplain. The spatial extent of the valley bottom is defined as the area that could plausibly flood during the contemporary flood regime. This layer also sets the boundaries for the rest of the digitizing effort. **THIS SETS THE EXTENT OF YOUR DIGITIZING. None of the remaining shapefiles from this point on should exceed your valley bottom
 
 #### Lines of Evidence: 
 
