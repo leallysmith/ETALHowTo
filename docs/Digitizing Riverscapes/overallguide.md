@@ -32,7 +32,7 @@ To begin an edit session, select the add feature button. This will look differen
 
 ### Field Calculation
 
-If you use area($geometry) and length($geometry) which is what I recommend then these fields will be calculated using the coordinate system's units. You can check what units your CRS uses by looking it up through a search engine or by double clicking the layer to open the layer properties, then going to information, and under the Coordinate Reference Section (CRS) section the units will be shown. Ensure that the units your CRS uses are meters because that's what we generally use for digitizing units. If your project needs to be in different units, use the appropriate CRS and change the area_sq_m column to be more representative of what you are using. You can also use $area and $length to calculate using units that you can set under Project > Properties > General > Measurements. If you choose this method be careful to make sure that QGIS doesn't change which units it defaults to.
+If you use area($geometry) and length($geometry) which is what I recommend then these fields will be calculated using the coordinate system's units. You can check what units your CRS uses by looking it up through a search engine or by double clicking the layer to open the layer properties, then going to information, and under the Coordinate Reference Section (CRS) section the units will be shown. Ensure that the units your CRS uses are meters because that's what we generally use for digitizing units, NAD83/UTM Zone ___ uses meters. If your project needs to be in different units, use the appropriate CRS and change the area_sq_m column to be more representative of what you are using. You can also use $area and $length to calculate using units that you can set under Project > Properties > General > Measurements. If you choose this method be careful to make sure that QGIS doesn't change which units its using.
 
 To calculate fields click on the shapefile you want to calculate for and then either in the attribute table or the ribbon click on <img src="{{ site.baseurl }}/QGISImages/abacus.PNG" alt="button" style="width:5%;" />. Here you can create a field if you didn't during the shapefile creation step or "Update existing field". Select the field you'd like to calculate and enter the formula needed. Once that formula is entered, click "OK" and the fields will be calculated.
 
@@ -75,7 +75,7 @@ For creating FGDC CSDGM formatted metadata there are tools in both Arc and QGIS 
 - There are a number of digitized projects under ~\0_ET_AL\Projects\USA\Nevada\LCT\Wrk_data\HUC_16040101_Upper_Humboldt\Marys\GIS , you can check that folder to see many desert sites that have been digitized under dry and wet conditions to see how they look.
 - For most sites generally digitizing valley bottom somewhere at 1:1000 or 2000 scale is sufficient, riparian in the ballpark of 1:1000 or 500, and the remaining layers between 1:125 and 1:500. This does not apply to all sites so use your discretion.
 - If there is no clear thalweg you can use use the centerline of the channel, then modify that to fit the channel where you can see the thalweg.
-- If you plan to have one technician create a series of blank shapefiles they may want to consider going into the layer properties of that shapefile and modifying the attributes form so that every time a feature is added or changed a specific calculation will autopopulate fields. However, evaluate the usefulness of this feature on a case by case basis.
+- If you plan to have one technician create a series of blank shapefiles they may want to consider going into the layer properties of that shapefile and modifying the attributes form so that every time a feature is added or changed a specific calculation will autopopulate fields. However, evaluate the usefulness of this feature for your project, I won't be covering that method here.
 - Sometimes you may need to digitize the active channel but you can't see it. In these cases do your best to approximate where the channel is and digitize a thalweg that follows where you believe the channel is. Once that is done you can create a buffer using what sections of the channel you can see to determine the width of the buffer. You can then edit this buffer to better match the channel where you can see it and then use the buffer for where you can't see it.
 - If you want some 3D context, use google earth or the obliques from the drone if available
 
@@ -102,11 +102,11 @@ For creating FGDC CSDGM formatted metadata there are tools in both Arc and QGIS 
 
 6. Field calculate necessary fields
 
-What is this layer? Valley bottom is the stream/river channels and the nearby low-lying contemporary floodplain. The spatial extent of the valley bottom is defined as the area that could plausibly flood during the contemporary flood regime. This layer also sets the boundaries for the rest of the digitizing effort. **THIS SETS THE EXTENT OF YOUR DIGITIZING. None of the remaining shapefiles from this point on should exceed your valley bottom.**
+What is this layer? Valley bottom is the stream/river channels and the nearby low-lying contemporary floodplain. The spatial extent of the valley bottom is defined as the area that could plausibly flood during the contemporary flood regime. **THIS SETS THE EXTENT OF YOUR DIGITIZING. None of the remaining shapefiles from this point on should exceed your valley bottom.**
 
 #### Lines of Evidence: 
 
-In sufficiently resolved elevation rasters such as ones derived from drones you may see a "shelf" where the elevation changes from flatter valley bottom to steeper hill slopes rapidly.
+In sufficiently resolved elevation rasters such as ones derived from drones you may see a "lip" where the elevation changes from flatter valley bottom to steeper hill slopes rapidly.
 
 You may see a change from dense vegetation to sparse vegetation because slope is too steep to support vegetation.
 
@@ -166,7 +166,7 @@ Voronoi polygons layer
 
 6. Calculate fields
 
-What is this layer? The riparian layer is our best approximation of the floodplain. Previously we had tried to map floodplain but the lines of evidence were weak. Now we map riparian as a way to approximate the current floodplain without making any false claims as to where the floodplain may really be. This layer delineates upland plants vs. riparian plants.
+What is this layer? The riparian layer is our approximation of the floodplain. Previously we had tried to map floodplain but the lines of evidence were weak. Now we map riparian as a way to approximate the current floodplain without making any false claims as to where the floodplain may really be. This layer delineates upland plants vs. riparian plants.
 
 #### Lines of Evidence:
 
@@ -201,7 +201,7 @@ NDVI raster if available
 
 4. Calculate fields
 
-What is this layer? Active channel is the area of the channel that is modified by average stream discharge. This means it includes non wetted features such as islands and bars that are located within the channel.
+What is this layer? Active channel is the area of the channel that is modified by average stream discharge. This means it includes non wetted features such as islands and bars that are located within the bankful channel.
 
 #### Lines of Evidence:
 
@@ -272,7 +272,7 @@ Voronoi polygons layer
 4. Calculate fields
 
 
-What is this layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water. Ponded water should be traced along the dam crest line if a dam crest is present, then the freeflowing after should trace that same dam crest line.
+What is this layer? This layer traces the top crest of a dam to show location, extent, and state of the dam. The options for dam_state are intact, where the dam is intact, breached, where the dam has some damage but is still ponding water at a lowered level, and blown_out where there is structural damage the whole height of the dam so it is not ponding water. Ponded water should be traced along the dam crest line if a dam crest is present, then the free flowing after should trace that same dam crest line.
 
 #### Lines of Evidence:
 
@@ -298,7 +298,7 @@ Area of concentrated flow at the location of the breach
 
 #### How to:
 
-1. Duplicate the active_channel layer by exporting it and saving as inundation.shp. If you prefer you can make a polygon from scratch rather than reshaping and building on the active_channel.
+1. Duplicate the active_channel layer by exporting it and saving as inundation.shp. If you prefer you can make a polygon from scratch rather than reshaping and building on the active_channel shapefile.
 
 2. Fields:
 
@@ -358,6 +358,8 @@ What is this layer? This layer delineates the deepest part of the channel for th
 
 Look for areas in the channel that appear darker, these are likely deeper water than the surrounding channel
 
+In systems that are dry or drying, whatever remaining water is in the channel likely follows the thalweg
+
 The primary thalweg is the thalweg in the larger channel, if there are two channels that are similar sizes, use the channel that follows the google maps trace of the river and has a name.
 
 #### Images:
@@ -386,7 +388,7 @@ The primary thalweg is the thalweg in the larger channel, if there are two chann
 
 4. Calculate fields
 
-What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits. C/D can be used where one area has both a difluence and a confluence.
+What is this layer? This layer maps flow patterns in a channel. Confluences are where water meets and difluences are where water splits. C/D can be used where one area has both a difluence and a confluence, you can also place a C and a D point at these places if that makes more sense to you rather than one C/D point.
 
 #### Lines of Evidence:
 
@@ -425,7 +427,7 @@ Determine flow direction by looking at channel heads and slope. Higher elevation
 
 3. Calculate fields
 
-What is this layer? This layer can contain low tech restoration structures and other structures that are structurally forcing flows. Which set of structures you digitize may be project specific but generally digitize them all and then apply either the structures symbology or restoration structures symbology. Live means vegetation growing in the channel, inorganic can be things like boulders or tires, a jam is woody debris that is channel spanning and ponding water, lwd is large woody debris in the channel such as a fallen tree, BDAs or beaver dam analogues are human made structures meant to mimic the function and form of a beaver dam, PALS or post assisted log structures are logs being held in the channel by posts, PALS are also made by humans. 
+What is this layer? This layer can contain low tech restoration structures and other structures that are structurally forcing flows. This means that flows in some way are being modified by these structures, modification of course exists for every size of structure down to a grain of sand if you get pedantic however, for the sake of digitizing flow modification should be visible from aerial imagery. This can include bank erosion, new channels, split flows, pond formation, etc. Which set of structures you digitize may be project specific but generally digitize them all and then apply either the structures symbology or restoration structures symbology. Live means vegetation growing in the channel, inorganic can be things like boulders or tires, a jam is woody debris that is channel spanning and ponding water, lwd is large woody debris in the channel such as a fallen tree, BDAs or beaver dam analogues are human made structures meant to mimic the function and form of a beaver dam, PALS or post assisted log structures are logs being held in the channel by posts, PALS are also made by humans. Dams are should not be digitized in this shapefile because they are already digitized in dam_crests.
 
 #### Lines of Evidence:
 
