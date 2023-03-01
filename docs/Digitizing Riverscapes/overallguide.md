@@ -366,6 +366,8 @@ The primary thalweg is the thalweg in the larger channel, if there are two chann
 
 <img src="{{ site.baseurl }}/QGISImages/thalweg.PNG" alt="thalweg" style="width:75%;" />
 
+<img src="{{ site.baseurl }}/QGISImages/thalweg2.PNG" alt="thalweg" style="width:75%;" />
+
 ### Confluences and Difluences
 
 #### How to:
