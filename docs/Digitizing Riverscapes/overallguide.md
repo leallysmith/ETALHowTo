@@ -313,7 +313,7 @@ Area of concentrated flow at the location of the breach
 
    waterbody - type string
 
-3. Using the reshape and add ring tools, modify the polygon to fit where there is water. This is also a good place to use clipper because each of these inundation types is mutually exclusive.
+3. Using the reshape and add ring tools, modify the polygon to fit where there is water. This is also a good place to use clipper or split features tools because each of these inundation types is mutually exclusive.
 
 4. Calculate fields
 
