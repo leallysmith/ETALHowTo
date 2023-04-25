@@ -11,6 +11,6 @@ weight: 1
 
 ​		Rule based symbology may also allow you to define symbologies at different zoom scales.
 
-
-
 2. If you need to symbolize something that doesn't have any sort of firm upper limit (length of road in the valley bottom for example) then set the upper limit of the bin to 10,000,000. That should cover any use case the lab has and is what we generally use to be the upper max.
+2. Arcade expressions can be used in ArcMap to help have more control over your symbology. You will need to find helpful resources to explain arcade to you but that is a thing that exists.
+

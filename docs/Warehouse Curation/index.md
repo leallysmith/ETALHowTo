@@ -39,3 +39,5 @@ Workflow
 6. Check to make sure that all the symbology is correct and transferred correctly
 
 7. Move to MapBox to create symbology for the web viewer.
+
+8. https://www.youtube.com/watch?v=0CrZr9Bs9hk Cashe Rasmussen has created a video that will explain curation in MapBox
