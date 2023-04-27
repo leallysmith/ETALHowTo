@@ -17,7 +17,7 @@ Workflow
 
 2. Download Github Desktop or GitKraken. Desktop has a less confusing UI, but Kraken is much more powerful and the complex UI tells you a lot.
 
-3. Copy the RiverscapesXML repository to your local system.
+3. Clone the RiverscapesXML repository to your local system.
 
 4. Create your own branch so that changes you make won't impact the main branch of the repository.
 
