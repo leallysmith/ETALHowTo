@@ -37,15 +37,7 @@ Workflow
 7. Move to MapBox to create symbology for the web viewer.
 
 8. ```
-   <iframe
-       width="640"
-       height="480"
-       src="https://www.youtube.com/watch?v=0CrZr9Bs9hk"
-       frameborder="0"
-       allow="autoplay; encrypted-media"
-       allowfullscreen
-   >
-   </iframe>
+   [![vide0 thumbnail](https://img.youtube.com/vi/0CrZr9Bs9hk/0.jpg)](https://www.youtube.com/watch?v=0CrZr9Bs9hk)
    ```
 
    Cashe Rasmussen has created a video that will explain curation in MapBox which can be a little more complicated but this video will help explain how to do it.
