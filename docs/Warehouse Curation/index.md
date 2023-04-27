@@ -5,10 +5,6 @@ weight: 1
 
 TODO
 
-How to curate for web (Cashe's video)
-
-Add tips an tricks page to hold little things we've learned to do cool symbology stuff
-
 Add images for using github tools
 
 Workflow
@@ -40,4 +36,16 @@ Workflow
 
 7. Move to MapBox to create symbology for the web viewer.
 
-8. https://www.youtube.com/watch?v=0CrZr9Bs9hk Cashe Rasmussen has created a video that will explain curation in MapBox
+8. ```
+   <iframe
+       width="640"
+       height="480"
+       src="https://www.youtube.com/watch?v=0CrZr9Bs9hk"
+       frameborder="0"
+       allow="autoplay; encrypted-media"
+       allowfullscreen
+   >
+   </iframe>
+   ```
+
+   Cashe Rasmussen has created a video that will explain curation in MapBox which can be a little more complicated but this video will help explain how to do it.
