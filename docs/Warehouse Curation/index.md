@@ -19,9 +19,9 @@ Workflow
 
 3. Clone the RiverscapesXML repository to your local system.
 
-4. Create your own branch so that changes you make won't impact the main branch of the repository. 
+4. Create your own branch so that changes you make won't impact the main branch of the repository. Give it a descriptive name, generally the project you're curating and your initials. BRAT_AS for example if you're working on the BRAT project and your initials are AS.
 
-5. When you begin to make changes on your branch these will not automatically be reflected in the cloud version of your branch, only the local version on your computer. To ensure changes you make are reflected in the cloud "commit" your changes frequently. This is essentially "saving" but to the cloud. Then you'll want to "push" those commits which will update the version of your branch that is online.
+5. When you begin to make changes on your branch these will not automatically be reflected in the cloud version of your branch, only the local version on your computer. To ensure changes you make are reflected in the cloud you'll need to "commit" your changes. This is essentially saving but to the cloud. Then you'll want to "push" those commits which will update the version of your branch that is online.
 
 6. Now you're going to modify the business logic, here is where you specify what symbology name each layer will search for. It is important that the .lyr, .qml and .json (.txt for rasters) that you will soon make all have the same name. Then in the business logic you will use that name for the "symbology =" field. Here is where you can also specify transparency. DO NOT apply transparency to the symbologies, nothing will break if you do it just creates inaccuracies for RV's visualizations.You also shouldn't include the file extension when you specify what symbology each layer should use. For example, the Raster layer below will search for a symbology called "LUIRaster" and apply 40% transparency.
 
