@@ -48,7 +48,7 @@ Workflow
 
 10. [![video thumbnail](https://img.youtube.com/vi/0CrZr9Bs9hk/0.jpg)](https://www.youtube.com/watch?v=0CrZr9Bs9hk)
 
-    Cashe Rasmussen has created a video that will explain curation in MapBox which can be a little more complicated but this video will help explain how to do it.
+    Cashe Rasmussen has created a video that will explain curation in MapBox which can be a little more complicated but this video will help explain how to do it. Additionally here are links to guides that Matt has written for [raster](https://rave.riverscapes.net/Technical_Reference/Symbology/webrave_rasterramp.html) and [vector](https://rave.riverscapes.net/Technical_Reference/Symbology/webrave_symbology.html) symbology for WebRV.
 
 11. Once you've created these symbologies and placed them in the appropriate folder and modified the business logic for whichever project you're working on, submit a pull request and assign it to Matt or Jordan, once they approve your pull request it will be merged in with the main branch and given to the world!
 

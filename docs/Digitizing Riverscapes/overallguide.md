@@ -102,7 +102,7 @@ For creating FGDC CSDGM formatted metadata there are tools in both Arc and QGIS 
 
 6. Field calculate necessary fields
 
-What is this layer? Valley bottom is the stream/river channels and the nearby low-lying contemporary floodplain. The spatial extent of the valley bottom is defined as the area that could plausibly flood during the contemporary flood regime. **THIS SETS THE EXTENT OF YOUR DIGITIZING. None of the remaining shapefiles from this point on should exceed your valley bottom.**
+What is this layer? Valley bottom is the stream/river channels and the nearby low-lying contemporary floodplain. The spatial extent of the valley bottom is defined as the area that could plausibly flood during the contemporary flood regime. **THIS SETS THE EXTENT OF YOUR DIGITIZING. None of the remaining shapefiles from this point on should exceed your valley bottom.** In some instances the drone imagery may not include enough of the lateral extent of the valley bottom. In these cases it is *okay* if your valley bottom is wider than the ortho, just use some other imagery to help you. Remember: the valley bottom sets the extent of your digitizing *not* the orthoimage.
 
 #### Lines of Evidence: 
 
