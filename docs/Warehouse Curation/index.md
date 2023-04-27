@@ -23,7 +23,7 @@ Workflow
 
 5. Now you're going to modify the business logic, here is where you specify what symbology name each layer will search for. It is important that the .lyr, .qml and .json (.txt for rasters) that you will soon make all have the same name. Then in the business logic you will use that name for the "symbology =" field. Here is where you can also specify transparency. DO NOT apply transparency to the symbologies, nothing will break if you do it just creates inaccuracies for RV's visualizations.You also shouldn't include the file extension when you specify what symbology each layer should use. For example, the Raster layer below will search for a symbology called "LUIRaster" and apply 40% transparency.
 
-   ​                   ``` <Node label="Land Use Intensity Raster" xpath="Raster[@id='LUI']" type="raster" symbology="LUIRaster" transparency="40" />
+   ``` <Node label="Land Use Intensity Raster" xpath="Raster[@id='LUI']" type="raster" symbology="LUIRaster" transparency="40" /> ```
 
 6. Create the symbology in ArcMap first. We can then convert this into QML using a premium edition of SLYR. If you prefer to start in QGIS that is alright but you'll have to recreate the symbology in ArcMap because the SLYR plugin can't convert into LYR. Only LYR to QML
 
