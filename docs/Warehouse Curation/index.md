@@ -13,7 +13,7 @@ Overview of the task: Curation is the process of creating symbology for the thre
 
 Workflow
 
-1. If you don't already have one, create a GitHub account and ask to be added to the Riverscapes Organization.
+1. If you don't already have one, create a GitHub account and request to be added to the Riverscapes Organization.
 
 2. Download Github Desktop or GitKraken. Desktop has a less confusing UI, but Kraken is much more powerful and the complex UI tells you a lot.
 
@@ -21,7 +21,7 @@ Workflow
 
 4. Create your own branch so that changes you make won't impact the main branch of the repository. 
 
-5. When you begin to make changes on your branch these will not automatically be reflected in the cloud version of your branch, only the local version on your computer. To ensure changes you make are reflected in the cloud "commit" your changes frequently. This is essentially "saving" but to the cloud. Then you'll want to "push" those commits which will update the version of your branch that is online.
+5. When you begin to make changes on your branch these will not automatically be reflected in the cloud version aka "the remote" of your branch, only the local version on your computer. To ensure changes you make are reflected in the cloud "commit" your changes frequently. This is essentially "saving" but to the cloud. Then you'll want to "push" those commits which will update the version of your branch that is online.
 
 6. Now you're going to modify the business logic, here is where you specify what symbology name each layer will search for. It is important that the .lyr, .qml and .json (.txt for rasters) that you will soon make all have the same name. Then in the business logic you will use that name for the "symbology =" field. Here is where you can also specify transparency. DO NOT apply transparency to the symbologies, nothing will break if you do it just creates inaccuracies for RV's visualizations.You also shouldn't include the file extension when you specify what symbology each layer should use. For example, the Raster layer below will search for a symbology called "LUIRaster" and apply 40% transparency.
 
