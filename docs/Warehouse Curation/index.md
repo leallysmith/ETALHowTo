@@ -11,7 +11,7 @@ Add images for using github tools
 
 Overview of the task: Curation is the process of creating symbology for the three flavors of the Riverscapes Viewer (RV). These are QRV (QGIS), ArcRV (ArcMap), and WebRV (Mapbox/"The Warehouse"). QRV symbology is stored as a .qml, ArcRV is stored as .lyr, and WebRV is stored as a .json for vector data and .txt for raster data.
 
-Workflow
+### Workflow
 
 1. If you don't already have one, create a GitHub account and request to be added to the Riverscapes Organization.
 
