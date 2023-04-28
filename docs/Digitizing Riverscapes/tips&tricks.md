@@ -1,6 +1,6 @@
 ---
 title: Tips & Tricks
-weight: 2
+weight: 1
 ---
 
 ###  Tips, Tricks, & Troubleshooting
