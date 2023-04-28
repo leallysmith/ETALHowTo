@@ -2,7 +2,4 @@
 title: ETAL Guides
 weight: 1
 ---
-
-This website is a test website so I can build pages in a place where I can (very frequently) push commits in my own repository rather than hounding someone else with commits in their repos. As a result there are likely to be broken links and links that lead to places that don't exist. 
-
-However there will still be useful tutorials and those should be fairly refined once complete.
+This website will host some useful tutorials for things in the ETAL, I wrote these guides to serve as training material for new technicians and refreshers for the rest of us who sometimes forget what we were doing or how to do it. Because I based this website on the Riverscapes theme there are some broken links that would lead to places if this were a proper Riverscapes site. However, I primarily focused on the content of the tutorials and less so on making sure every link led somewhere, as a result, some of the accessory buttons may not lead to places.
