@@ -15,7 +15,7 @@ Overview of the task: Curation is the process of creating symbology for the thre
 
 1. If you don't already have one, create a GitHub account and request to be added to the Riverscapes Organization.
 
-2. Download Github Desktop or GitKraken. Desktop has a less confusing UI, but Kraken is much more powerful and the complex UI tells you a lot.
+2. Download Github Desktop or GitKraken. Desktop has a less confusing UI, but Kraken is much more powerful and the complex UI is more informative.
 
 3. Clone the RiverscapesXML repository to your local system.
 
