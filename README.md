@@ -1,5 +1,5 @@
 # What is this?
-This is a website with general tutorials that are helpful for functioning in the ET-AL lab this includes a guide on setting up and performing virtual dam censuses as well as creating survey123 forms for cIS and dam censuses, and digitizing riverscapes.
+This is a repo to host a git page website with general tutorials that are helpful for tasks in the ET-AL lab.
 
 Here's a link!
 https://leallysmith.github.io/ETALHowTo/
