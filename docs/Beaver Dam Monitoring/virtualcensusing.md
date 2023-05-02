@@ -71,7 +71,11 @@ The NHD dataset needs to be downloaded from the [USGS National Map Downloader](h
 
 From there searching can be done using HUC 8 ID by clicking on advanced search, or by selecting an extent on the map. Then click **"Find Products"** and download the NHD dataset for your area.
 
+If your download included multiple NHDLine.shp or NHDFlowline.shp then merge them together into one shapefile before beginning your processing.
+
 Once the file is downloaded and unzipped, some processing needs to be done to create the perennial network which is used for the dam censusing. The NHD Network Builder Tool was designed for this process. It is part of the[ Riparian Condition Assessment Tools (RCAT) Toolbox](https://github.com/Riverscapes/RCAT). Documentation on running the NHD NBT can be found [HERE](http://rcat.riverscapes.xyz/Documentation/Version_2.0/SupportingTools/NHD). 
+
+If you cannot get NHD NBT to work there is an alternative where you can export segments of the NHD network with the f codes 33400 (connectors), 46006 (perennial), and 55800 (artificial paths). For artificial paths, you'll only want to include those that overlap with the NHDArea polygon that comes as part of that download from TNM.
 
 #### Using QGIS and RAVE
 
