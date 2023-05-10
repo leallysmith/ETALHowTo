@@ -39,7 +39,7 @@ If there is a VBET run for your area, that is also a good line of evidence
 
 #### Images:
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\vbshelf.png" alt="shelf" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/vbshelf.png" alt="shelf" style="width:75%;" />
 
 ### Valley Bottom Centerline
 
@@ -65,7 +65,7 @@ Voronoi polygons layer
 
 #### Images:
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\vbcenter.PNG" alt="vb centerline" style="width:50%;" />
+<img src="{{ site.baseurl }}/QGISImages/vbcenter.PNG" alt="vb centerline" style="width:50%;" />
 
 ### Riparian
 
@@ -90,7 +90,7 @@ Voronoi polygons layer
 
 4. Digitize the riparian areas and for these polygons enter the type as "riparian", ensure trace is enabled for areas that abut the valley bottom.
 
-5. From here, select all the areas labeled as riparian and then clip them from the upland polygon by clicking the "Clipper" <img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\clipper.PNG" alt="button" style="width:5%;" /> icon from the clipper toolbar. (You can also do riparian in step 3 and then upland in step 4, do what makes more sense)
+5. From here, select all the areas labeled as riparian and then clip them from the upland polygon by clicking the "Clipper" <img src="{{ site.baseurl }}/QGISImages/clipper.PNG" alt="button" style="width:5%;" /> icon from the clipper toolbar. (You can also do riparian in step 3 and then upland in step 4, do what makes more sense)
 
 6. Calculate fields
 
@@ -110,7 +110,7 @@ NDVI raster if available
 
 #### Images:
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\riparian.png" alt="riparian" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/riparian.png" alt="riparian" style="width:75%;" />
 
 ### Active Channel
 
@@ -150,7 +150,7 @@ Generally no non-aquatic vegetation, in non-perennial systems there may be some 
 
 #### Images:
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\ac.PNG" alt="ac" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/ac.PNG" alt="ac" style="width:75%;" />
 
 ### Active Channel Centerline
 
@@ -176,7 +176,7 @@ Voronoi polygons layer
 
 #### Images:
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\accenter.PNG" alt="ac centerline" style="width:50%;" />
+<img src="{{ site.baseurl }}/QGISImages/accenter.PNG" alt="ac centerline" style="width:50%;" />
 
 ### Dam Crests
 
@@ -219,9 +219,9 @@ Area of concentrated flow at the location of the breach
 
 #### Images:
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\breached.png" alt="breached" style="width:50%;" />
+<img src="{{ site.baseurl }}/QGISImages/breached.png" alt="breached" style="width:50%;" />
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\intactdam.PNG" alt="intact" style="width:50%;" />
+<img src="{{ site.baseurl }}/QGISImages/intactdam.PNG" alt="intact" style="width:50%;" />
 
 ### Inundation
 
@@ -259,7 +259,7 @@ Dams can back up water much further than you may expect.
 
 #### Images:
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\inundation.PNG" alt="inundation" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/inundation.PNG" alt="inundation" style="width:75%;" />
 
 ### Thalwegs
 
@@ -296,9 +296,9 @@ The primary thalweg is the thalweg in the larger channel, if there are two chann
 
 #### Images:
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\thalweg.PNG" alt="thalweg" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/thalweg.PNG" alt="thalweg" style="width:75%;" />
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\thalweg2.PNG" alt="thalweg" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/thalweg2.PNG" alt="thalweg" style="width:75%;" />
 
 ### Confluences and Difluences
 
@@ -334,7 +334,7 @@ Determine flow direction by looking at channel heads and slope. Higher elevation
 
 #### Images:
 
-<img src="C:\Users\ETAL\Documents\GitHub\ETALHowTo\docs\Digitizing Riverscapes\{{ site.baseurl }}\QGISImages\cd.PNG" alt="cd" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/cd.PNG" alt="cd" style="width:75%;" />
 
 ### Structures
 
