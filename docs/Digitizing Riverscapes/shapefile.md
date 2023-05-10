@@ -39,7 +39,7 @@ If there is a VBET run for your area, that is also a good line of evidence
 
 #### Images:
 
-<img src="{{ site.baseurl }}/QGISImages/vbshelf.png" alt="shelf" style="width:75%;" />
+<img src="{{ site.baseurl }}/QGISImages/vbshelf.png" alt="vbshelf" style="width:75%;" />
 
 ### Valley Bottom Centerline
 
