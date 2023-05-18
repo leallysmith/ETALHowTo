@@ -6,7 +6,7 @@ weight: 1
 This page will contain step by step instructions for digitizing a riverscape in QGIS. Under each section will be the type of shapefile, name for that shapefile, and fields for the shapefile. Keep in mind that these fields are the minimum and project specific demands may require additional fields. If the project is a large digitizing effort it may be beneficial to have one technician generate a series of blank shapefiles to distribute so that other technicians can copy and paste those shapefiles into their projects. This can help ensure consistency across shapefiles and decrease errors with field types.
 The first section will detail useful plugins and the basic mechanics of using QGIS to avoid redundancy in later sections where we will go in depth on how to digitize each layer.
 
-For a cheat sheet that only contains field names and types, [see here](https://docs.google.com/document/d/10IKopN1gDufCflItdEPjOzrOjzYp5hHpO2IO35zVeSE/edit?usp=sharing).
+For a cheat sheet that only contains field names and types, [see here](https://docs.google.com/document/d/10IKopN1gDufCflItdEPjOzrOjzYp5hHpO2IO35zVeSE/edit?usp=sharing). [This webmap](https://leallysmith.github.io/LCTWebmap/#9/40.3109/-114.7453) has some good examples of mapping. Caveats abound, they are detailed [here](https://leallysmith.github.io/ETALHowTo/Digitizing%20Riverscapes/).
 
 ## Using QGIS to Digitize Riverscapes
 
