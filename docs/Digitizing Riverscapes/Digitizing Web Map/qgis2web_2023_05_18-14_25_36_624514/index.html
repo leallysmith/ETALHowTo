@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        #map {
+            width: 2519px;
+            height: 1610px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet-svg-shape-markers.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/vb_centerline_1.js"></script>
+        <script src="data/dam_crests_2.js"></script>
+        <script src="data/riparian_3.js"></script>
+        <script src="data/inundation_4.js"></script>
+        <script src="data/structures_5.js"></script>
+        <script src="data/thalwegs_6.js"></script>
+        <script src="data/active_channel_7.js"></script>
+        <script src="data/confluence_difluence_8.js"></script>
+        <script src="data/valley_bottom_9.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[39.839988409737224,-115.78484800706997],[41.36479158231395,-112.73764418851755]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_GoogleImagery_0');
+        map.getPane('pane_GoogleImagery_0').style.zIndex = 400;
+        var layer_GoogleImagery_0 = L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+            pane: 'pane_GoogleImagery_0',
+            opacity: 1.0,
+            attribution: '',
+            minZoom: 1,
+            maxZoom: 28,
+        });
+        layer_GoogleImagery_0;
+        map.addLayer(layer_GoogleImagery_0);
+        function pop_vb_centerline_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">length</th>\
+                        <td>' + (feature.properties['length'] !== null ? autolinker.link(feature.properties['length'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">date</th>\
+                        <td>' + (feature.properties['date'] !== null ? autolinker.link(feature.properties['date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">waterbody</th>\
+                        <td>' + (feature.properties['waterbody'] !== null ? autolinker.link(feature.properties['waterbody'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">site_id</th>\
+                        <td>' + (feature.properties['site_id'] !== null ? autolinker.link(feature.properties['site_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_vb_centerline_1_0() {
+            return {
+                pane: 'pane_vb_centerline_1',
+                opacity: 1,
+                color: 'rgba(255,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'round',
+                weight: 6.0,
+                fillOpacity: 0,
+                interactive: false,
+            }
+        }
+        map.createPane('pane_vb_centerline_1');
+        map.getPane('pane_vb_centerline_1').style.zIndex = 401;
+        map.getPane('pane_vb_centerline_1').style['mix-blend-mode'] = 'normal';
+        var layer_vb_centerline_1 = new L.geoJson(json_vb_centerline_1, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_vb_centerline_1',
+            layerName: 'layer_vb_centerline_1',
+            pane: 'pane_vb_centerline_1',
+            onEachFeature: pop_vb_centerline_1,
+            style: style_vb_centerline_1_0,
+        });
+        bounds_group.addLayer(layer_vb_centerline_1);
+        map.addLayer(layer_vb_centerline_1);
+        function pop_dam_crests_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">within_300</th>\
+                        <td>' + (feature.properties['within_300'] !== null ? autolinker.link(feature.properties['within_300'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">dam_state</th>\
+                        <td>' + (feature.properties['dam_state'] !== null ? autolinker.link(feature.properties['dam_state'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">waterbody</th>\
+                        <td>' + (feature.properties['waterbody'] !== null ? autolinker.link(feature.properties['waterbody'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">date</th>\
+                        <td>' + (feature.properties['date'] !== null ? autolinker.link(feature.properties['date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">site_id</th>\
+                        <td>' + (feature.properties['site_id'] !== null ? autolinker.link(feature.properties['site_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_dam_crests_2_0(feature) {
+            switch(String(feature.properties['dam_state'])) {
+                case 'blown_out':
+                    return {
+                pane: 'pane_dam_crests_2',
+                opacity: 1,
+                color: 'rgba(255,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'round',
+                weight: 10.0,
+                fillOpacity: 0,
+                interactive: false,
+            }
+                    break;
+                case 'breached':
+                    return {
+                pane: 'pane_dam_crests_2',
+                opacity: 1,
+                color: 'rgba(255,85,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'round',
+                weight: 10.0,
+                fillOpacity: 0,
+                interactive: false,
+            }
+                    break;
+                case 'intact':
+                    return {
+                pane: 'pane_dam_crests_2',
+                opacity: 1,
+                color: 'rgba(76,230,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'round',
+                weight: 10.0,
+                fillOpacity: 0,
+                interactive: false,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_dam_crests_2');
+        map.getPane('pane_dam_crests_2').style.zIndex = 402;
+        map.getPane('pane_dam_crests_2').style['mix-blend-mode'] = 'normal';
+        var layer_dam_crests_2 = new L.geoJson(json_dam_crests_2, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_dam_crests_2',
+            layerName: 'layer_dam_crests_2',
+            pane: 'pane_dam_crests_2',
+            onEachFeature: pop_dam_crests_2,
+            style: style_dam_crests_2_0,
+        });
+        bounds_group.addLayer(layer_dam_crests_2);
+        map.addLayer(layer_dam_crests_2);
+        function pop_riparian_3(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">type</th>\
+                        <td>' + (feature.properties['type'] !== null ? autolinker.link(feature.properties['type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">waterbody</th>\
+                        <td>' + (feature.properties['waterbody'] !== null ? autolinker.link(feature.properties['waterbody'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">area_sq_m</th>\
+                        <td>' + (feature.properties['area_sq_m'] !== null ? autolinker.link(feature.properties['area_sq_m'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">date</th>\
+                        <td>' + (feature.properties['date'] !== null ? autolinker.link(feature.properties['date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">site_id</th>\
+                        <td>' + (feature.properties['site_id'] !== null ? autolinker.link(feature.properties['site_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_riparian_3_0(feature) {
+            switch(String(feature.properties['type'])) {
+                case 'riparian':
+                    return {
+                pane: 'pane_riparian_3',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(56,168,0,0.45)',
+                interactive: false,
+            }
+                    break;
+                case 'upland':
+                    return {
+                pane: 'pane_riparian_3',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(230,152,0,0.45)',
+                interactive: false,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_riparian_3');
+        map.getPane('pane_riparian_3').style.zIndex = 403;
+        map.getPane('pane_riparian_3').style['mix-blend-mode'] = 'normal';
+        var layer_riparian_3 = new L.geoJson(json_riparian_3, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_riparian_3',
+            layerName: 'layer_riparian_3',
+            pane: 'pane_riparian_3',
+            onEachFeature: pop_riparian_3,
+            style: style_riparian_3_0,
+        });
+        bounds_group.addLayer(layer_riparian_3);
+        map.addLayer(layer_riparian_3);
+        function pop_inundation_4(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">type</th>\
+                        <td>' + (feature.properties['type'] !== null ? autolinker.link(feature.properties['type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">area_sq_m</th>\
+                        <td>' + (feature.properties['area_sq_m'] !== null ? autolinker.link(feature.properties['area_sq_m'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">waterbody</th>\
+                        <td>' + (feature.properties['waterbody'] !== null ? autolinker.link(feature.properties['waterbody'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">date</th>\
+                        <td>' + (feature.properties['date'] !== null ? autolinker.link(feature.properties['date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">site_id</th>\
+                        <td>' + (feature.properties['site_id'] !== null ? autolinker.link(feature.properties['site_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_inundation_4_0(feature) {
+            switch(String(feature.properties['type'])) {
+                case 'free_flowing':
+                    return {
+                pane: 'pane_inundation_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,0,197,0.25)',
+                interactive: false,
+            }
+                    break;
+                case 'overflow':
+                    return {
+                pane: 'pane_inundation_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,230,169,0.25)',
+                interactive: false,
+            }
+                    break;
+                case 'ponded':
+                    return {
+                pane: 'pane_inundation_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,112,255,0.25)',
+                interactive: false,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_inundation_4');
+        map.getPane('pane_inundation_4').style.zIndex = 404;
+        map.getPane('pane_inundation_4').style['mix-blend-mode'] = 'normal';
+        var layer_inundation_4 = new L.geoJson(json_inundation_4, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_inundation_4',
+            layerName: 'layer_inundation_4',
+            pane: 'pane_inundation_4',
+            onEachFeature: pop_inundation_4,
+            style: style_inundation_4_0,
+        });
+        bounds_group.addLayer(layer_inundation_4);
+        map.addLayer(layer_inundation_4);
+        function pop_structures_5(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">type</th>\
+                        <td>' + (feature.properties['type'] !== null ? autolinker.link(feature.properties['type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">waterbody</th>\
+                        <td>' + (feature.properties['waterbody'] !== null ? autolinker.link(feature.properties['waterbody'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">within_300</th>\
+                        <td>' + (feature.properties['within_300'] !== null ? autolinker.link(feature.properties['within_300'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">lat</th>\
+                        <td>' + (feature.properties['lat'] !== null ? autolinker.link(feature.properties['lat'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">long</th>\
+                        <td>' + (feature.properties['long'] !== null ? autolinker.link(feature.properties['long'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">date</th>\
+                        <td>' + (feature.properties['date'] !== null ? autolinker.link(feature.properties['date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">site_id</th>\
+                        <td>' + (feature.properties['site_id'] !== null ? autolinker.link(feature.properties['site_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_structures_5_0(feature) {
+            switch(String(feature.properties['type'])) {
+                case 'live':
+                    return {
+                pane: 'pane_structures_5',
+                shape: 'square',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(51,160,44,1.0)',
+                interactive: false,
+            }
+                    break;
+                case 'lwd':
+                    return {
+                pane: 'pane_structures_5',
+                shape: 'square',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,191,111,1.0)',
+                interactive: false,
+            }
+                    break;
+                case 'inorganic':
+                    return {
+                pane: 'pane_structures_5',
+                shape: 'square',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(31,120,180,1.0)',
+                interactive: false,
+            }
+                    break;
+                case 'jam':
+                    return {
+                pane: 'pane_structures_5',
+                shape: 'square',
+                radius: 4.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(178,223,138,1.0)',
+                interactive: false,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_structures_5');
+        map.getPane('pane_structures_5').style.zIndex = 405;
+        map.getPane('pane_structures_5').style['mix-blend-mode'] = 'normal';
+        var layer_structures_5 = new L.geoJson(json_structures_5, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_structures_5',
+            layerName: 'layer_structures_5',
+            pane: 'pane_structures_5',
+            onEachFeature: pop_structures_5,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.shapeMarker(latlng, style_structures_5_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_structures_5);
+        map.addLayer(layer_structures_5);
+        function pop_thalwegs_6(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">length</th>\
+                        <td>' + (feature.properties['length'] !== null ? autolinker.link(feature.properties['length'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">date</th>\
+                        <td>' + (feature.properties['date'] !== null ? autolinker.link(feature.properties['date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">waterbody</th>\
+                        <td>' + (feature.properties['waterbody'] !== null ? autolinker.link(feature.properties['waterbody'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">site_id</th>\
+                        <td>' + (feature.properties['site_id'] !== null ? autolinker.link(feature.properties['site_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_thalwegs_6_0(feature) {
+            switch(String(feature.properties['type'])) {
+                case 'anabranch':
+                    return {
+                pane: 'pane_thalwegs_6',
+                opacity: 1,
+                color: 'rgba(66,178,221,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 3.0,
+                fillOpacity: 0,
+                interactive: false,
+            }
+                    break;
+                case 'main':
+                    return {
+                pane: 'pane_thalwegs_6',
+                opacity: 1,
+                color: 'rgba(47,126,202,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 3.0,
+                fillOpacity: 0,
+                interactive: false,
+            }
+                    break;
+                case 'split':
+                    return {
+                pane: 'pane_thalwegs_6',
+                opacity: 1,
+                color: 'rgba(137,158,177,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 3.0,
+                fillOpacity: 0,
+                interactive: false,
+            }
+                    break;
+                default:
+                    return {
+                pane: 'pane_thalwegs_6',
+                opacity: 1,
+                color: 'rgba(88,112,220,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 3.0,
+                fillOpacity: 0,
+                interactive: false,
+            }
+                    break;
+                case 'braid':
+                    return {
+                pane: 'pane_thalwegs_6',
+                opacity: 1,
+                color: 'rgba(187,228,247,1.0)',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                weight: 3.0,
+                fillOpacity: 0,
+                interactive: false,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_thalwegs_6');
+        map.getPane('pane_thalwegs_6').style.zIndex = 406;
+        map.getPane('pane_thalwegs_6').style['mix-blend-mode'] = 'normal';
+        var layer_thalwegs_6 = new L.geoJson(json_thalwegs_6, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_thalwegs_6',
+            layerName: 'layer_thalwegs_6',
+            pane: 'pane_thalwegs_6',
+            onEachFeature: pop_thalwegs_6,
+            style: style_thalwegs_6_0,
+        });
+        bounds_group.addLayer(layer_thalwegs_6);
+        map.addLayer(layer_thalwegs_6);
+        function pop_active_channel_7(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">area_sq_m</th>\
+                        <td>' + (feature.properties['area_sq_m'] !== null ? autolinker.link(feature.properties['area_sq_m'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">waterbody</th>\
+                        <td>' + (feature.properties['waterbody'] !== null ? autolinker.link(feature.properties['waterbody'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">date</th>\
+                        <td>' + (feature.properties['date'] !== null ? autolinker.link(feature.properties['date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">site_id</th>\
+                        <td>' + (feature.properties['site_id'] !== null ? autolinker.link(feature.properties['site_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_active_channel_7_0() {
+            return {
+                pane: 'pane_active_channel_7',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,112,255,0.5)',
+                interactive: false,
+            }
+        }
+        map.createPane('pane_active_channel_7');
+        map.getPane('pane_active_channel_7').style.zIndex = 407;
+        map.getPane('pane_active_channel_7').style['mix-blend-mode'] = 'normal';
+        var layer_active_channel_7 = new L.geoJson(json_active_channel_7, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_active_channel_7',
+            layerName: 'layer_active_channel_7',
+            pane: 'pane_active_channel_7',
+            onEachFeature: pop_active_channel_7,
+            style: style_active_channel_7_0,
+        });
+        bounds_group.addLayer(layer_active_channel_7);
+        map.addLayer(layer_active_channel_7);
+        function pop_confluence_difluence_8(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">type</th>\
+                        <td>' + (feature.properties['type'] !== null ? autolinker.link(feature.properties['type'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">waterbody</th>\
+                        <td>' + (feature.properties['waterbody'] !== null ? autolinker.link(feature.properties['waterbody'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">within_300</th>\
+                        <td>' + (feature.properties['within_300'] !== null ? autolinker.link(feature.properties['within_300'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">lat</th>\
+                        <td>' + (feature.properties['lat'] !== null ? autolinker.link(feature.properties['lat'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">long</th>\
+                        <td>' + (feature.properties['long'] !== null ? autolinker.link(feature.properties['long'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">date</th>\
+                        <td>' + (feature.properties['date'] !== null ? autolinker.link(feature.properties['date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">site_id</th>\
+                        <td>' + (feature.properties['site_id'] !== null ? autolinker.link(feature.properties['site_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_confluence_difluence_8_0(feature) {
+            switch(String(feature.properties['type'])) {
+                case 'C':
+                    return {
+                pane: 'pane_confluence_difluence_8',
+                interactive: false,
+            }
+                    break;
+                case 'C/D':
+                    return {
+                pane: 'pane_confluence_difluence_8',
+                interactive: false,
+            }
+                    break;
+                case 'D':
+                    return {
+                pane: 'pane_confluence_difluence_8',
+                interactive: false,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_confluence_difluence_8');
+        map.getPane('pane_confluence_difluence_8').style.zIndex = 408;
+        map.getPane('pane_confluence_difluence_8').style['mix-blend-mode'] = 'normal';
+        var layer_confluence_difluence_8 = new L.geoJson(json_confluence_difluence_8, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_confluence_difluence_8',
+            layerName: 'layer_confluence_difluence_8',
+            pane: 'pane_confluence_difluence_8',
+            onEachFeature: pop_confluence_difluence_8,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_confluence_difluence_8_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_confluence_difluence_8);
+        map.addLayer(layer_confluence_difluence_8);
+        function pop_valley_bottom_9(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">area_sq_m</th>\
+                        <td>' + (feature.properties['area_sq_m'] !== null ? autolinker.link(feature.properties['area_sq_m'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">date</th>\
+                        <td>' + (feature.properties['date'] !== null ? autolinker.link(feature.properties['date'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">waterbody</th>\
+                        <td>' + (feature.properties['waterbody'] !== null ? autolinker.link(feature.properties['waterbody'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">site_id</th>\
+                        <td>' + (feature.properties['site_id'] !== null ? autolinker.link(feature.properties['site_id'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_valley_bottom_9_0() {
+            return {
+                pane: 'pane_valley_bottom_9',
+                opacity: 1,
+                color: 'rgba(255,255,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'round',
+                weight: 8.0,
+                fillOpacity: 0,
+                interactive: true,
+            }
+        }
+        map.createPane('pane_valley_bottom_9');
+        map.getPane('pane_valley_bottom_9').style.zIndex = 409;
+        map.getPane('pane_valley_bottom_9').style['mix-blend-mode'] = 'normal';
+        var layer_valley_bottom_9 = new L.geoJson(json_valley_bottom_9, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_valley_bottom_9',
+            layerName: 'layer_valley_bottom_9',
+            pane: 'pane_valley_bottom_9',
+            onEachFeature: pop_valley_bottom_9,
+            style: style_valley_bottom_9_0,
+        });
+        bounds_group.addLayer(layer_valley_bottom_9);
+        map.addLayer(layer_valley_bottom_9);
+        var baseMaps = {};
+        L.control.layers(baseMaps,{'<img src="legend/valley_bottom_9.png" /> valley_bottom': layer_valley_bottom_9,'confluence_difluence<br /><table><tr><td style="text-align: center;"><img src="legend/confluence_difluence_8_C0.png" /></td><td>C</td></tr><tr><td style="text-align: center;"><img src="legend/confluence_difluence_8_CD1.png" /></td><td>C/D</td></tr><tr><td style="text-align: center;"><img src="legend/confluence_difluence_8_D2.png" /></td><td>D</td></tr></table>': layer_confluence_difluence_8,'<img src="legend/active_channel_7.png" /> active_channel': layer_active_channel_7,'thalwegs<br /><table><tr><td style="text-align: center;"><img src="legend/thalwegs_6_anabranch0.png" /></td><td>anabranch</td></tr><tr><td style="text-align: center;"><img src="legend/thalwegs_6_main1.png" /></td><td>main</td></tr><tr><td style="text-align: center;"><img src="legend/thalwegs_6_split2.png" /></td><td>split</td></tr><tr><td style="text-align: center;"><img src="legend/thalwegs_6_3.png" /></td><td></td></tr><tr><td style="text-align: center;"><img src="legend/thalwegs_6_braid4.png" /></td><td>braid</td></tr></table>': layer_thalwegs_6,'structures<br /><table><tr><td style="text-align: center;"><img src="legend/structures_5_live0.png" /></td><td>live</td></tr><tr><td style="text-align: center;"><img src="legend/structures_5_lwd1.png" /></td><td>lwd</td></tr><tr><td style="text-align: center;"><img src="legend/structures_5_inorganic2.png" /></td><td>inorganic</td></tr><tr><td style="text-align: center;"><img src="legend/structures_5_jam3.png" /></td><td>jam</td></tr></table>': layer_structures_5,'inundation<br /><table><tr><td style="text-align: center;"><img src="legend/inundation_4_freeflowing0.png" /></td><td>free flowing</td></tr><tr><td style="text-align: center;"><img src="legend/inundation_4_overflow1.png" /></td><td>overflow</td></tr><tr><td style="text-align: center;"><img src="legend/inundation_4_ponded2.png" /></td><td>ponded</td></tr></table>': layer_inundation_4,'riparian<br /><table><tr><td style="text-align: center;"><img src="legend/riparian_3_riparian0.png" /></td><td>riparian</td></tr><tr><td style="text-align: center;"><img src="legend/riparian_3_nonriparian1.png" /></td><td>non-riparian</td></tr></table>': layer_riparian_3,'dam_crests<br /><table><tr><td style="text-align: center;"><img src="legend/dam_crests_2_blownout0.png" /></td><td>blown-out</td></tr><tr><td style="text-align: center;"><img src="legend/dam_crests_2_breached1.png" /></td><td>breached</td></tr><tr><td style="text-align: center;"><img src="legend/dam_crests_2_intact2.png" /></td><td>intact</td></tr></table>': layer_dam_crests_2,'<img src="legend/vb_centerline_1.png" /> vb_centerline': layer_vb_centerline_1,"Google Imagery": layer_GoogleImagery_0,}).addTo(map);
+        setBounds();
+        resetLabels([layer_vb_centerline_1,layer_dam_crests_2,layer_riparian_3,layer_inundation_4,layer_active_channel_7,layer_confluence_difluence_8,layer_valley_bottom_9]);
+        map.on("zoomend", function(){
+            resetLabels([layer_vb_centerline_1,layer_dam_crests_2,layer_riparian_3,layer_inundation_4,layer_active_channel_7,layer_confluence_difluence_8,layer_valley_bottom_9]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_vb_centerline_1,layer_dam_crests_2,layer_riparian_3,layer_inundation_4,layer_active_channel_7,layer_confluence_difluence_8,layer_valley_bottom_9]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_vb_centerline_1,layer_dam_crests_2,layer_riparian_3,layer_inundation_4,layer_active_channel_7,layer_confluence_difluence_8,layer_valley_bottom_9]);
+        });
+        </script>
+    </body>
+</html>
